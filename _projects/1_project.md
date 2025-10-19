@@ -1,81 +1,57 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Origin-Destination-Transfer (ODX) Modeling
+description: Advanced trip chaining framework for regional transit systems using mobile ticketing data
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project develops a comprehensive Origin-Destination-Transfer (ODX) model that revolutionizes how we understand passenger movements in regional transit systems. By leveraging mobile ticketing data and advanced machine learning techniques, the model provides unprecedented insights into complete passenger journeys, including transfer behaviors.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Research Objectives
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The primary goal is to create a scalable and cost-effective approach for transit agencies to understand passenger flow patterns without requiring expensive smart card infrastructure. The model addresses three critical challenges:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+1. **Incomplete Data Problem**: Mobile ticketing systems typically capture only boarding events, missing alighting and transfer information
+2. **Passenger Heterogeneity**: Different passenger types exhibit distinct travel patterns that must be accounted for
+3. **Seasonal Variations**: Travel patterns change significantly across different seasons and conditions
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Methodology
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Passenger Typology Framework
+Using hierarchical clustering and Dynamic Time Warping (DTW), we identify distinct passenger types based on their spatiotemporal activation patterns:
+- **Regular Commuters**: Consistent daily patterns with peak-hour travel
+- **Occasional Users**: Irregular usage with weekend and off-peak preferences  
+- **Students**: Academic calendar-aligned patterns with campus-centric trips
+- **Leisure Travelers**: Weekend-focused usage with recreational destinations
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Trip Chaining Model
+The core innovation lies in our trip chaining algorithm that:
+- Integrates passenger typology insights to improve journey inference
+- Accounts for seasonal variations in travel behavior
+- Implements gradient boosting machines (GBM) for spatial error correction
+- Validates results against ground-truth survey data
 
-{% raw %}
+### Spatial Error Correction
+A key breakthrough is the 70% reduction in Mean Absolute Error (MAE) and 85% reduction in Symmetric Mean Absolute Percentage Error (SMAPE) achieved through our spatial error correction framework.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Key Results
 
-{% endraw %}
+- **Accuracy Improvement**: Achieved 70% reduction in MAE through spatial error correction
+- **Scalability**: Successfully tested on regional bus networks with limited AFC infrastructure
+- **Validation**: Model validated against comprehensive survey data from Pioneer Valley Transit Authority
+- **Transfer Detection**: Successfully identifies major transfer hubs and seasonal ridership trends
+
+## Impact and Applications
+
+This research provides transit agencies with:
+- **Enhanced Planning Tools**: Better understanding of passenger flow patterns for service optimization
+- **Cost-Effective Analysis**: Achieves smart-card level insights using only mobile ticketing data
+- **Policy Support**: Data-driven insights for route planning and transfer facility improvements
+- **Academic Contribution**: Novel methodological framework applicable to transit systems worldwide
+
+## Publications
+
+This work has resulted in multiple peer-reviewed publications {% cite abdalazeem2023extracting %} {% cite abdalazeem2024enhanced %} and continues to inform ongoing research in transit system optimization and passenger behavior analysis.

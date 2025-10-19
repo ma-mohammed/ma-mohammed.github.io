@@ -1,33 +1,30 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Paper Published in Data Science for Transportation
+date: 2024-06-15 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Excited to share that our latest research on enhanced seasonal typology-informed transit trip chaining has been published in *Data Science for Transportation*!
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+This work represents a significant advancement in our understanding of passenger behavior in regional transit systems. The paper introduces a novel trip chaining model that incorporates passenger typology and seasonal variations to infer complete passenger journeys using boarding-only AFC data.
 
-#### Hipster list
+#### Key Contributions
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+- **Advanced Machine Learning Integration**: Implemented gradient boosting machines (GBM) for spatial error correction
+- **Significant Accuracy Improvements**: Achieved 70% reduction in Mean Absolute Error (MAE) and 85% reduction in Symmetric Mean Absolute Percentage Error (SMAPE)
+- **Practical Validation**: Model validated with comprehensive survey data from Pioneer Valley Transit Authority
+- **Scalable Framework**: Designed for adoption by regional transit agencies lacking smart card infrastructure
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+The research addresses a critical challenge faced by many transit agencies: understanding complete passenger journeys when only boarding data is available. By incorporating passenger typology insights and accounting for seasonal variations, our model provides unprecedented accuracy in trip chain inference.
 
 ---
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+This publication builds on our previous work on passenger typology analysis and represents a major step toward comprehensive origin-destination modeling for regional transit systems. The methodology has potential applications for transit agencies worldwide seeking to optimize their networks and improve service delivery.
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
+> "The integration of passenger typology with machine learning techniques opens new possibilities for understanding transit behavior patterns and improving system efficiency."
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+The paper is now available in *Data Science for Transportation* and represents the collaborative efforts of our research team at UMass Amherst. This work continues to inform ongoing research in transportation systems optimization and passenger behavior analysis.

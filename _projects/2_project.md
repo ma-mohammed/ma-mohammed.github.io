@@ -1,81 +1,93 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Spatial Crash Typology Analysis
+description: Machine learning framework for analyzing transportation safety patterns across census tracts
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: research
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project develops an innovative approach to transportation safety analysis by applying machine learning techniques to identify spatial patterns in crash characteristics across census tracts in New England. The research bridges the gap between traditional crash analysis methods and modern data science techniques to provide actionable insights for traffic safety interventions.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Research Overview
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Transportation safety remains a critical challenge for traffic engineers and policymakers. Traditional approaches often analyze crashes in isolation or use simple aggregation methods that miss underlying spatial patterns. This project introduces a novel framework that leverages dimensionality reduction and clustering techniques to identify meaningful crash typologies based on geographic and demographic characteristics.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Methodology
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Data Collection and Preprocessing
+- **Multi-state Dataset**: Collected and preprocessed crash data from Massachusetts, Connecticut, and Vermont
+- **Spatial Resolution**: Analysis conducted at census tract level for 2,480 census tracts
+- **Feature Engineering**: Integrated crash data with demographic, socioeconomic, and built environment variables
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Dimensionality Reduction with UMAP
+Implemented Uniform Manifold Approximation and Projection (UMAP) to extract latent spatial structures from high-dimensional crash data:
+- Reduces computational complexity while preserving local and global data structure
+- Captures non-linear relationships between crash characteristics and spatial variables
+- Enables visualization of complex crash patterns in lower-dimensional space
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Gaussian Mixture Modeling for Classification
+Applied Gaussian Mixture Modeling (GMM) to classify census tracts into distinct crash typologies:
+- **Urban High-Density**: Areas with frequent intersection crashes and pedestrian incidents
+- **Suburban Corridor**: Highway-adjacent areas with vehicle-to-vehicle crashes
+- **Rural Low-Volume**: Sparse crash patterns with severity concerns
+- **Mixed-Use Transition**: Areas showing characteristics of multiple typologies
 
-{% raw %}
+## Key Findings
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### Spatial Clustering Patterns
+The analysis revealed distinct geographic clustering of crash typologies, with clear patterns related to:
+- Urban density and infrastructure design
+- Highway proximity and traffic volume
+- Demographic composition and socioeconomic factors
+- Land use characteristics and development patterns
 
-{% endraw %}
+### Predictive Capabilities
+The framework demonstrates potential for:
+- **Proactive Safety Planning**: Identifying high-risk areas before crash frequency increases
+- **Resource Allocation**: Prioritizing safety interventions based on typology characteristics  
+- **Policy Development**: Tailoring safety strategies to specific crash typology profiles
+- **Regional Coordination**: Understanding cross-jurisdictional safety patterns
+
+## Technical Innovation
+
+### Advanced Clustering Techniques
+- Integration of UMAP with GMM provides superior cluster identification compared to traditional methods
+- Handles high-dimensional crash feature spaces effectively
+- Maintains interpretability while capturing complex spatial relationships
+
+### Scalable Framework
+- Methodology designed for application across different geographic scales
+- Adaptable to various data availability scenarios
+- Computationally efficient for large-scale analysis
+
+## Applications and Impact
+
+### For Transportation Agencies
+- **Strategic Planning**: Data-driven approach to safety program development
+- **Performance Monitoring**: Track safety improvements across different typologies
+- **Inter-agency Collaboration**: Shared understanding of regional safety patterns
+
+### For Researchers
+- **Methodological Advancement**: Novel application of machine learning to crash analysis
+- **Comparative Studies**: Framework enables cross-regional safety comparisons
+- **Interdisciplinary Research**: Bridges transportation engineering and data science
+
+## Future Directions
+
+### Predictive Modeling Extensions
+Current work explores supervised learning models to predict crash typology using:
+- Roadway geometric characteristics
+- Environmental and weather factors
+- Real-time traffic data integration
+- Socioeconomic and demographic predictors
+
+### Interactive Visualization Tools
+Development of web-based mapping tools for:
+- Real-time typology visualization
+- Scenario planning capabilities
+- Stakeholder engagement and communication
+- Policy decision support
+
+This research represents a significant advancement in transportation safety analysis, providing a data-driven foundation for more effective and targeted safety interventions across diverse geographic contexts.
