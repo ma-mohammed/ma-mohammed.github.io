@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research projects in transportation engineering, data science, and urban mobility systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -46,7 +46,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Teaching experience as a graduate student and mentorship activities in transportation engineering and research methods.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -440,25 +440,25 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-paper-published-in-data-science-for-transportation",
+          title: 'Paper Published in Data Science for Transportation',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-presented-research-on-crash-typology-analysis-at-informs-annual-meeting-in-seattle-sparkles-chart-with-upwards-trend",
+          title: 'Presented research on crash typology analysis at INFORMS Annual Meeting in Seattle! :sparkles:...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-new-paper-under-review-a-novel-origin-destination-transfer-model-using-mobile-ticketing-activations-submitted-to-transportation-research-part-a",
+          title: 'New paper under review: “A novel origin-destination-transfer model using mobile ticketing activations” submitted...',
+          description: "",
+          section: "News",},{id: "projects-origin-destination-transfer-odx-modeling",
+          title: 'Origin-Destination-Transfer (ODX) Modeling',
+          description: "Advanced trip chaining framework for regional transit systems using mobile ticketing data",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-spatial-crash-typology-analysis",
+          title: 'Spatial Crash Typology Analysis',
+          description: "Machine learning framework for analyzing transportation safety patterns across census tracts",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
@@ -501,14 +501,21 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6D%61%6D%6F%68%61%6D%6D%65%64@%75%6D%61%73%73.%65%64%75", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/ma-mohammed", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/mohammed-alameen", "_blank");
         },
       },{
         id: 'social-rss',
@@ -518,18 +525,11 @@ ninja.data = [{
           window.open("/feed.xml", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-work',
+        title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://mabdalazeem.com", "_blank");
         },
       },{
       id: 'light-theme',
