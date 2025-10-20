@@ -1,57 +1,36 @@
 ---
 layout: page
-title: Origin-Destination-Transfer (ODX) Modeling
-description: Advanced trip chaining framework for regional transit systems using mobile ticketing data
+title: Origin-Destination Modeling in Transit Systems
+description: Comprehensive review and novel methods for OD inference using mobile ticketing data
 img: assets/img/12.jpg
 importance: 1
-category: research
+category: work
 related_publications: true
 ---
 
-This project develops a comprehensive Origin-Destination-Transfer (ODX) model that revolutionizes how we understand passenger movements in regional transit systems. By leveraging mobile ticketing data and advanced machine learning techniques, the model provides unprecedented insights into complete passenger journeys, including transfer behaviors.
+This research focuses on developing innovative approaches for understanding passenger travel patterns in public transportation systems using mobile ticketing and automated fare collection data.
 
-## Research Objectives
+## Research Overview
 
-The primary goal is to create a scalable and cost-effective approach for transit agencies to understand passenger flow patterns without requiring expensive smart card infrastructure. The model addresses three critical challenges:
+The project addresses the critical challenge of inferring complete origin-destination patterns from partial transit data. Traditional methods rely on expensive smart card systems or extensive surveys, while this research develops cost-effective alternatives using mobile ticketing activations.
 
-1. **Incomplete Data Problem**: Mobile ticketing systems typically capture only boarding events, missing alighting and transfer information
-2. **Passenger Heterogeneity**: Different passenger types exhibit distinct travel patterns that must be accounted for
-3. **Seasonal Variations**: Travel patterns change significantly across different seasons and conditions
+## Key Publications
 
-## Methodology
+**Origin-destination inference in public transportation systems: A comprehensive review** (2022)
+- Published in *International Journal of Transportation Science and Technology*
+- Comprehensive review of state-of-the-art OD estimation methods
+- Analysis of transition from survey-based to big data-driven techniques
 
-### Passenger Typology Framework
-Using hierarchical clustering and Dynamic Time Warping (DTW), we identify distinct passenger types based on their spatiotemporal activation patterns:
-- **Regular Commuters**: Consistent daily patterns with peak-hour travel
-- **Occasional Users**: Irregular usage with weekend and off-peak preferences  
-- **Students**: Academic calendar-aligned patterns with campus-centric trips
-- **Leisure Travelers**: Weekend-focused usage with recreational destinations
+**Extracting spatiotemporal bus passenger trip typologies from noisy mobile ticketing boarding data** (2023)
+- Published in *Data Science for Transportation*
+- Novel clustering framework using hierarchical clustering and Dynamic Time Warping (DTW)
+- Identification of distinct passenger behavior patterns in PVTA bus system
 
-### Trip Chaining Model
-The core innovation lies in our trip chaining algorithm that:
-- Integrates passenger typology insights to improve journey inference
-- Accounts for seasonal variations in travel behavior
-- Implements gradient boosting machines (GBM) for spatial error correction
-- Validates results against ground-truth survey data
+**Enhanced seasonal typology-informed transit trip chaining via mobile boarding and survey data** (2024)
+- Published in *Data Science for Transportation*  
+- Trip chaining model with gradient boosting for spatial error correction
+- 70% reduction in MAE and 85% reduction in SMAPE achieved
 
-### Spatial Error Correction
-A key breakthrough is the 70% reduction in Mean Absolute Error (MAE) and 85% reduction in Symmetric Mean Absolute Percentage Error (SMAPE) achieved through our spatial error correction framework.
+## Current Research
 
-## Key Results
-
-- **Accuracy Improvement**: Achieved 70% reduction in MAE through spatial error correction
-- **Scalability**: Successfully tested on regional bus networks with limited AFC infrastructure
-- **Validation**: Model validated against comprehensive survey data from Pioneer Valley Transit Authority
-- **Transfer Detection**: Successfully identifies major transfer hubs and seasonal ridership trends
-
-## Impact and Applications
-
-This research provides transit agencies with:
-- **Enhanced Planning Tools**: Better understanding of passenger flow patterns for service optimization
-- **Cost-Effective Analysis**: Achieves smart-card level insights using only mobile ticketing data
-- **Policy Support**: Data-driven insights for route planning and transfer facility improvements
-- **Academic Contribution**: Novel methodological framework applicable to transit systems worldwide
-
-## Publications
-
-This work has resulted in multiple peer-reviewed publications {% cite abdalazeem2023extracting %} {% cite abdalazeem2024enhanced %} and continues to inform ongoing research in transit system optimization and passenger behavior analysis.
+Development of a novel Origin-Destination-Transfer (ODX) model that integrates trip chaining, passenger typology, and spatial error correction to infer complete trip patterns including transfers in regional transit systems.

@@ -1,81 +1,46 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Khartoum Skytrains Network
+description: Elevated light rail system implementation study for developing cities
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This undergraduate research project developed a feasibility study for implementing a caterpillar-style elevated light rail system to alleviate traffic congestion in developing cities, using Khartoum, Sudan, as a case study.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Research Objectives
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- Evaluate the feasibility of elevated light rail systems for developing urban areas
+- Conduct route optimization analysis using GIS technology
+- Assess financial and environmental impacts of the proposed system
+- Estimate potential reductions in CO₂ emissions and travel delays
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Methodology
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Route Optimization**
+- Used GIS analysis to identify the most efficient corridors for deployment
+- Considered existing urban fabric and infrastructure constraints
+- Analyzed traffic flow patterns and population density
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Impact Assessment**  
+- Evaluated financial implications and cost-benefit analysis
+- Estimated environmental benefits including emissions reduction
+- Assessed potential improvements in urban mobility and accessibility
 
-{% raw %}
+## Key Results
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- Developed comprehensive route network design for Khartoum metropolitan area
+- Demonstrated significant potential for traffic congestion reduction
+- Showed promising environmental benefits through reduced vehicle emissions
+- Provided framework applicable to other developing cities
 
-{% endraw %}
+## Recognition
+
+**Best Project Award** - Received the Best Project Award from the Civil Engineering Department at University of Khartoum for innovative contributions to urban mobility solutions.
+
+## Publication
+
+**Khartoum sky trains network: A study on implementing caterpillar trains concept in Khartoum** - Published in *MATEC Web of Conferences* (2020)

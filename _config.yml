@@ -7,14 +7,14 @@ first_name: Mohammed
 middle_name: 
 last_name: Abdalazeem
 contact_note: >
-  Feel free to reach out for research collaborations, academic discussions, or professional inquiries.
+  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD student in Transportation Engineering at UMass Amherst, focused on data science applications in transit systems, origin-destination modeling, and transportation safety.
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: transportation-engineering, data-science, origin-destination-modeling, machine-learning, transit-systems, transportation-safety # add your own keywords or leave empty
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ❤️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Research & Insights # blog_name will be displayed in your blog page
-blog_description: Exploring transportation systems, data science, and urban mobility through research and analysis
+blog_name: al-folio # blog_name will be displayed in your blog page
+blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
