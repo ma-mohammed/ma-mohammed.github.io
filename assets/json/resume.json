@@ -6,7 +6,7 @@
     "email": "mamohammed@umass.edu",
     "phone": "+1 (413) 629-9311",
     "url": "https://mabdalazeem.com",
-    "summary": "PhD student in Transportation Engineering at UMass Amherst with expertise in data science applications for transit systems, origin-destination modeling, and transportation safety analysis.",
+      "summary": "PhD student in Transportation Engineering at UMass Amherst with expertise in data science applications for transit systems, origin-destination modeling, and transportation safety analysis.",
     "location": {
       "address": "Civil and Environmental Engineering Department",
       "postalCode": "MA 01003",
@@ -21,7 +21,7 @@
         "url": "https://www.linkedin.com/in/mohammed-alameen/"
       },
       {
-        "network": "GitHub", 
+        "network": "GitHub",
         "username": "ma-mohammed",
         "url": "https://github.com/ma-mohammed"
       }
@@ -91,24 +91,32 @@
       "startDate": "2021-01-01",
       "endDate": "2026-05-01",
       "score": "3.81",
-      "courses": ["Origin-Destination Modeling", "Transportation Data Science", "Machine Learning"]
+      "courses": [
+        "Origin-Destination Modeling",
+        "Transportation Data Science",
+        "Machine Learning"
+      ]
     },
     {
       "institution": "University of Massachusetts Amherst",
-      "location": "Amherst, MA, USA", 
+      "location": "Amherst, MA, USA",
       "url": "https://www.umass.edu/",
       "area": "Transportation Engineering",
       "studyType": "MS",
       "startDate": "2021-01-01",
       "endDate": "2023-05-01",
       "score": "3.75",
-      "courses": ["Transportation Systems", "Traffic Engineering", "Statistical Analysis"]
+      "courses": [
+        "Transportation Systems",
+        "Traffic Engineering",
+        "Statistical Analysis"
+      ]
     },
     {
       "institution": "University of Massachusetts Amherst",
       "location": "Amherst, MA, USA",
       "url": "https://www.umass.edu/",
-      "area": "Data Science and Algorithm Development", 
+      "area": "Data Science and Algorithm Development",
       "studyType": "MS",
       "startDate": "2021-01-01",
       "endDate": "2024-05-01",
@@ -124,7 +132,11 @@
       "startDate": "2013-09-01",
       "endDate": "2018-11-01",
       "score": "7.39/10 (First Class Honors)",
-      "courses": ["Transportation Engineering", "Structural Engineering", "Environmental Engineering"]
+      "courses": [
+        "Transportation Engineering",
+        "Structural Engineering",
+        "Environmental Engineering"
+      ]
     }
   ],
   "awards": [
@@ -165,7 +177,7 @@
     {
       "name": "CEE Travel Award",
       "date": "2022-10-01",
-      "issuer": "University of Massachusetts Amherst", 
+      "issuer": "University of Massachusetts Amherst",
       "url": "",
       "icon": "fa-solid fa-award"
     }
@@ -207,7 +219,7 @@
       "icon": "fa-solid fa-code",
       "keywords": [
         "Python",
-        "MATLAB", 
+        "MATLAB",
         "R",
         "C++",
         "C#",
@@ -217,7 +229,7 @@
     },
     {
       "name": "Machine Learning",
-      "level": "Expert", 
+      "level": "Expert",
       "icon": "fa-solid fa-brain",
       "keywords": [
         "XGBoost",
@@ -284,7 +296,7 @@
       "icon": "fa-solid fa-database",
       "keywords": [
         "Machine Learning",
-        "Geospatial Analysis", 
+        "Geospatial Analysis",
         "Time Series Analysis",
         "Clustering Algorithms",
         "Predictive Modeling"
@@ -302,7 +314,11 @@
     {
       "name": "Origin-Destination-Transfer (ODX) Model",
       "summary": "Advanced model integrating trip chaining, passenger typology, and spatial error correction to infer complete trip patterns including transfers in regional transit systems.",
-      "highlights": ["70% reduction in MAE", "85% reduction in SMAPE", "Scalable for regional agencies"],
+      "highlights": [
+        "70% reduction in MAE",
+        "85% reduction in SMAPE",
+        "Scalable for regional agencies"
+      ],
       "startDate": "2021-01-01",
       "endDate": "2024-12-01",
       "url": ""
@@ -310,7 +326,11 @@
     {
       "name": "Crash Typology Analysis",
       "summary": "Machine learning framework using UMAP and Gaussian Mixture Modeling to classify census tracts into distinct crash typologies based on historical patterns.",
-      "highlights": ["Analysis of 2,480 census tracts", "UMAP dimensionality reduction", "Spatial visualization tools"],
+      "highlights": [
+        "Analysis of 2,480 census tracts",
+        "UMAP dimensionality reduction",
+        "Spatial visualization tools"
+      ],
       "startDate": "2023-01-01", 
       "endDate": "2024-12-01",
       "url": ""

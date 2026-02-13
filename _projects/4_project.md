@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Schematic Bicycle Maps for Sustainable Mobility
-description: Investigating how map design influences cyclist behavior and mode choice
+description: Investigating how map design influences cyclist behavior and mode
+  choice
 img:
 importance: 4
 category: work
@@ -9,37 +10,55 @@ category: work
 
 ## Research Overview
 
-This ongoing research investigates how schematic bicycle maps can influence mode choice, cyclist behavior, and ultimately reduce vehicle emissions in urban areas. The study combines survey research, map design optimization, and behavioral analysis to develop evidence-based design principles for bicycle navigation tools.
+This ongoing research investigates how schematic bicycle maps can influence mode
+choice, cyclist behavior, and ultimately reduce vehicle emissions in urban
+areas. The study combines survey research, map design optimization, and
+behavioral analysis to develop evidence-based design principles for bicycle
+navigation tools.
 
 ## Project Objectives
 
-- Assess cyclist preferences for different map representations and design features
-- Understand how schematic map design affects route selection and cycling behavior
-- Develop optimization frameworks for bicycle map design to promote cycling adoption
-- Investigate potential impacts on greenhouse gas emissions through increased cycling mode share
+- Assess cyclist preferences for different map representations and design
+  features
+- Understand how schematic map design affects route selection and cycling
+  behavior
+- Develop optimization frameworks for bicycle map design to promote cycling
+  adoption
+- Investigate potential impacts on greenhouse gas emissions through increased
+  cycling mode share
 - Establish unified design rules for schematic bicycle maps
 
 ## Methodology
 
 **Survey Development and Data Collection**
-- Designed comprehensive survey to assess cycling preferences and infrastructure perceptions
-- Incorporated insights from prior research on bicycle navigation and safety concerns
-- Deployed survey using incentivized online platform with bot detection mechanisms
+
+- Designed comprehensive survey to assess cycling preferences and infrastructure
+  perceptions
+- Incorporated insights from prior research on bicycle navigation and safety
+  concerns
+- Deployed survey using incentivized online platform with bot detection
+  mechanisms
 - Focus on understanding cyclist decision-making processes and map usage patterns
 
 **Map Design and Optimization**
-- Developing mixed-integer linear programming (MILP) frameworks for optimal schematic map design
+
+- Developing mixed-integer linear programming (MILP) frameworks for optimal
+  schematic map design
 - Analyzing trade-offs between geographic accuracy and visual simplicity
 - Incorporating user feedback and preference data into design rules
 
 **Behavioral Analysis**
+
 - Examining relationships between map features and cycling behavior
-- Analyzing how simplified representations affect route choice and perceived accessibility
+- Analyzing how simplified representations affect route choice and perceived
+  accessibility
 - Investigating potential for schematic maps to influence mode choice decisions
 
 ## Current Status
 
-The research is in active data collection and analysis phase, with survey responses being analyzed for cyclist preferences and map design insights. Manuscript preparation is underway for multiple publications.
+The research is in active data collection and analysis phase, with survey
+responses being analyzed for cyclist preferences and map design insights.
+Manuscript preparation is underway for multiple publications.
 
 ## Funding
 
@@ -55,13 +74,20 @@ Armstrong Fund for Science, 2024-2026 (PI: J. Oke)
 
 ## Expected Publications
 
-- **Maps are good but are simpler maps better? Insights on urban bicycling in the US** (Under revision in *Environmental Research Communications*)
-- **Toward Unified Design Rules for Schematic Bicycle Maps: A review** (In preparation)
-- **A Multi-Filter Approach to Bot Detection in Incentivized Online Surveys** (In preparation)
-- **Schematic Bicycle Maps for Influencing Cyclist Behavior and Reducing Greenhouse Gas Emissions** (Planned for *Environment and Planning B: Urban Analytics and City Science*, early 2026)
-- **A Survey of Attitudes and Preferences for Schematic Micromobility Maps** (In preparation)
+- **Maps are good but are simpler maps better? Insights on urban bicycling in
+  the US** (Under revision in _Environmental Research Communications_)
+- **Toward Unified Design Rules for Schematic Bicycle Maps: A review** (In
+  preparation)
+- **A Multi-Filter Approach to Bot Detection in Incentivized Online Surveys** (In
+  preparation)
+- **Schematic Bicycle Maps for Influencing Cyclist Behavior and Reducing
+  Greenhouse Gas Emissions** (Planned for _Environment and Planning B: Urban
+  Analytics and City Science_, early 2026)
+- **A Survey of Attitudes and Preferences for Schematic Micromobility Maps** (In
+  preparation)
 - **Barriers to Cycling: A comprehensive literature review** (In preparation)
 
 ## Conference Presentations
 
-- \"Optimizing and Deploying Schematic Bicycle Maps with MILP and User Input\" - INFORMS Annual Meeting, Atlanta, GA (October 2025, poster)
+- "Optimizing and Deploying Schematic Bicycle Maps with MILP and User Input" -
+  INFORMS Annual Meeting, Atlanta, GA (October 2025, poster)
