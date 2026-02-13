@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented research on crash typology analysis at INFORMS Annual Meeting in Seattle! :sparkles: :chart_with_upwards_trend:
+Presented research on crash typology analysis at INFORMS Annual Meeting in Seattle, WA!

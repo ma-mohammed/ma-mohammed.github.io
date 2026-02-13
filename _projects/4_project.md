@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Schematic Bicycle Maps Research
-description: Enhancing cycling accessibility and adoption through improved map design
+title: Schematic Bicycle Maps for Sustainable Mobility
+description: Investigating how map design influences cyclist behavior and mode choice
 img:
 importance: 4
 category: work
@@ -9,40 +9,59 @@ category: work
 
 ## Research Overview
 
-This ongoing research project investigates how schematic bicycle maps can influence cyclist behavior and improve cycling accessibility. The study aims to understand cyclists' map preferences and develop design principles for more effective bicycle navigation tools.
+This ongoing research investigates how schematic bicycle maps can influence mode choice, cyclist behavior, and ultimately reduce vehicle emissions in urban areas. The study combines survey research, map design optimization, and behavioral analysis to develop evidence-based design principles for bicycle navigation tools.
 
 ## Project Objectives
 
-- Assess cycling preferences, route choices, and perceptions of existing bicycle infrastructure
-- Understand how map design affects cycling behavior and route selection
-- Develop improved bicycle map designs that enhance accessibility and adoption
-- Investigate potential impacts on greenhouse gas emissions through increased cycling
+- Assess cyclist preferences for different map representations and design features
+- Understand how schematic map design affects route selection and cycling behavior
+- Develop optimization frameworks for bicycle map design to promote cycling adoption
+- Investigate potential impacts on greenhouse gas emissions through increased cycling mode share
+- Establish unified design rules for schematic bicycle maps
 
 ## Methodology
 
-**Survey Development**
-- Created comprehensive survey to assess cycling preferences and infrastructure perceptions
+**Survey Development and Data Collection**
+- Designed comprehensive survey to assess cycling preferences and infrastructure perceptions
 - Incorporated insights from prior research on bicycle navigation and safety concerns
-- Designed to capture representative sample of cyclists across different user types
+- Deployed survey using incentivized online platform with bot detection mechanisms
+- Focus on understanding cyclist decision-making processes and map usage patterns
 
-**Data Collection and Analysis**
-- Currently in data collection phase
-- Focus on understanding cyclist decision-making processes
-- Analysis of relationships between map features and usage patterns
+**Map Design and Optimization**
+- Developing mixed-integer linear programming (MILP) frameworks for optimal schematic map design
+- Analyzing trade-offs between geographic accuracy and visual simplicity
+- Incorporating user feedback and preference data into design rules
 
-## Expected Outcomes
+**Behavioral Analysis**
+- Examining relationships between map features and cycling behavior
+- Analyzing how simplified representations affect route choice and perceived accessibility
+- Investigating potential for schematic maps to influence mode choice decisions
 
-This research is expected to contribute to:
-- Better understanding of cyclist map preferences and needs
-- Evidence-based design principles for bicycle maps
-- Improved cycling infrastructure planning and communication
-- Support for sustainable transportation initiatives
+## Current Status
 
-## Future Publications
+The research is in active data collection and analysis phase, with survey responses being analyzed for cyclist preferences and map design insights. Manuscript preparation is underway for multiple publications.
 
-- "Understanding Cyclists' Map Preferences and Needs: Insights from a Survey on Bicycle Map Usage" (planned for late 2025)
-- "Schematic Bicycle Maps for Influencing Cyclist Behavior and Reducing Greenhouse Gas Emissions" (planned for early 2026)
+## Funding
 
-## Collaboration
+Armstrong Fund for Science, 2024-2026 (PI: J. Oke)
 
-This research is conducted in collaboration with Prof. Eleni Christofa and Prof. Jimi Oke at the University of Massachusetts Amherst, combining expertise in transportation engineering and behavioral analysis.
+## Collaborators
+
+- Prof. Jimi Oke (UMass Amherst)
+- Prof. Eleni Christofa (UMass Amherst)
+- Andrew Ruger (Grinnell College, REU Student)
+- Geehan Altayb (Howard University, REU Student)
+- Nathan Bohlke (UMass Amherst)
+
+## Expected Publications
+
+- **Maps are good but are simpler maps better? Insights on urban bicycling in the US** (Under revision in *Environmental Research Communications*)
+- **Toward Unified Design Rules for Schematic Bicycle Maps: A review** (In preparation)
+- **A Multi-Filter Approach to Bot Detection in Incentivized Online Surveys** (In preparation)
+- **Schematic Bicycle Maps for Influencing Cyclist Behavior and Reducing Greenhouse Gas Emissions** (Planned for *Environment and Planning B: Urban Analytics and City Science*, early 2026)
+- **A Survey of Attitudes and Preferences for Schematic Micromobility Maps** (In preparation)
+- **Barriers to Cycling: A comprehensive literature review** (In preparation)
+
+## Conference Presentations
+
+- \"Optimizing and Deploying Schematic Bicycle Maps with MILP and User Input\" - INFORMS Annual Meeting, Atlanta, GA (October 2025, poster)

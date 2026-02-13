@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.umass.edu/'>University of Massachusetts Amherst</a> • PhD Student in Transportation Engineering
+subtitle: <a href='https://www.umass.edu/'>University of Massachusetts Amherst</a> • PhD Candidate in Transportation Engineering
 
 profile:
   align: right
@@ -12,6 +12,7 @@ profile:
     <p>Civil and Environmental Engineering</p>
     <p>University of Massachusetts Amherst</p>
     <p>Amherst, MA 01003</p>
+    <p><a href='https://orcid.org/0000-0003-4660-8030'>ORCID: 0000-0003-4660-8030</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,12 +28,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in Civil Engineering with a focus on Transportation Engineering at the University of Massachusetts Amherst, where I also completed my MS in Civil Engineering and MS in Computer Science. My research bridges transportation systems and data science, with particular expertise in origin-destination modeling, passenger typology analysis, and transportation safety.
+I am a PhD candidate in Civil Engineering with a focus on Transportation Systems at the University of Massachusetts Amherst, working under the supervision of Dr. Jimi Oke. My dissertation develops data-driven models for transit origin-destination inference, urban safety analysis, and schematic micromobility mapping. I also hold an MS in Civil Engineering (2024) and expect to complete an MS in Computer Science in December 2025, both from UMass Amherst.
 
-My current research focuses on developing novel computational frameworks for understanding transit passenger behavior using mobile ticketing data. I have created innovative trip chaining models that integrate passenger typology and seasonal variations to infer complete journey patterns in regional transit systems. Through machine learning techniques including gradient boosting and dynamic time warping, I have achieved significant improvements in prediction accuracy for transit demand estimation.
+My research bridges transportation engineering and data science, developing practical solutions for transit agencies and urban planners. My work on **transit origin-destination inference** has created machine learning frameworks that infer complete passenger journey patterns from partial mobile ticketing data, achieving 70% reduction in mean absolute error through gradient boosting spatial error correction. I developed passenger typology clustering methods using hierarchical techniques and dynamic time warping to capture behavioral heterogeneity across 40,000+ weekly riders in regional bus networks.
 
-In addition to my transit research, I work on transportation safety analysis using spatial clustering and machine learning to identify crash typologies across census tracts. I am also investigating cyclist behavior and developing schematic bicycle maps to enhance cycling accessibility and adoption.
+In **transportation safety**, I apply dimensionality reduction (UMAP) and Gaussian mixture models to classify 2,480 census tracts into distinct crash typologies, enabling targeted safety interventions. I build predictive models that forecast crash risk based on roadway characteristics and socioeconomic factors, providing actionable insights for transportation agencies.
 
-I have published my research in leading transportation journals including the *International Journal of Transportation Science and Technology* and *Data Science for Transportation*. My work has been presented at major conferences including the Transportation Research Board (TRB) Annual Meeting and INFORMS conferences.
+My current work on **bicycle infrastructure** investigates how schematic maps can influence mode choice and cyclist behavior. I'm designing survey instruments to assess cyclist preferences and developing optimization frameworks for bicycle map design to promote sustainable urban mobility.
 
-Before beginning my graduate studies, I earned my Bachelor of Science in Civil Engineering with First Class Honors from the University of Khartoum in Sudan, where I also worked as a teaching assistant and conducted research on elevated light rail systems for developing cities.
+I have published 5 peer-reviewed journal articles and have 3 manuscripts under review, with work appearing in *Data Science for Transportation*, *International Journal of Transportation Science and Technology*, and other venues. My research has been presented at Transportation Research Board (TRB) Annual Meetings and INFORMS conferences. I've received the UMass Amherst CEE Departmental Fellowship and multiple travel awards supporting my research dissemination.
+
+Before graduate school, I earned my BSc in Civil Engineering with First Class Honors from the University of Khartoum, Sudan, where I worked as a teaching assistant and developed feasibility studies for elevated light rail systems in developing cities.

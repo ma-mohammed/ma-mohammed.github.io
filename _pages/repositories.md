@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: GitHub repositories and open-source contributions related to transportation research and data science.
+description: Open-source code and reproducible research pipelines for transportation systems and urban analytics.
 nav: true
 nav_order: 4
 ---

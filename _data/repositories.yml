@@ -4,4 +4,6 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - ma-mohammed/ma-mohammed.github.io
+  - narslab/spatial-crash-typology
+  - narslab/enhanced-trip-chaining
+  - narslab/msa-emission-typologies

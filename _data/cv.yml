@@ -13,148 +13,164 @@
       value: <a href="https://www.linkedin.com/in/mohammed-alameen/">mohammed-alameen</a>
     - name: GitHub
       value: <a href="https://github.com/ma-mohammed">ma-mohammed</a>
+    - name: ORCID
+      value: <a href="https://orcid.org/0000-0003-4660-8030">0000-0003-4660-8030</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Civil Engineering
-      institution: University of Massachusetts Amherst
+    - title: PhD in Civil Engineering (Transportation Systems)
+      institution: University of Massachusetts Amherst, Amherst, MA
       year: Expected May 2026
       description:
-        - Focus on Transportation Engineering
-        - CGPA: 3.81
-    - title: MS in Civil Engineering
-      institution: University of Massachusetts Amherst
-      year: 2023
-      description:
-        - Focus on Transportation Engineering
-        - CGPA: 3.75
+        - "Dissertation: Data-Driven Models for Transit OD Inference, Urban Safety, and Schematic Micromobility Mapping"
+        - "Advisor: Dr. Jimi Oke"
+        - "GPA: 3.92/4.00"
     - title: MS in Computer Science
-      institution: University of Massachusetts Amherst
-      year: 2024
+      institution: University of Massachusetts Amherst, Amherst, MA
+      year: Expected December 2025
       description:
-        - Focus on Data Science and Algorithm Development
-        - CGPA: 3.80
-    - title: Bachelor of Science in Civil Engineering
-      institution: University of Khartoum, Sudan
-      year: Sep 2013 - Nov 2018
+        - "GPA: 3.80/4.00"
+    - title: MS in Civil Engineering
+      institution: University of Massachusetts Amherst, Amherst, MA
+      year: May 2024
+      description:
+        - "GPA: 3.75/4.00"
+    - title: BSc in Civil Engineering, First Class Honors
+      institution: University of Khartoum, Khartoum, Sudan
+      year: November 2018
       description:
         - First Class Honors (equivalent to Summa Cum Laude)
-        - CGPA: 7.39/10
+        - "GPA: 7.39/10"
 
 - title: Research Experience
   type: time_table
   contents:
     - title: Graduate Research Assistant
-      institution: University of Massachusetts Amherst
+      institution: University of Massachusetts Amherst, Amherst, MA
       year: Jan 2021 - Present
       description:
-        - Comprehensive Review of Origin-Destination Inference in Public Transportation
-        - Extracting Spatiotemporal Bus Passenger Trip Typologies from Noisy Mobile Ticketing Data
-        - Enhanced Seasonal Typology-Informed Transit Trip Chaining via Mobile Boarding and Survey Data
-        - Development of a Novel Origin-Destination-Transfer (ODX) Model Using Mobile Ticketing Data
-        - Crash Typology Analysis Using Machine Learning
-        - Schematic Bicycle Maps for Enhancing Cycling Accessibility and Adoption
-    - title: Undergraduate Researcher
-      institution: University of Khartoum, Sudan
-      year: Nov 2017 - Nov 2018
-      description:
-        - Khartoum Skytrains Network: Implementing an Elevated Light Rail System
-        - Received Best Project Award from Civil Engineering Department
+        - "<b>Transit OD Inference from Partial Mobile Ticketing Data:</b> Built machine learning framework to infer complete origin-destination-transfer matrices from boarding-only mobile ticketing data in regional bus network with 40+ routes. Developed passenger typology clustering using hierarchical methods and dynamic time warping. Integrated gradient boosting spatial error correction, reducing MAE by 70% and SMAPE by 85%. Funding Pioneer Valley Transit Authority (PVTA), 2021-2023 (PI J. Oke)"
+        - "<b>Spatial Crash Typology and Risk Prediction:</b> Applied UMAP and Gaussian mixture models to classify 2,480 census tracts into crash typologies using state-level crash records in New England. Identified distinct spatial patterns linked to roadway characteristics and socioeconomic factors. Built predictive models to forecast crash risk by typology. Funding New England University Transportation Center (NEUTC), 2024-2025 (PI J. Oke)"
+        - "<b>Bicycle Infrastructure and Behavior:</b> Designed survey to assess cyclist preferences for map representations and route selection criteria. Analyzing how schematic bicycle maps can influence mode choice and reduce vehicle emissions. Funding Armstrong Fund for Science, 2024-2026 (PI J. Oke)"
 
 - title: Teaching Experience
   type: time_table
   contents:
     - title: Teaching Assistant - Probability and Statistics
       institution: University of Massachusetts Amherst
-      year: Fall 2024
+      year: Fall 2024, Fall 2025
       description:
-        - CE-ENGIN 260: Probability and Statistics for Civil and Environmental Engineers
+        - "CE-ENGIN 260: Probability and Statistics for Civil and Environmental Engineers"
+        - Taught classes, led lab sessions, and delivered a full lecture
+        - Held weekly office hours covering probability theory, statistical inference, and experimental design
+        - Supported cohorts of approximately 160 students each semester through problem-solving sessions
+        - Graded exams and assignments; prepared detailed solution guides and rubric-based feedback
     - title: Teaching Assistant - Transportation Systems
       institution: University of Massachusetts Amherst
       year: Fall 2023
       description:
-        - CE-ENGIN 310: Transportation Systems
+        - "CE-ENGIN 310: Transportation Systems"
+        - Supported students in transportation operations, network planning, and geometric design
+        - Prepared problem sets on traffic flow theory, capacity analysis, and signal control
     - title: Teaching Assistant
       institution: University of Khartoum, Sudan
       year: Nov 2018 - Dec 2020
       description:
-        - Environmental Engineering, Highway and Transportation Engineering
-        - Strength of Materials, Design of Reinforced Concrete Structures
-        - Theory of Structures
+        - Taught and gave tutorials for undergraduate courses Environmental Engineering, Highway and Transportation Engineering, Strength of Materials, Design of Reinforced Concrete Structures, and Theory of Structures
+        - Supervised laboratory sessions on water quality analysis and material testing
 
 - title: Mentorship Experience
   type: time_table
   contents:
-    - title: Research Mentor - REU Program
+    - title: Research Mentor - NSF REU Program
       institution: University of Massachusetts Amherst
-      year: Summer 2023, Summer 2024
+      year: Summer 2023, 2024, 2025
       description:
-        - Mentored undergraduate students in data analysis and transportation modeling
-        - Guided students through research methodologies and computational techniques
-        - Mentees from Howard University and Rensselaer Polytechnic Institute
+        - Mentored undergraduate researchers in transportation data analysis and Python programming
+        - "Andrew Ruger (Grinnell College): Research on survey data quality and micromobility mapping, including bot detection in incentivized online surveys"
+        - "Geehan Altayb (Howard University): Analyzed bicycle map features and their influence on cycling behavior"
+        - "Vivian Rost-Nasshan (RPI): Investigated vehicular delay patterns using network topology and demographic data"
 
 - title: Publications
   type: time_table
   contents:
-    - title: Published Papers
-      year: 2020-2024
+    - title: Journal Articles (Published)
+      year: 2020-2025
       description:
-        - 4 published papers in peer-reviewed journals
-        - International Journal of Transportation Science and Technology
-        - Data Science for Transportation
-        - MATEC Web of Conferences
-    - title: Papers Under Review/In Preparation
+        - 5 peer-reviewed journal articles published
+        - Data Science for Transportation (3 papers)
+        - International Journal of Transportation Science and Technology (1 paper)
+        - MATEC Web of Conferences (1 paper)
+    - title: Under Review
+      year: 2025
+      description:
+        - 3 manuscripts under review or revision
+        - Environmental Research Communications
+        - Major transportation journals
+    - title: In Preparation
       year: 2025-2026
       description:
-        - 6 papers under review or in preparation
-        - Transportation Research Part A, Environment and Planning B
-        - Transportation Research Part F
+        - 5 manuscripts in preparation
+        - Environment and Planning B Urban Analytics and City Science
+        - Transportation and urban mobility journals
 
 - title: Technical Skills
   type: nested_list
   contents:
     - title: Programming
       items:
-        - Python, MATLAB, R, C++, C#, SQL, Fortran 95
-        - Web development (HTML, CSS, Flask)
-        - Version control (Git, GitHub, GitLab)
-    - title: Data Science & Machine Learning
+        - Python, MATLAB, R, SQL, C++, Git
+        - Version control (Git, GitHub)
+    - title: Machine Learning
       items:
-        - Supervised/unsupervised learning (XGBoost, LightGBM, SVMs)
-        - Deep learning (TensorFlow, PyTorch, CNNs, RNNs, LSTM)
-        - NLP (BERT, Word2Vec, GloVe)
-        - Geospatial analysis (QGIS, Geopandas, Google Earth Engine)
-    - title: Transportation Engineering
+        - Scikit-learn, XGBoost, TensorFlow, PyTorch
+        - NLP (BERT, Word2Vec)
+    - title: Geospatial
       items:
-        - Traffic simulation (TransModeler, VISSIM, CORSIM)
-        - Travel demand modeling (TransCAD)
-        - Transit network analysis (GTFS, OD modeling)
-    - title: Visualization & Reporting
+        - QGIS, Geopandas, ArcGIS, Google Earth Engine
+        - GTFS analysis
+    - title: Transportation
       items:
-        - Data visualization (Matplotlib, Seaborn, Plotly, Tableau)
-        - Dashboards (Streamlit, Dash, Superset)
-        - Document preparation (LaTeX, Overleaf, Jupyter)
+        - TransModeler, VISSIM, TransCAD
+        - Travel demand modeling
+    - title: Data Analysis
+      items:
+        - Pandas, NumPy, SciPy
+        - Time series analysis, statistical modeling
 
 - title: Awards and Honors
   type: time_table
   contents:
     - year: 2023-2024
       items:
-        - UMass Amherst Civil and Environmental Engineering Departmental Fellowship
-        - Graduate School Travel Award ($289)
-        - CEE Travel Awards ($210 each, 2022 & 2023)
-    - year: 2018-2022
+        - UMass Amherst Civil and Environmental Engineering Departmental Fellowship (2023)
+        - Graduate School Travel Awards $289 (2024), $210 (2022, 2023)
+    - year: 2018
       items:
+        - First Class Honors (Summa Cum Laude Equivalent), BSc Civil Engineering, University of Khartoum
         - Best Project Award, University of Khartoum Civil Engineering Department
-        - First Class Honors, University of Khartoum
-        - Treasurer, UMass Amherst Student Chapter of ITE
+
+- title: Professional Service
+  type: nested_list
+  contents:
+    - title: Manuscript Reviewing
+      items:
+        - Applied Intelligence (Springer Nature) - 3 manuscripts (2022, 2023)
+        - European Transport Research Review (Springer Nature) - 1 manuscript (2024)
+        - Scientific Data (Nature Publishing Group) - 1 manuscript (2025)
+    - title: Conference Reviewing
+      items:
+        - Transportation Research Board (TRB) Annual Meeting (2022, 2023, 2025)
+    - title: Leadership and Service
+      items:
+        - Treasurer, Graduate Student Association, CEE Department, UMass Amherst (2023-2024)
 
 - title: Professional Affiliations
   type: list
   contents:
     - Institute of Transportation Engineers (ITE)
     - American Society of Civil Engineers (ASCE)
+    - Civil Engineering Students Society (CESS)
     - Institute for Operations Research and the Management Sciences (INFORMS)
     - The Institute of Electrical and Electronics Engineers (IEEE)
-    - Civil Engineering Students Society (CESS)

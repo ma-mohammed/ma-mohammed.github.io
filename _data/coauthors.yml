@@ -1,34 +1,47 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"oke":
+  - firstname: ["Jimi", "J."]
+    url: https://www.umass.edu/transportation-engineering/jimi-oke
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"christofa":
+  - firstname: ["Eleni", "E."]
+    url: https://www.umass.edu/transportation-engineering/eleni-christofa
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"altayb":
+  - firstname: ["Geehan", "G."]
+    url: 
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"mohammed":
+  - firstname: ["Omar", "O."]
+    url:
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"ibrahim":
+  - firstname: ["M."]
+    url:
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"osman":
+  - firstname: ["H. G.", "Hassan"]
+    url:
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"oke_t":
+  - firstname: ["Tomiwa", "T."]
+    url:
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"zhao":
+  - firstname: ["Ping", "P."]
+    url:
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"mega":
+  - firstname: ["J."]
+    url:
+
+"arabi":
+  - firstname: ["M."]
+    url:
+
+"barchers":
+  - firstname: ["Charlie", "C. V.", "C."]
+    url:
+
+"ruger":
+  - firstname: ["Andrew", "A."]
+    url:

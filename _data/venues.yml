@@ -1,9 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"DST":
+  url: https://link.springer.com/journal/42421
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IJTST":
+  url: https://www.sciencedirect.com/journal/international-journal-of-transportation-science-and-technology
+  color: "#FF6F00"
 
-"Vision":
+"MATEC":
+  url: https://www.matec-conferences.org/
   color: "#009f36"
+
+"ERC":
+  url: https://iopscience.iop.org/journal/2515-7620
+  color: "#8B0000"

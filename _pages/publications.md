@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Research publications in transportation engineering, data science, and transit systems analysis.
+description: Peer-reviewed research in transportation engineering, machine learning, and urban mobility systems.
 nav: true
 nav_order: 2
 ---

@@ -1,30 +1,30 @@
 ---
 layout: post
-title: Paper Published in Data Science for Transportation
-date: 2024-06-15 16:11:00-0400
+title: New Paper Published in Data Science for Transportation
+date: 2025-01-15 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Excited to share that our latest research on enhanced seasonal typology-informed transit trip chaining has been published in *Data Science for Transportation*!
+Excited to share that our research on roadway crash typology has been published in *Data Science for Transportation*!
 
 ---
 
-This work represents a significant advancement in our understanding of passenger behavior in regional transit systems. The paper introduces a novel trip chaining model that incorporates passenger typology and seasonal variations to infer complete passenger journeys using boarding-only AFC data.
+This work develops a novel framework for classifying census tracts into distinct crash typologies using UMAP dimensionality reduction and Gaussian mixture modeling. By analyzing crash data across 2,480 census tracts in New England, we identified spatial patterns linked to roadway characteristics and socioeconomic factors.
 
 #### Key Contributions
 
-- **Advanced Machine Learning Integration**: Implemented gradient boosting machines (GBM) for spatial error correction
-- **Significant Accuracy Improvements**: Achieved 70% reduction in Mean Absolute Error (MAE) and 85% reduction in Symmetric Mean Absolute Percentage Error (SMAPE)
-- **Practical Validation**: Model validated with comprehensive survey data from Pioneer Valley Transit Authority
-- **Scalable Framework**: Designed for adoption by regional transit agencies lacking smart card infrastructure
+- **Advanced Machine Learning Framework**: Applied UMAP and GMM to classify crash patterns across census tracts
+- **Interpretable Predictions**: Built predictive models using gradient boosting to forecast crash risk by typology
+- **Targeted Interventions**: Enabled data-driven identification of high-risk areas for safety investments
+- **Scalable Methodology**: Framework applicable to transportation agencies nationwide for crash analysis
 
-The research addresses a critical challenge faced by many transit agencies: understanding complete passenger journeys when only boarding data is available. By incorporating passenger typology insights and accounting for seasonal variations, our model provides unprecedented accuracy in trip chain inference.
+The research addresses a critical challenge in transportation safety: understanding spatial heterogeneity in crash patterns to enable more effective and targeted interventions. By incorporating demographic and infrastructure characteristics, our model provides actionable insights for safety planning.
 
 ---
 
-This publication builds on our previous work on passenger typology analysis and represents a major step toward comprehensive origin-destination modeling for regional transit systems. The methodology has potential applications for transit agencies worldwide seeking to optimize their networks and improve service delivery.
+The paper is now available in *Data Science for Transportation* (Volume 7, Article 14) and represents collaborative work with Dr. Jimi Oke at UMass Amherst, supported by funding from the New England University Transportation Center (NEUTC).
 
-> "The integration of passenger typology with machine learning techniques opens new possibilities for understanding transit behavior patterns and improving system efficiency."
+> "Data-driven crash typologies enable transportation agencies to move beyond one-size-fits-all safety approaches toward targeted, context-specific interventions."
 
-The paper is now available in *Data Science for Transportation* and represents the collaborative efforts of our research team at UMass Amherst. This work continues to inform ongoing research in transportation systems optimization and passenger behavior analysis.
+This work builds on our broader research program in transportation safety and contributes to ongoing efforts to reduce traffic fatalities through evidence-based planning.
