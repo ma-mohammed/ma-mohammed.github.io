@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-02-10 15:59:00-0400
+date: 2026-03-01 10:00:00-0400
 inline: true
 related_posts: false
 ---
 
-Presented research on typology-informed OD-Transfer models at Transportation Research Board (TRB) Annual Meeting in Washington, D.C.
+["Scenario discovery framework aids robust regional emissions mitigation planning"](https://doi.org/10.1088/2515-7620/ae4b94) published in _Environmental Research Communications_ (2026).

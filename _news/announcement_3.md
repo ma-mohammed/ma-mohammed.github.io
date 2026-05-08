@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-10-15 07:59:00-0400
+date: 2025-10-15 09:00:00-0400
 inline: true
 related_posts: false
 ---
 
-Presented research on crash typology analysis at INFORMS Annual Meeting in Seattle, WA!
+Presented a poster on schematic bicycle map optimization with MILP at the INFORMS Annual Meeting, Atlanta, GA.

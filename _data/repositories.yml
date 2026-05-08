@@ -1,3 +1,11 @@
 # Auto-generated at build time by deploy.yml — do not edit manually.
-# For local development, add NARSLab repos here manually.
-github_repos: []
+# For local development, populate manually using the format below.
+# repos:
+#   - name: "repo-name"
+#     full_name: "NARSLab/repo-name"
+#     description: "A short description"
+#     language: "Python"
+#     url: "https://github.com/NARSLab/repo-name"
+#     stars: 0
+#     forks: 0
+repos: []

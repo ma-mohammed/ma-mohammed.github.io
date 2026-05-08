@@ -56,14 +56,28 @@ jobs:
             try:
               contribs = fetch(f"https://api.github.com/repos/NARSLab/{repo['name']}/contributors?per_page=100")
               if any(c["login"].lower() == "ma-mohammed" for c in contribs):
-                matched.append(f"NARSLab/{repo['name']}")
+                matched.append({
+                  "name": repo["name"],
+                  "full_name": repo["full_name"],
+                  "description": repo.get("description") or "",
+                  "language": repo.get("language") or "",
+                  "url": repo["html_url"],
+                  "stars": repo.get("stargazers_count", 0),
+                  "forks": repo.get("forks_count", 0),
+                })
             except Exception:
               pass
           with open("_data/repositories.yml", "w") as f:
-            f.write("github_repos:\n")
+            f.write("repos:\n")
             for r in matched:
-              f.write(f"  - {r}\n")
-          print(f"Found {len(matched)} repos: {matched}")
+              f.write(f"  - name: {json.dumps(r['name'])}\n")
+              f.write(f"    full_name: {json.dumps(r['full_name'])}\n")
+              f.write(f"    description: {json.dumps(r['description'])}\n")
+              f.write(f"    language: {json.dumps(r['language'])}\n")
+              f.write(f"    url: {json.dumps(r['url'])}\n")
+              f.write(f"    stars: {r['stars']}\n")
+              f.write(f"    forks: {r['forks']}\n")
+          print(f"Found {len(matched)} repos")
           EOF
 
       - name: Build site

@@ -2,70 +2,60 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Teaching experience as a graduate student and mentorship activities
-  in transportation engineering and research methods.
+description: Teaching and mentorship at University of Massachusetts Amherst and University of Khartoum.
 nav: true
 nav_order: 5
 ---
 
-## University of Massachusetts Amherst
+<div class="card mt-3 p-3 shadow-sm">
+  <h4>CE-ENGIN 260: Probability and Statistics for Civil and Environmental Engineers</h4>
+  <p class="text-muted mb-2">Teaching Assistant &mdash; University of Massachusetts Amherst &mdash; Fall 2024, Fall 2025</p>
+  <ul>
+    <li>Taught classes, led lab sessions, and delivered a full lecture; held weekly office hours</li>
+    <li>Supported cohorts of approximately 160 students per semester</li>
+    <li>Graded exams and prepared detailed solution guides and rubric-based feedback</li>
+  </ul>
+</div>
 
-### Teaching Assistant (Fall 2024, Fall 2025)
+<div class="card mt-3 p-3 shadow-sm">
+  <h4>CE-ENGIN 310: Transportation Systems</h4>
+  <p class="text-muted mb-2">Teaching Assistant &mdash; University of Massachusetts Amherst &mdash; Fall 2023</p>
+  <ul>
+    <li>Held office hours and prepared problem sets on traffic flow theory, capacity analysis, and signal control</li>
+  </ul>
+</div>
 
-**CE-ENGIN 260: Probability and Statistics for Civil and Environmental
-Engineers**
+<div class="card mt-3 p-3 shadow-sm">
+  <h4>Multiple Undergraduate Courses</h4>
+  <p class="text-muted mb-2">Teaching Assistant &mdash; University of Khartoum, Sudan &mdash; November 2018 – December 2020</p>
+  <p>Taught and gave tutorials for undergraduate students across several civil engineering disciplines:</p>
+  <ul>
+    <li><strong>Environmental Engineering</strong> — water treatment processes, sewage systems, and lab sessions on water quality analysis</li>
+    <li><strong>Highway and Transportation Engineering</strong> — road design, sight distance, and traffic flow</li>
+    <li><strong>Strength of Materials</strong> — stress-strain relationships and mechanical properties</li>
+    <li><strong>Design of Reinforced Concrete Structures</strong> — reinforcement detailing and structural load calculations</li>
+    <li><strong>Theory of Structures</strong> — structural analysis techniques and stability assessments</li>
+  </ul>
+</div>
 
-- Taught classes, led lab sessions, and delivered a full lecture; held weekly office hours
-- Supported cohorts of approximately 160 students each semester
-- Graded exams and assignments; prepared detailed solution guides and rubric-based feedback
-
-### Teaching Assistant (Fall 2023)
-
-**CE-ENGIN 310: Transportation Systems**
-
-- Held office hours and prepared problem sets on traffic flow theory, capacity analysis, and signal control
-
-## University of Khartoum, Sudan
-
-### Teaching Assistant (November 2018 - December 2020)
-
-Taught and gave tutorials for undergraduate students across multiple civil
-engineering disciplines:
-
-**Environmental Engineering**
-
-- Explained water treatment processes, sewage systems, and water quality
-  assessment methods
-- Supervised laboratory sessions on physical and chemical water quality analysis
-  techniques
-
-**Highway and Transportation Engineering**
-
-- Assisted students with road design principles, sight distance calculations, and
-  traffic flow analysis
-- Guided practical applications of transportation planning concepts
-
-**Structural Engineering Courses**
-
-- **Strength of Materials**: Supported analysis of stress-strain relationships
-  and mechanical properties
-- **Design of Reinforced Concrete Structures**: Guided reinforcement detailing
-  and structural load calculations
-- **Theory of Structures**: Covered structural analysis techniques and stability
-  assessments
+---
 
 ## Research Mentorship
 
-### Research Experience for Undergraduates (REU) Program
-**Summer 2023, 2024, 2025 — University of Massachusetts Amherst**
+<div class="card mt-3 p-3 shadow-sm">
+  <h4>NSF Research Experience for Undergraduates (REU) Program</h4>
+  <p class="text-muted mb-2">Research Mentor &mdash; University of Massachusetts Amherst &mdash; Summers 2023, 2024, 2025</p>
+  <ul>
+    <li><strong>Andrew Ruger</strong> (Grinnell College) — Survey data quality and micromobility mapping; bot detection in incentivized online surveys</li>
+    <li><strong>Geehan Altayb</strong> (Howard University) — Bicycle map features and their influence on cycling behavior</li>
+    <li><strong>Vivian Rost-Nasshan</strong> (Rensselaer Polytechnic Institute) — Vehicular delay patterns using network topology and demographic data</li>
+  </ul>
+</div>
 
-**Mentees:**
-
-- **Andrew Ruger** (Grinnell College): Research on survey data quality and
-  micromobility mapping, including bot detection in incentivized online surveys
-- **Geehan Altayb** (Howard University, Computer Science): Analyzed bicycle map
-  features and their influence on cycling behavior
-- **Vivian Rost-Nasshan** (Rensselaer Polytechnic Institute, Industrial &
-  Management Engineering): Investigated vehicular delay patterns using network
-  topology and demographic data
-
+<div class="card mt-3 p-3 shadow-sm">
+  <h4>Independent Research Mentorship</h4>
+  <p class="text-muted mb-2">Research Mentor &mdash; University of Massachusetts Amherst &mdash; Spring 2026</p>
+  <ul>
+    <li><strong>Henry Bell</strong> (UMass Amherst) — Comprehensive literature review on barriers to cycling</li>
+  </ul>
+</div>
