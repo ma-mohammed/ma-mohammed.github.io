@@ -119,6 +119,16 @@ ninja.data = [{
           description: "2024–present · How schematic bicycle maps influence cyclist behavior, mode choice, and sustainable mobility",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
+            },},{id: "projects-pvta-od-dashboard",
+          title: 'PVTA OD Dashboard',
+          description: "2022–2024 · Interactive origin-destination analytics dashboard for the Pioneer Valley Transit Authority, deployed on AWS",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project.html";
+            },},{id: "projects-connecticut-ghg-inventory-dashboard",
+          title: 'Connecticut GHG Inventory Dashboard',
+          description: "2023–2024 · Interactive greenhouse gas inventory dashboard for three Connecticut metropolitan regions, deployed on AWS",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project.html";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',

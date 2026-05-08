@@ -17,12 +17,12 @@
   
   
     
-      projects | Mohammed Abdalazeem
+      PVTA OD Dashboard | Mohammed Abdalazeem
     
   
 </title>
 <meta name="author" content="Mohammed Abdalazeem">
-<meta name="description" content="Research projects in transportation systems, traffic safety, and sustainable mobility.">
+<meta name="description" content="2022–2024 · Interactive origin-destination analytics dashboard for the Pioneer Valley Transit Authority, deployed on AWS">
 
   <meta name="keywords" content="transportation engineering, machine learning, transit systems, traffic safety, origin-destination modeling, data science">
 
@@ -59,7 +59,7 @@
   <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;M&lt;/text&gt;&lt;/svg&gt;">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="https://mabdalazeem.com/projects/">
+<link rel="canonical" href="https://mabdalazeem.com/projects/5_project.html">
 
 
   <!-- Dark Mode -->
@@ -113,8 +113,6 @@
 
           <!-- Other pages -->
           
-          
-            
           
             
           
@@ -243,203 +241,45 @@
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">projects</h1>
-    <p class="post-description">Research projects in transportation systems, traffic safety, and sustainable mobility.</p>
+    <h1 class="post-title">PVTA OD Dashboard</h1>
+    <p class="post-description">2022–2024 · Interactive origin-destination analytics dashboard for the Pioneer Valley Transit Authority, deployed on AWS</p>
   </header>
 
   <article>
-    <!-- pages/projects.md -->
-<div class="projects">
+    <h2 id="overview">Overview</h2>
 
+<p>An interactive public-facing dashboard for the Pioneer Valley Transit Authority (PVTA), visualizing inferred passenger origin-destination flows across the 40+ route regional bus network. Built as part of the transit OD inference research project and deployed for use by PVTA planners and the public.</p>
 
-<!-- Display projects without categories -->
+<p><strong>Live dashboard:</strong> <a href="https://pvtaodx.narslab.org" rel="external nofollow noopener" target="_blank">pvtaodx.narslab.org</a></p>
 
+<h2 id="what-it-shows">What It Shows</h2>
 
+<ul>
+  <li>Inferred passenger OD flows between transit stops and zones, derived from mobile ticketing boarding data</li>
+  <li>Temporal patterns of ridership by time of day, day of week, and season</li>
+  <li>Seasonal passenger typologies across the network</li>
+  <li>Transfer behavior and multi-leg trip inference</li>
+</ul>
 
-  <!-- Generate cards for each project -->
+<h2 id="technical-stack">Technical Stack</h2>
 
+<ul>
+  <li>
+<strong>Frontend/visualization:</strong> Plotly Dash (Python)</li>
+  <li>
+<strong>Backend:</strong> REST API serving OD matrix data</li>
+  <li>
+<strong>Infrastructure:</strong> Docker containerized, hosted on AWS Lightsail</li>
+  <li>
+<strong>Data pipeline:</strong> Automated ingestion and processing of mobile ticketing activations</li>
+</ul>
 
-  <div class="row row-cols-1 row-cols-md-3">
-    
-      <div class="col">
-  <a href="/projects/4_project.html">
-    <div class="card h-100 hoverable">
-      
-        
+<h2 id="collaborators">Collaborators</h2>
 
-
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-    <img src="/assets/img/9.jpg" class="card-img-top" width="100%" height="auto" alt="project thumbnail" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-      
-      <div class="card-body">
-        <h2 class="card-title">Schematic Bicycle Maps for Sustainable Mobility</h2>
-        <p class="card-text">2024–present · How schematic bicycle maps influence cyclist behavior, mode choice, and sustainable mobility</p>
-        <div class="row ml-1 mr-1 p-0">
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</div>
-
-    
-      <div class="col">
-  <a href="/projects/2_project.html">
-    <div class="card h-100 hoverable">
-      
-        
-
-
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-    <img src="/assets/img/3.jpg" class="card-img-top" width="100%" height="auto" alt="project thumbnail" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-      
-      <div class="card-body">
-        <h2 class="card-title">Spatial Crash Typology and Risk Prediction</h2>
-        <p class="card-text">2024–2025 · Interpretable ML to classify crash typologies across census tracts and forecast risk</p>
-        <div class="row ml-1 mr-1 p-0">
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</div>
-
-    
-      <div class="col">
-  <a href="/projects/1_project.html">
-    <div class="card h-100 hoverable">
-      
-        
-
-
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-    <img src="/assets/img/12.jpg" class="card-img-top" width="100%" height="auto" alt="project thumbnail" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-      
-      <div class="card-body">
-        <h2 class="card-title">Transit OD Inference from Mobile Ticketing Data</h2>
-        <p class="card-text">2021–2023 · Inferring complete passenger OD matrices from boarding-only mobile ticketing data</p>
-        <div class="row ml-1 mr-1 p-0">
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</div>
-
-    
-      <div class="col">
-  <a href="/projects/5_project.html">
-    <div class="card h-100 hoverable">
-      
-        
-
-
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-    <img src="/assets/img/12.jpg" class="card-img-top" width="100%" height="auto" alt="project thumbnail" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-      
-      <div class="card-body">
-        <h2 class="card-title">PVTA OD Dashboard</h2>
-        <p class="card-text">2022–2024 · Interactive origin-destination analytics dashboard for the Pioneer Valley Transit Authority, deployed on AWS</p>
-        <div class="row ml-1 mr-1 p-0">
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</div>
-
-    
-      <div class="col">
-  <a href="/projects/6_project.html">
-    <div class="card h-100 hoverable">
-      
-        
-
-
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-    <img src="/assets/img/5.jpg" class="card-img-top" width="100%" height="auto" alt="project thumbnail" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-      
-      <div class="card-body">
-        <h2 class="card-title">Connecticut GHG Inventory Dashboard</h2>
-        <p class="card-text">2023–2024 · Interactive greenhouse gas inventory dashboard for three Connecticut metropolitan regions, deployed on AWS</p>
-        <div class="row ml-1 mr-1 p-0">
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</div>
-
-    
-  </div>
-  
-
-</div>
+<ul>
+  <li>Prof. Jimi Oke (PI), NARSLab, UMass Amherst</li>
+  <li>Pioneer Valley Transit Authority (PVTA)</li>
+</ul>
 
   </article>
 
