@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Schematic Bicycle Maps for Sustainable Mobility
-description: Investigating how map design influences cyclist behavior and mode
-  choice
+description: "2024–present · How schematic bicycle maps influence cyclist behavior, mode choice, and sustainable mobility"
 img: assets/img/9.jpg
-importance: 4
+importance: 1
 category: work
 ---
 

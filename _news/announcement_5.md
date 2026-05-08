@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented "A Typology-Informed OD-Transfer Model for a Bus Transit Network" at the TRB Annual Meeting, Washington, D.C. Also presented a poster on spatial crash typology.
+Had a busy TRB week in D.C. — gave a talk on "A Typology-Informed OD-Transfer Model for a Bus Transit Network" and presented a poster on spatial crash typology analysis.

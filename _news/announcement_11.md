@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented "Spatiotemporal Trip Chaining Framework for Open Mobile Fare Collection Systems" at the TRB Annual Meeting, Washington, D.C.
+Gave a talk on "Spatiotemporal Trip Chaining Framework for Open Mobile Fare Collection Systems" at the TRB Annual Meeting in D.C.

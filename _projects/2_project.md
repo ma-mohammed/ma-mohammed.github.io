@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Spatial Crash Typology and Risk Prediction
-description: Interpretable machine learning for targeted transportation safety
-  interventions
+description: "2024–2025 · Interpretable ML to classify crash typologies across census tracts and forecast risk"
 img: assets/img/3.jpg
 importance: 2
 category: work

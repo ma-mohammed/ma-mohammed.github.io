@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Transit OD Inference from Mobile Ticketing Data
-description: Machine learning framework for inferring complete passenger
-  journeys from partial boarding data
+description: "2021–2023 · Inferring complete passenger OD matrices from boarding-only mobile ticketing data"
 img: assets/img/12.jpg
-importance: 1
+importance: 3
 category: work
 related_publications: true
 ---

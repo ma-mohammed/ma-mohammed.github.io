@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented a poster on schematic bicycle map optimization with MILP at the INFORMS Annual Meeting, Atlanta, GA.
+Presented a poster on "Optimizing and Deploying Schematic Bicycle Maps with MILP and User Input" at the INFORMS Annual Meeting in Atlanta.

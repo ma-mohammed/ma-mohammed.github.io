@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented "Enhancing Road Safety: A Data-Driven Spatial Typology of Crashes in New England" at the INFORMS Annual Meeting, Seattle, WA.
+Gave a talk on "Enhancing Road Safety: A Data-Driven Spatial Typology of Crashes in New England" at the INFORMS Annual Meeting in Seattle.

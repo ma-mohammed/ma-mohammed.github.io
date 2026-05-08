@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Civil and Environmental Engineering</p>
-    <p>University of Massachusetts Amherst</p>
-    <p>Amherst, MA 01003</p>
+    <p>Civil and Environmental Engineering, UMass Amherst</p>
+    <p>Advisor: <a href='https://people.umass.edu/jimi/'>Dr. Jimi Oke</a></p>
+    <p>Lab: <a href='https://narslab.org'>NARSLab</a></p>
     <p><a href='https://orcid.org/0000-0003-4660-8030'>ORCID: 0000-0003-4660-8030</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a PhD candidate in Civil Engineering (Transportation Systems) at the University of Massachusetts Amherst, advised by [Dr. Jimi Oke](https://www.jimi-oke.com/). My dissertation focuses on data-driven approaches to transit demand modeling, urban road safety, and micromobility infrastructure. I also hold an MS in Civil Engineering (2024) and an MS in Computer Science (2025), both from UMass.
+I'm a PhD candidate in Civil Engineering (Transportation Systems) at the University of Massachusetts Amherst, advised by [Dr. Jimi Oke](https://people.umass.edu/jimi/). My dissertation focuses on data-driven approaches to transit demand modeling, urban road safety, and micromobility infrastructure. I also hold an MS in Civil Engineering (2024) and an MS in Computer Science (2025), both from UMass.
 
 My research sits at the intersection of transportation engineering, machine learning, and spatial analysis. On the transit side, I've built models that infer full passenger origin-destination patterns from boarding-only mobile ticketing data, which is a common limitation in many transit agencies. On the safety side, I use clustering and interpretable ML to understand how crash risk varies across different types of neighborhoods in New England. More recently I've been studying whether simpler bicycle maps actually work better for getting people to ride—designing surveys, running optimization models, and analyzing behavior.
 

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented "Spatio-Temporal Trip Pattern Typology Analysis for a Regional Bus Network" at the INFORMS Annual Meeting, Indianapolis, IN.
+Gave a talk on "Spatio-Temporal Trip Pattern Typology Analysis for a Regional Bus Network" at the INFORMS Annual Meeting in Indianapolis.

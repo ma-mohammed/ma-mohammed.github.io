@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented a poster on spatiotemporal bus passenger trip patterns at the MassDOT Transportation Innovation Conference, Worcester, MA.
+Presented a poster on spatiotemporal bus passenger trip patterns at the MassDOT Transportation Innovation Conference in Worcester, MA.

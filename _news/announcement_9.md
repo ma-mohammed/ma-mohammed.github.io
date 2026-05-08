@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented "Typology-Enhanced OD-Transfer Inference from Noisy Mobile Boarding Observations" at the INFORMS Annual Meeting, Phoenix, AZ.
+Presented "Typology-Enhanced OD-Transfer Inference from Noisy Mobile Boarding Observations" at the INFORMS Annual Meeting in Phoenix.
