@@ -7,7 +7,12 @@
       "Bash(cp 12.jpg publication_preview/trip_chaining.jpg)",
       "Bash(cp 7.jpg publication_preview/khartoum_rail.jpg)",
       "Bash(cp 1.jpg publication_preview/od_review.jpg)",
-      "Bash(cp 2.jpg publication_preview/bicycle_maps_survey.jpg)"
+      "Bash(cp 2.jpg publication_preview/bicycle_maps_survey.jpg)",
+      "Bash(bundle exec *)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(gh api *)",
+      "PowerShell(gh api *)",
+      "Bash(python3 -c \"import yaml; yaml.safe_load\\(open\\('_data/cv.yml'\\)\\)\")"
     ]
   }
 }
