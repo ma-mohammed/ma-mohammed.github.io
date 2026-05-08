@@ -12,7 +12,24 @@
       "WebFetch(domain:api.github.com)",
       "Bash(gh api *)",
       "PowerShell(gh api *)",
-      "Bash(python3 -c \"import yaml; yaml.safe_load\\(open\\('_data/cv.yml'\\)\\)\")"
+      "Bash(python3 -c \"import yaml; yaml.safe_load\\(open\\('_data/cv.yml'\\)\\)\")",
+      "WebFetch(domain:cloudflare-dns.com)",
+      "WebFetch(domain:dns.google)",
+      "WebFetch(domain:doi.org)",
+      "WebFetch(domain:pvtaodx.narslab.org)",
+      "WebFetch(domain:ctghginventory.narslab.org)",
+      "WebSearch",
+      "WebFetch(domain:iopscience.iop.org)",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:link.springer.com)",
+      "WebFetch(domain:people.umass.edu)",
+      "WebFetch(domain:narslab.org)",
+      "WebFetch(domain:content.cld.iop.org)",
+      "Bash(curl -s \"https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=traffic+accident+choropleth+map+united+states&srnamespace=6&format=json&srlimit=5\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); [print\\(r['title']\\) for r in d['query']['search']]\")",
+      "Bash(curl -s \"https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=origin+destination+matrix+transit&srnamespace=6&format=json&srlimit=5\")",
+      "Bash(curl -s \"https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=schematic+bicycle+cycling+map+simplified&srnamespace=6&format=json&srlimit=5\")",
+      "WebFetch(domain:github.com)"
     ]
   }
 }
