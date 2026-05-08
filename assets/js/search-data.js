@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "publications",
           description: "Peer-reviewed research in transportation engineering, machine learning, and urban mobility systems.",
           section: "Navigation",
@@ -30,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Open-source code and reproducible research pipelines for transportation systems and urban analytics.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "Curriculum Vitae - Mohammed Abdalazeem, PhD student in Transportation Engineering at University of Massachusetts Amherst.",
@@ -46,477 +32,94 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Teaching experience as a graduate student and mentorship activities in transportation engineering and research methods.",
+          description: "Teaching and mentorship at University of Massachusetts Amherst and University of Khartoum.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
+        },{id: "nav-talks",
+          title: "talks",
+          description: "Conference presentations in transportation engineering and data science.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/talks/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+        },{id: "nav-code",
+          title: "code",
+          description: "Open-source code from the NARSLab group at UMass Amherst where I contributed.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
+        },{id: "news-presented-a-poster-on-trip-pattern-typologies-in-the-pioneer-valley-bus-transit-system-at-the-trb-annual-meeting-in-d-c",
+          title: 'Presented a poster on “Trip Pattern Typologies in the Pioneer Valley Bus Transit...',
           description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-presented-research-on-crash-typology-analysis-at-informs-annual-meeting-in-seattle-wa",
-          title: 'Presented research on crash typology analysis at INFORMS Annual Meeting in Seattle, WA!...',
+          section: "News",},{id: "news-gave-a-talk-on-spatio-temporal-trip-pattern-typology-analysis-for-a-regional-bus-network-at-the-informs-annual-meeting-in-indianapolis",
+          title: 'Gave a talk on “Spatio-Temporal Trip Pattern Typology Analysis for a Regional Bus...',
           description: "",
-          section: "News",},{id: "news-new-paper-published-in-data-science-for-transportation",
-          title: 'New Paper Published in Data Science for Transportation',
+          section: "News",},{id: "news-presented-a-poster-on-spatiotemporal-bus-passenger-trip-patterns-at-the-massdot-transportation-innovation-conference-in-worcester-ma",
+          title: 'Presented a poster on spatiotemporal bus passenger trip patterns at the MassDOT Transportation...',
+          description: "",
+          section: "News",},{id: "news-our-review-paper-origin-destination-inference-in-public-transportation-systems-a-comprehensive-review-is-published-in-ijtst-vol-12-1-pp-315-328",
+          title: 'Our review paper “Origin-destination inference in public transportation systems: A comprehensive review” is...',
+          description: "",
+          section: "News",},{id: "news-gave-a-talk-on-spatiotemporal-trip-chaining-framework-for-open-mobile-fare-collection-systems-at-the-trb-annual-meeting-in-d-c",
+          title: 'Gave a talk on “Spatiotemporal Trip Chaining Framework for Open Mobile Fare Collection...',
+          description: "",
+          section: "News",},{id: "news-spatiotemporal-typology-paper-published-in-dst",
+          title: 'Spatiotemporal typology paper published in DST',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-presented-research-on-typology-informed-od-transfer-models-at-transportation-research-board-trb-annual-meeting-in-washington-d-c",
-          title: 'Presented research on typology-informed OD-Transfer models at Transportation Research Board (TRB) Annual Meeting...',
+              window.location.href = "/news/announcement_10.html";
+            },},{id: "news-presented-typology-enhanced-od-transfer-inference-from-noisy-mobile-boarding-observations-at-the-informs-annual-meeting-in-phoenix",
+          title: 'Presented “Typology-Enhanced OD-Transfer Inference from Noisy Mobile Boarding Observations” at the INFORMS Annual...',
+          description: "",
+          section: "News",},{id: "news-transit-trip-chaining-paper-published-in-dst",
+          title: 'Transit trip chaining paper published in DST',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_8.html";
+            },},{id: "news-gave-a-talk-on-enhancing-road-safety-a-data-driven-spatial-typology-of-crashes-in-new-england-at-the-informs-annual-meeting-in-seattle",
+          title: 'Gave a talk on “Enhancing Road Safety: A Data-Driven Spatial Typology of Crashes...',
+          description: "",
+          section: "News",},{id: "news-crash-typology-paper-published-in-dst",
+          title: 'Crash typology paper published in DST',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6.html";
+            },},{id: "news-had-a-busy-trb-week-in-d-c-gave-a-talk-on-a-typology-informed-od-transfer-model-for-a-bus-transit-network-and-presented-a-poster-on-spatial-crash-typology-analysis",
+          title: 'Had a busy TRB week in D.C. — gave a talk on “A...',
+          description: "",
+          section: "News",},{id: "news-presented-a-poster-on-a-roadway-crash-typology-of-census-tracts-enables-targeted-interventions-at-the-neutc-annual-symposium-at-norwich-university-vt",
+          title: 'Presented a poster on “A Roadway Crash Typology of Census Tracts Enables Targeted...',
+          description: "",
+          section: "News",},{id: "news-presented-a-poster-on-optimizing-and-deploying-schematic-bicycle-maps-with-milp-and-user-input-at-the-informs-annual-meeting-in-atlanta",
+          title: 'Presented a poster on “Optimizing and Deploying Schematic Bicycle Maps with MILP and...',
+          description: "",
+          section: "News",},{id: "news-schematic-bicycle-maps-paper-out-in-erc",
+          title: 'Schematic bicycle maps paper out in ERC',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2.html";
+            },},{id: "news-our-collaborative-paper-scenario-discovery-framework-aids-robust-regional-emissions-mitigation-planning-is-now-published-in-environmental-research-communications",
+          title: 'Our collaborative paper “Scenario discovery framework aids robust regional emissions mitigation planning” is...',
           description: "",
           section: "News",},{id: "projects-transit-od-inference-from-mobile-ticketing-data",
           title: 'Transit OD Inference from Mobile Ticketing Data',
-          description: "Machine learning framework for inferring complete passenger journeys from partial boarding data",
+          description: "2021–2023 · Inferring complete passenger OD matrices from boarding-only mobile ticketing data",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/1_project.html";
             },},{id: "projects-spatial-crash-typology-and-risk-prediction",
           title: 'Spatial Crash Typology and Risk Prediction',
-          description: "Interpretable machine learning for targeted transportation safety interventions",
+          description: "2024–2025 · Interpretable ML to classify crash typologies across census tracts and forecast risk",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-khartoum-skytrains-network",
-          title: 'Khartoum Skytrains Network',
-          description: "Elevated light rail system implementation study for developing cities",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/2_project.html";
             },},{id: "projects-schematic-bicycle-maps-for-sustainable-mobility",
           title: 'Schematic Bicycle Maps for Sustainable Mobility',
-          description: "Investigating how map design influences cyclist behavior and mode choice",
+          description: "2024–present · How schematic bicycle maps influence cyclist behavior, mode choice, and sustainable mobility",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/4_project.html";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%6D%61%6D%6F%68%61%6D%6D%65%64@%75%6D%61%73%73.%65%64%75", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/ma-mohammed", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/mohammed-alameen", "_blank");
-        },
-      },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0000-0003-4660-8030", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-work',
-        title: 'Work',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://mabdalazeem.com", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
