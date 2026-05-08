@@ -285,6 +285,8 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
+    flex-shrink: 0;
+    margin-right: auto !important;
   }
 
   .navbar-nav .nav-item .nav-link {

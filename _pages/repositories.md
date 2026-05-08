@@ -1,47 +1,18 @@
 ---
 layout: page
+title: code
 permalink: /repositories/
-title: repositories
-description: Open-source code and reproducible research pipelines for transportation systems and urban analytics.
+description: Open-source code from the NARSLab group at UMass Amherst where I am a contributor.
 nav: true
-nav_order: 4
+nav_order: 7
 ---
-
-{% if site.data.repositories.github_users %}
-
-## GitHub users
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
 
 {% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-stretch">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
+{% else %}
+<p>Repository data is generated at build time. To view the repositories, see <a href="https://github.com/NARSLab" target="_blank">github.com/NARSLab</a>.</p>
 {% endif %}

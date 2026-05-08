@@ -3,7 +3,7 @@ layout: page
 title: Schematic Bicycle Maps for Sustainable Mobility
 description: Investigating how map design influences cyclist behavior and mode
   choice
-img:
+img: assets/img/9.jpg
 importance: 4
 category: work
 ---
@@ -72,19 +72,13 @@ Armstrong Fund for Science, 2024-2026 (PI: J. Oke)
 - Geehan Altayb (Howard University, REU Student)
 - Nathan Bohlke (UMass Amherst)
 
-## Expected Publications
+## Publications
 
-- **Maps are good but are simpler maps better? Insights on urban bicycling in
-  the US** (Under revision in _Environmental Research Communications_)
-- **Toward Unified Design Rules for Schematic Bicycle Maps: A review** (In
-  preparation)
-- **A Multi-Filter Approach to Bot Detection in Incentivized Online Surveys** (In
-  preparation)
-- **Schematic Bicycle Maps for Influencing Cyclist Behavior and Reducing
-  Greenhouse Gas Emissions** (Planned for _Environment and Planning B: Urban
-  Analytics and City Science_, early 2026)
-- **A Survey of Attitudes and Preferences for Schematic Micromobility Maps** (In
-  preparation)
+- **Maps are good but are simpler maps better? Insights on urban bicycling in the US** — _Environmental Research Communications_, 8(2), 025004 (2026)
+- **Schematic maps promise to induce micromobility ridership: a Bayesian latent class ordered logistic approach** (Under review)
+- **Toward Unified Design Rules for Schematic Bicycle Maps** (Under review)
+- **Explainable Data-Driven Multi-Filter Framework for Bot Detection in Incentivized Online Surveys** — _Data Science for Transportation_ (2026, in press)
+- **Schematic Bicycle Maps for Influencing Cyclist Behavior and Reducing Greenhouse Gas Emissions** (In preparation)
 - **Barriers to Cycling: A comprehensive literature review** (In preparation)
 
 ## Conference Presentations

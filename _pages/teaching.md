@@ -5,7 +5,7 @@ title: teaching
 description: Teaching experience as a graduate student and mentorship activities
   in transportation engineering and research methods.
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 ## University of Massachusetts Amherst
@@ -15,29 +15,15 @@ nav_order: 6
 **CE-ENGIN 260: Probability and Statistics for Civil and Environmental
 Engineers**
 
-- Taught classes, led lab sessions, and delivered a full lecture on probability
-  theory and statistical inference
-- Held weekly office hours to assist students with probability theory,
-  statistical inference, and experimental design
-- Supported cohorts of approximately 160 students each semester through
-  problem-solving sessions and targeted review
-- Provided guidance on sampling methods, statistical inference, and experimental
-  design
-- Graded exams and assignments; prepared detailed solution guides and
-  rubric-based feedback to support student learning
+- Taught classes, led lab sessions, and delivered a full lecture; held weekly office hours
+- Supported cohorts of approximately 160 students each semester
+- Graded exams and assignments; prepared detailed solution guides and rubric-based feedback
 
 ### Teaching Assistant (Fall 2023)
 
 **CE-ENGIN 310: Transportation Systems**
 
-- Held regular office hours to support student understanding of transportation
-  operations, planning, and geometric design
-- Assisted students with traffic control systems, capacity analysis, and
-  geometric design principles
-- Prepared problem sets on traffic flow theory, capacity analysis, and signal
-  control
-- Prepared reference materials and solution sets for transportation engineering
-  problems
+- Held office hours and prepared problem sets on traffic flow theory, capacity analysis, and signal control
 
 ## University of Khartoum, Sudan
 
@@ -73,12 +59,6 @@ engineering disciplines:
 ### Research Experience for Undergraduates (REU) Program
 **Summer 2023, 2024, 2025 — University of Massachusetts Amherst**
 
-Mentored undergraduate students in transportation research, data analysis, and computational techniques:
-
-- **Technical Guidance**: Provided instruction on research methodologies, statistical analysis, and Python programming
-- **Research Development**: Supported students in formulating research questions, interpreting results, and preparing technical reports
-- **Project Supervision**: Led projects focusing on transportation systems, mobility analysis, urban sustainability, and survey methodology
-
 **Mentees:**
 
 - **Andrew Ruger** (Grinnell College): Research on survey data quality and
@@ -89,11 +69,3 @@ Mentored undergraduate students in transportation research, data analysis, and c
   Management Engineering): Investigated vehicular delay patterns using network
   topology and demographic data
 
-## Professional Development
-
-As part of my teaching and mentorship roles, I have developed skills in:
-- Curriculum development and lesson planning
-- Student assessment and feedback methods
-- Research supervision and academic writing guidance
-- Statistical software instruction (R, Python, MATLAB)
-- Transportation engineering software training (TransModeler, VISSIM)

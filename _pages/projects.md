@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research projects in transportation systems, traffic safety, and sustainable mobility.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: false
 horizontal: false
 ---
 

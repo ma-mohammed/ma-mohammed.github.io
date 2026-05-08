@@ -1,8 +1,4 @@
-require 'feedjira'
-require 'httparty'
 require 'jekyll'
-require 'nokogiri'
-require 'time'
 
 module ExternalPosts
   class ExternalPostsGenerator < Jekyll::Generator
@@ -10,16 +6,26 @@ module ExternalPosts
     priority :high
 
     def generate(site)
-      if site.config['external_sources'] != nil
-        site.config['external_sources'].each do |src|
-          puts "Fetching external posts from #{src['name']}:"
-          if src['rss_url']
-            fetch_from_rss(site, src)
-          elsif src['posts']
-            fetch_from_urls(site, src)
-          end
+      sources = site.config['external_sources']
+      return if sources.nil? || sources.empty?
+
+      require_optional_dependencies
+
+      sources.each do |src|
+        puts "Fetching external posts from #{src['name']}:"
+        if src['rss_url']
+          fetch_from_rss(site, src)
+        elsif src['posts']
+          fetch_from_urls(site, src)
         end
       end
+    end
+
+    def require_optional_dependencies
+      require 'feedjira'
+      require 'httparty'
+      require 'nokogiri'
+      require 'time'
     end
 
     def fetch_from_rss(site, src)

@@ -3,7 +3,7 @@ layout: cv
 permalink: /cv/
 title: cv
 nav: true
-nav_order: 5
+nav_order: 4
 cv_pdf: # you can also use external links here
 description: Curriculum Vitae - Mohammed Abdalazeem, PhD student in Transportation Engineering at University of Massachusetts Amherst.
 toc:

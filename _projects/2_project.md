@@ -6,7 +6,7 @@ description: Interpretable machine learning for targeted transportation safety
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 This project applies UMAP and Gaussian mixture models to classify 2,480 census

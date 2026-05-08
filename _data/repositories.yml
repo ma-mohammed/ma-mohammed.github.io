@@ -1,9 +1,3 @@
-github_users:
-  - ma-mohammed
-
-repo_description_lines_max: 2
-
-github_repos:
-  - narslab/spatial-crash-typology
-  - narslab/enhanced-trip-chaining
-  - narslab/msa-emission-typologies
+# Auto-generated at build time by deploy.yml — do not edit manually.
+# For local development, add NARSLab repos here manually.
+github_repos: []

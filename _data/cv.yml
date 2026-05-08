@@ -21,21 +21,22 @@
   contents:
     - title: PhD in Civil Engineering (Transportation Systems)
       institution: University of Massachusetts Amherst, Amherst, MA
-      year: Expected May 2026
+      year: Expected Sep 2026
       description:
-        - "Dissertation: Data-Driven Models for Transit OD Inference, Urban Safety, and Schematic Micromobility Mapping"
+        - "Dissertation: Data-Driven Approaches to Transit Demand, Urban Safety, and Micromobility Infrastructure"
         - "Advisor: Dr. Jimi Oke"
         - "GPA: 3.92/4.00"
+        - "CEE Departmental Fellowship (2023)"
     - title: MS in Computer Science
       institution: University of Massachusetts Amherst, Amherst, MA
-      year: Expected December 2025
+      year: December 2025
       description:
-        - "GPA: 3.80/4.00"
+        - "GPA: 3.71/4.00"
     - title: MS in Civil Engineering
       institution: University of Massachusetts Amherst, Amherst, MA
       year: May 2024
       description:
-        - "GPA: 3.75/4.00"
+        - "GPA: 3.92/4.00"
     - title: BSc in Civil Engineering, First Class Honors
       institution: University of Khartoum, Khartoum, Sudan
       year: November 2018
@@ -83,37 +84,55 @@
 - title: Mentorship Experience
   type: time_table
   contents:
+    - title: Research Mentor
+      institution: University of Massachusetts Amherst
+      year: Spring 2026
+      description:
+        - "Henry Bell (UMass Amherst): Comprehensive literature review on barriers to cycling"
     - title: Research Mentor - NSF REU Program
       institution: University of Massachusetts Amherst
       year: Summer 2023, 2024, 2025
       description:
         - Mentored undergraduate researchers in transportation data analysis and Python programming
-        - "Andrew Ruger (Grinnell College): Research on survey data quality and micromobility mapping, including bot detection in incentivized online surveys"
-        - "Geehan Altayb (Howard University): Analyzed bicycle map features and their influence on cycling behavior"
-        - "Vivian Rost-Nasshan (RPI): Investigated vehicular delay patterns using network topology and demographic data"
+        - "Andrew Ruger (Grinnell College): Survey data quality and micromobility mapping; bot detection in incentivized online surveys"
+        - "Geehan Altayb (Howard University): Bicycle map features and their influence on cycling behavior"
+        - "Vivian Rost-Nasshan (RPI): Vehicular delay patterns using network topology and demographic data"
 
 - title: Publications
   type: time_table
   contents:
     - title: Journal Articles (Published)
-      year: 2020-2025
+      year: 2020-2026
       description:
-        - 5 peer-reviewed journal articles published
-        - Data Science for Transportation (3 papers)
-        - International Journal of Transportation Science and Technology (1 paper)
-        - MATEC Web of Conferences (1 paper)
+        - 8 peer-reviewed journal articles (3 in Data Science for Transportation, 2 in Environmental Research Communications, 1 in International Journal of Transportation Science and Technology, 1 in MATEC Web of Conferences, 1 in Data Science for Transportation in press)
     - title: Under Review
-      year: 2025
-      description:
-        - 3 manuscripts under review or revision
-        - Environmental Research Communications
-        - Major transportation journals
-    - title: In Preparation
       year: 2025-2026
       description:
-        - 5 manuscripts in preparation
-        - Environment and Planning B Urban Analytics and City Science
-        - Transportation and urban mobility journals
+        - 3 manuscripts under review
+    - title: In Preparation
+      year: 2026
+      description:
+        - 2 manuscripts in preparation
+
+- title: Conference Presentations
+  type: time_table
+  contents:
+    - title: Lectern Presentations
+      year: 2022-2025
+      description:
+        - "2025 — TRB Annual Meeting, Washington, D.C.: A Typology-Informed Origin-Destination-Transfer Model for a Bus Transit Network using Mobile Ticketing Data"
+        - "2024 — INFORMS Annual Meeting, Seattle, WA: Enhancing Road Safety: A Data-Driven Spatial Typology of Crashes in New England"
+        - "2023 — INFORMS Annual Meeting, Phoenix, AZ: Typology-Enhanced Origin-Destination-Transfer Inference from Noisy Mobile Boarding Observations"
+        - "2023 — TRB Annual Meeting, Washington, D.C.: Spatiotemporal Trip Chaining Framework for Open Mobile Fare Collection Systems"
+        - "2022 — INFORMS Annual Meeting, Indianapolis, IN: Spatio-Temporal Trip Pattern Typology Analysis for a Regional Bus Network"
+    - title: Poster Presentations
+      year: 2022-2025
+      description:
+        - "2025 — INFORMS Annual Meeting, Atlanta, GA: Optimizing and Deploying Schematic Bicycle Maps with MILP and User Input"
+        - "2025 — NEUTC Symposium, Northfield, VT: A Roadway Crash Typology of Census Tracts Enables Targeted Interventions"
+        - "2025 — TRB Annual Meeting, Washington, D.C.: A Spatial Typology Analysis of Crash Characteristics across 2,480 Census Tracts"
+        - "2022 — TRB Annual Meeting, Washington, D.C.: Trip Pattern Typologies in The Pioneer Valley Bus Transit System"
+        - "2022 — MassDOT Transportation Innovation Conference, Worcester, MA: Efficient Extraction of Spatiotemporal Bus Passenger Trip Patterns"
 
 - title: Technical Skills
   type: nested_list
@@ -156,9 +175,15 @@
   contents:
     - title: Manuscript Reviewing
       items:
-        - Applied Intelligence (Springer Nature) - 3 manuscripts (2022, 2023)
-        - European Transport Research Review (Springer Nature) - 1 manuscript (2024)
-        - Scientific Data (Nature Publishing Group) - 1 manuscript (2025)
+        - Discover Public Health (Springer Nature), 2026
+        - Journal of Transportation Engineering, Part A — Systems (ASCE), 2026
+        - npj Environmental Social Sciences (Springer Nature), 2026
+        - Scientific Reports (Springer Nature), 2025, 2026
+        - Security Journal (Springer Nature), 2025, 2026
+        - Scientific Data (Nature Publishing Group), 2025
+        - Applied Network Science (Springer Nature), 2025
+        - European Transport Research Review (Springer Nature), 2024
+        - Applied Intelligence (Springer Nature), 2022, 2023
     - title: Conference Reviewing
       items:
         - Transportation Research Board (TRB) Annual Meeting (2022, 2023, 2025)

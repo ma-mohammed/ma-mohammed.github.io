@@ -1,11 +1,4 @@
 Jekyll::Hooks.register :site, :after_init do |site|
-  require 'css_parser'
-  require 'digest'
-  require 'fileutils'
-  require 'nokogiri'
-  require 'open-uri'
-  require 'uri'
-
   font_file_types = ['otf', 'ttf', 'woff', 'woff2']
   image_file_types = ['.gif', '.jpg', '.jpeg', '.png', '.webp']
 
@@ -188,62 +181,71 @@ Jekyll::Hooks.register :site, :after_init do |site|
     end
   end
 
+  unless site.config['third_party_libraries']['download']
+    next
+  end
+
+  require 'css_parser'
+  require 'digest'
+  require 'fileutils'
+  require 'nokogiri'
+  require 'open-uri'
+  require 'uri'
+
   # download 3rd party libraries if required
-  if site.config['third_party_libraries']['download']
-    site.config['third_party_libraries'].each do |key, value|
-      if key != 'download'
-        value['url'].each do |type, url|
-          # check if url is a dictionary
-          if url.is_a?(Hash)
-            url.each do |type2, url2|
-              # get the file name from the url
-              file_name = url2.split('/').last.split('?').first
-              # download the file and change the url to the local file
-              dest = File.join(site.source, 'assets', 'libs', key, file_name)
-              download_file(url2, dest)
-              # change the url to the local file, considering baseurl
-              if site.config['baseurl']
-                site.config['third_party_libraries'][key]['url'][type][type2] = File.join(site.config['baseurl'], 'assets', 'libs', key, file_name)
-              else
-                site.config['third_party_libraries'][key]['url'][type][type2] = File.join('/assets', 'libs', key, file_name)
-              end
-            end
-
-          else
-            if type == 'fonts'
-              # get the file name from the url
-              file_name = url.split('/').last.split('?').first
-
-              if file_name.end_with?('css')
-                # if the file is a css file, download the css file, the fonts from it, and change information on the css file
-                file_name = download_fonts_from_css(site.config, url, File.join(site.source, 'assets', 'libs', key), key, font_file_types)
-                # change the url to the local file, considering baseurl
-                if site.config['baseurl']
-                  site.config['third_party_libraries'][key]['url'][type] = File.join(site.config['baseurl'], 'assets', 'libs', key, file_name)
-                else
-                  site.config['third_party_libraries'][key]['url'][type] = File.join('/assets', 'libs', key, file_name)
-                end
-              else
-                # download the font files and change the url to the local file
-                download_fonts(url, File.join(site.source, 'assets', 'libs', key, site.config['third_party_libraries'][key]['local'][type]), font_file_types)
-              end
-
-            elsif type == 'images'
-              # download the font files and change the url to the local file
-              download_images(url, File.join(site.source, 'assets', 'libs', key, site.config['third_party_libraries'][key]['local'][type]), image_file_types)
-
+  site.config['third_party_libraries'].each do |key, value|
+    if key != 'download'
+      value['url'].each do |type, url|
+        # check if url is a dictionary
+        if url.is_a?(Hash)
+          url.each do |type2, url2|
+            # get the file name from the url
+            file_name = url2.split('/').last.split('?').first
+            # download the file and change the url to the local file
+            dest = File.join(site.source, 'assets', 'libs', key, file_name)
+            download_file(url2, dest)
+            # change the url to the local file, considering baseurl
+            if site.config['baseurl']
+              site.config['third_party_libraries'][key]['url'][type][type2] = File.join(site.config['baseurl'], 'assets', 'libs', key, file_name)
             else
-              # get the file name from the url
-              file_name = url.split('/').last.split('?').first
-              # download the file and change the url to the local file
-              dest = File.join(site.source, 'assets', 'libs', key, file_name)
-              download_file(url, dest)
+              site.config['third_party_libraries'][key]['url'][type][type2] = File.join('/assets', 'libs', key, file_name)
+            end
+          end
+
+        else
+          if type == 'fonts'
+            # get the file name from the url
+            file_name = url.split('/').last.split('?').first
+
+            if file_name.end_with?('css')
+              # if the file is a css file, download the css file, the fonts from it, and change information on the css file
+              file_name = download_fonts_from_css(site.config, url, File.join(site.source, 'assets', 'libs', key), key, font_file_types)
               # change the url to the local file, considering baseurl
               if site.config['baseurl']
                 site.config['third_party_libraries'][key]['url'][type] = File.join(site.config['baseurl'], 'assets', 'libs', key, file_name)
               else
                 site.config['third_party_libraries'][key]['url'][type] = File.join('/assets', 'libs', key, file_name)
               end
+            else
+              # download the font files and change the url to the local file
+              download_fonts(url, File.join(site.source, 'assets', 'libs', key, site.config['third_party_libraries'][key]['local'][type]), font_file_types)
+            end
+
+          elsif type == 'images'
+            # download the font files and change the url to the local file
+            download_images(url, File.join(site.source, 'assets', 'libs', key, site.config['third_party_libraries'][key]['local'][type]), image_file_types)
+
+          else
+            # get the file name from the url
+            file_name = url.split('/').last.split('?').first
+            # download the file and change the url to the local file
+            dest = File.join(site.source, 'assets', 'libs', key, file_name)
+            download_file(url, dest)
+            # change the url to the local file, considering baseurl
+            if site.config['baseurl']
+              site.config['third_party_libraries'][key]['url'][type] = File.join(site.config['baseurl'], 'assets', 'libs', key, file_name)
+            else
+              site.config['third_party_libraries'][key]['url'][type] = File.join('/assets', 'libs', key, file_name)
             end
           end
         end
