@@ -195,6 +195,7 @@ filtered_bibtex_keywords:
     pdf,
     poster,
     preview,
+    pubstatus,
     selected,
     slides,
     supp,
