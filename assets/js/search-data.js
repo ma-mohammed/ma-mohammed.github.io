@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "Peer-reviewed research in transportation engineering, machine learning, and urban mobility systems.",
+          description: "Published and ongoing research in transportation engineering, machine learning, and urban mobility systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
