@@ -8,7 +8,7 @@ layout: default
         {{ page.title }}
         {% if page.cv_pdf %}
           <a
-            {% if page.cv_pdf contains '://' %}
+            {% if page.cv_pdf contains '://' or page.cv_pdf contains '/CV/' %}
               href="{{ page.cv_pdf }}"
             {% else %}
               href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
@@ -59,7 +59,7 @@ layout: default
         {{ page.title }}
         {% if page.cv_pdf %}
           <a
-            {% if page.cv_pdf contains '://' %}
+            {% if page.cv_pdf contains '://' or page.cv_pdf contains '/CV/' %}
               href="{{ page.cv_pdf }}"
             {% else %}
               href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
