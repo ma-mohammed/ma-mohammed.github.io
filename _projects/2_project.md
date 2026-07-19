@@ -2,7 +2,7 @@
 layout: page
 title: Spatial Crash Typology and Risk Prediction
 description: "2024–2025 · Interpretable ML to classify crash typologies across census tracts and forecast risk"
-img: assets/img/3.jpg
+img: assets/img/publication_preview/crash_typology_figure.png
 importance: 2
 category: work
 giscus_comments: false

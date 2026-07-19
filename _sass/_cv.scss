@@ -42,6 +42,44 @@ a.btncv:hover {
  * CV TIME_TABLE styles
  *****************************/
 
+.cv-date-column {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.cv-date-column + .col-md-10 {
+  flex: 0 0 80%;
+  max-width: 80%;
+}
+
+.cv-date-badge {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  font-size: 0.65rem;
+  line-height: 1.35;
+  white-space: normal;
+}
+
+@media (min-width: 992px) {
+  .cv-page {
+    width: 120%;
+    max-width: none;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .cv-date-column,
+  .cv-date-column + .col-md-10 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .cv-date-column {
+    text-align: left !important;
+  }
+}
 p.location {
   font-size: 0.7rem;
   white-space: nowrap;
@@ -218,3 +256,28 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+
+/* Nested project groups in CV timeline entries */
+ul.items > li:has(> .item-title) {
+  list-style: none;
+  margin-top: 1.25rem;
+}
+
+ul.items > li:has(> .item-title):first-child {
+  margin-top: 0;
+}
+
+ul.items > li > .item-title {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+ul.items ul.subitems {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+ul.items ul.subitems > li {
+  margin-bottom: 0.3rem;
+}

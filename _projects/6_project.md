@@ -2,7 +2,7 @@
 layout: page
 title: Connecticut GHG Inventory Dashboard
 description: "2023–2024 · Interactive greenhouse gas inventory dashboard for three Connecticut metropolitan regions, deployed on AWS"
-img: assets/img/5.jpg
+img: "assets/paper figures/dashboard_ct.png"
 importance: 5
 category: work
 ---

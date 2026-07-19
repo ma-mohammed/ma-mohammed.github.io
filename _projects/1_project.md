@@ -2,7 +2,7 @@
 layout: page
 title: Transit OD Inference from Mobile Ticketing Data
 description: "2021–2023 · Inferring complete passenger OD matrices from boarding-only mobile ticketing data"
-img: assets/img/12.jpg
+img: assets/img/publication_preview/origin_destination_transfer_figure.png
 importance: 3
 category: work
 related_publications: true

@@ -48,26 +48,29 @@
       institution: University of Massachusetts Amherst, Amherst, MA
       year: Jan 2021 - Present
       description:
-        - "<b>Schematic Bicycle Map Design and Micromobility Behavior</b>"
-        - "Conducted a national landscape study of 684 US urban counties to characterize schematic bicycle map adoption using Bayesian mixture modeling, XGBoost, and SHAP analysis, identifying three distinct county typologies."
-        - "Designed and deployed an incentivized online survey assessing cyclist and micromobility rider preferences for map design features: simplification level, geographic accuracy, infrastructure representation, and route legibility."
-        - "Developed a Bayesian latent class ordered logistic regression framework to identify heterogeneous rider groups and model stated intentions to use micromobility under different map design conditions."
-        - "Built a mixed-integer linear programming (MILP) optimization framework to select optimal bicycle map routes from street and trail networks, incorporating safety, connectivity, and user-preference constraints."
-        - "Developed a multi-filter bot detection pipeline using platform signals, browser fingerprinting, timing analysis, and XGBoost validation for online survey quality control."
-        - "<i>Funding: Armstrong Fund for Science, 2024-2026 (PI: J. Oke); NSF REU, 2023-2025.</i>"
-        - "<i>Publications: 2 published, 3 under review, 1 in preparation.</i>"
-        - "<b>Spatial Crash Typology and Risk Prediction</b>"
-        - "Applied UMAP and Gaussian mixture models to classify 2,480 New England census tracts into crash typologies using one year of state-level crash records."
-        - "Identified spatial patterns in crash frequency and severity linked to roadway geometry, land use, and socioeconomic factors across urban, suburban, and rural profiles."
-        - "Built XGBoost predictive models with SHAP-based interpretation to forecast crash risk by typology, surfacing actionable feature importance for targeted safety interventions."
-        - "<i>Funding: New England University Transportation Center (NEUTC), 2024-2025 (PI: J. Oke).</i>"
-        - "<i>Publications: 1 published.</i>"
-        - "<b>Transit OD Inference from Partial Mobile Ticketing Data</b>"
-        - "Built a machine learning framework to infer complete origin-destination-transfer matrices from boarding-only mobile ticketing data in a regional bus network with 40+ routes."
-        - "Developed passenger typology clustering using hierarchical methods and dynamic time warping to capture behavioral heterogeneity across 40,000+ weekly riders."
-        - "Integrated gradient boosting spatial error correction, reducing MAE by 70% and SMAPE by 85% versus baseline trip chaining models."
-        - "<i>Funding: Pioneer Valley Transit Authority (PVTA), 2021-2023 (PI: J. Oke).</i>"
-        - "<i>Publications: 3 published, 1 working paper.</i>"
+        - title: "<b>Schematic Bicycle Map Design and Micromobility Behavior</b>"
+          contents:
+            - "Mapped the national landscape of schematic bicycle map adoption across 684 US urban counties; Bayesian mixture modeling with XGBoost and SHAP analysis revealed three county typologies of adoption."
+            - "Designed and fielded an incentivized national survey on how cyclists and micromobility riders respond to map design: simplification level, geographic accuracy, infrastructure representation, and route legibility."
+            - "Modeled stated intentions to ride under different map designs with a Bayesian latent class ordered logit that separates riders into groups with different design sensitivities."
+            - "Formulated a mixed-integer linear program that selects bicycle map routes from street and trail networks under safety, connectivity, and user-preference constraints."
+            - "Built a bot detection pipeline for online surveys that combines platform signals, browser fingerprinting, timing checks, and an XGBoost validation model."
+            - "<i>Funding: Armstrong Fund for Science, 2024-2026 (PI: J. Oke); NSF REU, 2023-2025.</i>"
+            - "<i>Publications: 2 published, 3 under review, 1 in preparation.</i>"
+        - title: "<b>Spatial Crash Typology and Risk Prediction</b>"
+          contents:
+            - "Classified 2,480 New England census tracts into crash typologies with UMAP and Gaussian mixture models, using one year of state-level crash records."
+            - "Linked patterns in crash frequency and severity to roadway geometry, land use, and socioeconomic conditions across urban, suburban, and rural tracts."
+            - "Trained XGBoost models with SHAP interpretation to predict crash risk within each typology and show which factors drive risk where, informing where safety interventions should go."
+            - "<i>Funding: New England University Transportation Center (NEUTC), 2024-2025 (PI: J. Oke).</i>"
+            - "<i>Publications: 1 published.</i>"
+        - title: "<b>Transit OD Inference from Partial Mobile Ticketing Data</b>"
+          contents:
+            - "Built a framework that infers full origin-destination-transfer matrices from boarding-only mobile ticketing data on a regional bus network with 40+ routes."
+            - "Clustered 40,000+ weekly riders into passenger typologies using hierarchical clustering with dynamic time warping."
+            - "Added a gradient boosting spatial error correction step that cut MAE by 70% and SMAPE by 85% relative to baseline trip chaining."
+            - "<i>Funding: Pioneer Valley Transit Authority (PVTA), 2021-2023 (PI: J. Oke).</i>"
+            - "<i>Publications: 3 published, 1 working paper.</i>"
 
 - title: Publications
   type: nested_list
@@ -101,8 +104,8 @@
       institution: University of Massachusetts Amherst, Amherst, MA
       year: Fall 2024, Fall 2025
       description:
-        - "Taught classes, led lab sessions, and delivered a full lecture; held weekly office hours on probability theory, statistical inference, and experimental design."
-        - "Supported cohorts of approximately 160 students each semester; graded exams and prepared solution guides and rubric-based feedback."
+        - "Led lab sections and weekly office hours covering probability, statistical inference, and experimental design; delivered a guest lecture."
+        - "Supported roughly 160 students per semester; graded exams and wrote solution guides and grading rubrics."
     - title: "Teaching Assistant - CE-ENGIN 310: Transportation Systems"
       institution: University of Massachusetts Amherst, Amherst, MA
       year: Fall 2023
@@ -112,7 +115,7 @@
       institution: University of Khartoum, Khartoum, Sudan
       year: Nov 2018 - Dec 2020
       description:
-        - "<b>Courses:</b> Environmental Engineering; Highway Engineering; Strength of Materials; Reinforced Concrete Design; Theory of Structures."
+        - "Taught and led tutorials for undergraduate courses: Environmental Engineering; Highway Engineering; Strength of Materials; Reinforced Concrete Design; and Theory of Structures."
         - "Supervised lab sessions on water quality analysis and material testing."
 
 - title: Mentorship
@@ -120,7 +123,7 @@
   contents:
     - title: Research Mentor, NSF REU Program
       institution: University of Massachusetts Amherst, Amherst, MA
-      year: Summers 2023-2026
+      year: Summers 2023 - 2026
       description:
         - "<b>Julianna Demers</b> (UMass Amherst), Summer 2026: Unified geospatial data pipeline for schematic bicycle map generation."
         - "<b>Andrew Ruger</b> (Grinnell College), Summer 2025: Survey data quality and micromobility mapping; bot detection in incentivized online surveys. <i>1 publication, published.</i>"
@@ -186,13 +189,13 @@
         - Mixed-integer linear programming, network optimization
     - title: Survey Methods
       items:
-        - Stated preference design, incentivized panel deployment, data quality assurance
+        - Stated preference and questionnaire design, incentivized panel deployment, response quality assurance and validation
     - title: Geospatial
       items:
         - Census-level spatial analysis, transit network analysis, GIS
     - title: Transportation
       items:
-        - Transit demand modeling, OD inference, micromobility, road safety analysis
+        - Transit demand modeling, OD inference, active mobility and micromobility, road safety and equity analysis
     - title: Software
       items:
         - Python, SQL, Git, GeoPandas, QGIS, Scikit-learn, XGBoost, Pandas, Matplotlib
@@ -201,7 +204,7 @@
   type: list
   contents:
     - CEE Departmental Fellowship, University of Massachusetts Amherst (2023)
-    - Graduate School Travel Awards, University of Massachusetts Amherst (2022-2024)
+    - Graduate School Travel Awards, University of Massachusetts Amherst (2022 - 2024)
     - First Class Honors (Summa Cum Laude Equivalent), BSc Civil Engineering, University of Khartoum (2018)
     - Best Project Award, Department of Civil Engineering, University of Khartoum (2018)
 
