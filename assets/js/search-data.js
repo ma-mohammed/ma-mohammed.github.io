@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Teaching and mentorship at University of Massachusetts Amherst and University of Khartoum.",
+          description: "Teaching and research mentorship at the University of Massachusetts Amherst and the University of Khartoum.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
