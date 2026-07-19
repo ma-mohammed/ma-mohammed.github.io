@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Curriculum Vitae - Mohammed Abdalazeem, PhD student in Transportation Engineering at University of Massachusetts Amherst.",
+          description: "Academic CV - Mohammed Abdalazeem, transportation systems researcher at the University of Massachusetts Amherst.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
