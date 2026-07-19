@@ -4,15 +4,17 @@
     - name: Full Name
       value: Mohammed Abdalazeem
     - name: Email
-      value: mamohammed@umass.edu
+      value: <a href="mailto:mamohammed@umass.edu">mamohammed@umass.edu</a>
     - name: Phone
       value: +1 (413) 629-9311
     - name: Website
       value: <a href="https://mabdalazeem.com">mabdalazeem.com</a>
-    - name: LinkedIn
-      value: <a href="https://www.linkedin.com/in/mohammed-alameen/">mohammed-alameen</a>
     - name: GitHub
       value: <a href="https://github.com/ma-mohammed">ma-mohammed</a>
+    - name: LinkedIn
+      value: <a href="https://www.linkedin.com/in/mohammed-alameen/">mohammed-alameen</a>
+    - name: Google Scholar
+      value: <a href="https://scholar.google.com/citations?user=gHxllswAAAAJ&hl=en">Google Scholar profile</a>
     - name: ORCID
       value: <a href="https://orcid.org/0000-0003-4660-8030">0000-0003-4660-8030</a>
 
@@ -21,28 +23,23 @@
   contents:
     - title: PhD in Civil Engineering (Transportation Systems)
       institution: University of Massachusetts Amherst, Amherst, MA
-      year: Expected Sep 2026
+      year: Jan 2021 - Expected Fall 2026
       description:
-        - "Dissertation: Data-Driven Approaches to Transit Demand, Urban Safety, and Micromobility Infrastructure"
-        - "Advisor: Dr. Jimi Oke"
-        - "GPA: 3.92/4.00"
-        - "CEE Departmental Fellowship (2023)"
+        - "<b>Dissertation:</b> <i>Machine Learning and Optimization for Schematic Bicycle Map Design and Cycling Behavior</i>"
+        - "Advisor: Dr. Jimi Oke | GPA: 3.92 | CEE Departmental Fellowship (2023)"
     - title: MS in Computer Science
       institution: University of Massachusetts Amherst, Amherst, MA
-      year: December 2025
+      year: Sep 2023 - Dec 2025
       description:
-        - "GPA: 3.71/4.00"
+        - "GPA: 3.71"
     - title: MS in Civil Engineering
       institution: University of Massachusetts Amherst, Amherst, MA
-      year: May 2024
+      year: Jan 2021 - May 2024
       description:
-        - "GPA: 3.92/4.00"
+        - "GPA: 3.92"
     - title: BSc in Civil Engineering, First Class Honors
       institution: University of Khartoum, Khartoum, Sudan
-      year: November 2018
-      description:
-        - First Class Honors (equivalent to Summa Cum Laude)
-        - "GPA: 7.39/10"
+      year: Sep 2013 - Nov 2018
 
 - title: Research Experience
   type: time_table
@@ -51,151 +48,168 @@
       institution: University of Massachusetts Amherst, Amherst, MA
       year: Jan 2021 - Present
       description:
-        - "<b>Transit OD Inference from Partial Mobile Ticketing Data:</b> Built machine learning framework to infer complete origin-destination-transfer matrices from boarding-only mobile ticketing data in regional bus network with 40+ routes. Developed passenger typology clustering using hierarchical methods and dynamic time warping. Integrated gradient boosting spatial error correction, reducing MAE by 70% and SMAPE by 85%. Funding Pioneer Valley Transit Authority (PVTA), 2021-2023 (PI J. Oke)"
-        - "<b>Spatial Crash Typology and Risk Prediction:</b> Applied UMAP and Gaussian mixture models to classify 2,480 census tracts into crash typologies using state-level crash records in New England. Identified distinct spatial patterns linked to roadway characteristics and socioeconomic factors. Built predictive models to forecast crash risk by typology. Funding New England University Transportation Center (NEUTC), 2024-2025 (PI J. Oke)"
-        - "<b>Bicycle Infrastructure and Behavior:</b> Designed survey to assess cyclist preferences for map representations and route selection criteria. Analyzing how schematic bicycle maps can influence mode choice and reduce vehicle emissions. Funding Armstrong Fund for Science, 2024-2026 (PI J. Oke)"
+        - "<b>Schematic Bicycle Map Design and Micromobility Behavior</b>"
+        - "Conducted a national landscape study of 684 US urban counties to characterize schematic bicycle map adoption using Bayesian mixture modeling, XGBoost, and SHAP analysis, identifying three distinct county typologies."
+        - "Designed and deployed an incentivized online survey assessing cyclist and micromobility rider preferences for map design features: simplification level, geographic accuracy, infrastructure representation, and route legibility."
+        - "Developed a Bayesian latent class ordered logistic regression framework to identify heterogeneous rider groups and model stated intentions to use micromobility under different map design conditions."
+        - "Built a mixed-integer linear programming (MILP) optimization framework to select optimal bicycle map routes from street and trail networks, incorporating safety, connectivity, and user-preference constraints."
+        - "Developed a multi-filter bot detection pipeline using platform signals, browser fingerprinting, timing analysis, and XGBoost validation for online survey quality control."
+        - "<i>Funding: Armstrong Fund for Science, 2024-2026 (PI: J. Oke); NSF REU, 2023-2025.</i>"
+        - "<i>Publications: 2 published, 3 under review, 1 in preparation.</i>"
+        - "<b>Spatial Crash Typology and Risk Prediction</b>"
+        - "Applied UMAP and Gaussian mixture models to classify 2,480 New England census tracts into crash typologies using one year of state-level crash records."
+        - "Identified spatial patterns in crash frequency and severity linked to roadway geometry, land use, and socioeconomic factors across urban, suburban, and rural profiles."
+        - "Built XGBoost predictive models with SHAP-based interpretation to forecast crash risk by typology, surfacing actionable feature importance for targeted safety interventions."
+        - "<i>Funding: New England University Transportation Center (NEUTC), 2024-2025 (PI: J. Oke).</i>"
+        - "<i>Publications: 1 published.</i>"
+        - "<b>Transit OD Inference from Partial Mobile Ticketing Data</b>"
+        - "Built a machine learning framework to infer complete origin-destination-transfer matrices from boarding-only mobile ticketing data in a regional bus network with 40+ routes."
+        - "Developed passenger typology clustering using hierarchical methods and dynamic time warping to capture behavioral heterogeneity across 40,000+ weekly riders."
+        - "Integrated gradient boosting spatial error correction, reducing MAE by 70% and SMAPE by 85% versus baseline trip chaining models."
+        - "<i>Funding: Pioneer Valley Transit Authority (PVTA), 2021-2023 (PI: J. Oke).</i>"
+        - "<i>Publications: 3 published, 1 working paper.</i>"
+
+- title: Publications
+  type: nested_list
+  contents:
+    - title: Journal Articles (Published)
+      items:
+        - 'Ruger, A., Abdalazeem, M., Christofa, E., and Oke, J. (2026). Explainable Data-Driven Multi-Filter Framework for Bot Detection in Incentivized Online Surveys. <i>Data Science for Transportation</i>, 8, 21. <a href="https://doi.org/10.1007/s42421-026-00158-4">DOI</a>'
+        - 'Abdalazeem, M., Altayb, G., Christofa, E., and Oke, J. (2026). Maps are good but are simpler maps better? Insights on urban bicycling in the US. <i>Environmental Research Communications</i>, 8(2), 025004. <a href="https://doi.org/10.1088/2515-7620/ae3945">DOI</a>'
+        - 'Zhao, P., Mega, J., Abdalazeem, M., Arabi, M., Barchers, C. V., and Oke, J. (2026). Scenario discovery framework aids robust regional emissions mitigation planning. <i>Environmental Research Communications</i>, 8(3), 031008. <a href="https://doi.org/10.1088/2515-7620/ae4b94">DOI</a>'
+        - 'Abdalazeem, M., and Oke, J. (2025). A Roadway Crash Typology of Census Tracts Enables Targeted Interventions via Interpretable Machine Learning. <i>Data Science for Transportation</i>, 7, 14. <a href="https://doi.org/10.1007/s42421-025-00128-2">DOI</a>'
+        - 'Abdalazeem, M., and Oke, J. (2024). Enhanced Seasonal Typology-Informed Transit Trip Chaining via Mobile Boarding and Survey Data. <i>Data Science for Transportation</i>, 6, 19. <a href="https://doi.org/10.1007/s42421-024-00108-y">DOI</a>'
+        - 'Abdalazeem, M., and Oke, J. (2023). Extracting Spatiotemporal Bus Passenger Trip Typologies from Noisy Mobile Ticketing Boarding Data. <i>Data Science for Transportation</i>, 5, 20. <a href="https://doi.org/10.1007/s42421-023-00082-x">DOI</a>'
+        - 'Abdalazeem, M., and Oke, J. (2023). Origin-destination inference in public transportation systems: A comprehensive review. <i>International Journal of Transportation Science and Technology</i>, 12(1), 315-328. <a href="https://doi.org/10.1016/j.ijtst.2022.03.002">DOI</a>'
+    - title: Conference Papers
+      items:
+        - 'Abdalazeem, M., Mohammed, O., Ibrahim, M., and Osman, H. G. (2020). Khartoum sky trains network: A study on implementing caterpillar trains concept in Khartoum. <i>MATEC Web of Conferences</i>, 308, 02003. <a href="https://doi.org/10.1051/matecconf/202030802003">DOI</a>'
+    - title: Under Review
+      items:
+        - Abdalazeem, M., Christofa, E., Barchers, C., and Oke, J. Toward Unified Design Rules for Schematic Bicycle Maps.
+        - 'Abdalazeem, M., Ruger, A., Christofa, E., and Oke, J. Schematic maps promise to induce micromobility ridership: a Bayesian latent class ordered logistic approach.'
+        - Bohlke, N., Bell, H., Abdalazeem, M., Oke, J., and Christofa, E. Three-decade systematic review highlights enduring barriers to cycling and reveals rural-urban evidence gap.
+    - title: In Preparation
+      items:
+        - Abdalazeem, M., Christofa, E., and Oke, J. Schematic Bicycle Maps for Influencing Cyclist Behavior and Reducing Greenhouse Gas Emissions.
+        - Abdalazeem, M., Oke, T., and Oke, J. A novel origin-destination-transfer model using mobile ticketing activations with seasonal passenger typology and spatial error correction.
 
 - title: Teaching Experience
   type: time_table
   contents:
-    - title: Teaching Assistant - Probability and Statistics
-      institution: University of Massachusetts Amherst
+    - title: "Teaching Assistant - CE-ENGIN 260: Probability and Statistics for Civil Engineers"
+      institution: University of Massachusetts Amherst, Amherst, MA
       year: Fall 2024, Fall 2025
       description:
-        - "CE-ENGIN 260: Probability and Statistics for Civil and Environmental Engineers"
-        - Taught classes, led lab sessions, and delivered a full lecture
-        - Held weekly office hours covering probability theory, statistical inference, and experimental design
-        - Supported cohorts of approximately 160 students each semester through problem-solving sessions
-        - Graded exams and assignments; prepared detailed solution guides and rubric-based feedback
-    - title: Teaching Assistant - Transportation Systems
-      institution: University of Massachusetts Amherst
+        - "Taught classes, led lab sessions, and delivered a full lecture; held weekly office hours on probability theory, statistical inference, and experimental design."
+        - "Supported cohorts of approximately 160 students each semester; graded exams and prepared solution guides and rubric-based feedback."
+    - title: "Teaching Assistant - CE-ENGIN 310: Transportation Systems"
+      institution: University of Massachusetts Amherst, Amherst, MA
       year: Fall 2023
       description:
-        - "CE-ENGIN 310: Transportation Systems"
-        - Supported students in transportation operations, network planning, and geometric design
-        - Prepared problem sets on traffic flow theory, capacity analysis, and signal control
-    - title: Teaching Assistant
-      institution: University of Khartoum, Sudan
+        - "Supported students in transportation operations, network planning, and geometric design; prepared problem sets on traffic flow, capacity analysis, and signal control."
+    - title: Teaching Assistant - Multiple Civil Engineering Courses
+      institution: University of Khartoum, Khartoum, Sudan
       year: Nov 2018 - Dec 2020
       description:
-        - Taught and gave tutorials for undergraduate courses Environmental Engineering, Highway and Transportation Engineering, Strength of Materials, Design of Reinforced Concrete Structures, and Theory of Structures
-        - Supervised laboratory sessions on water quality analysis and material testing
+        - "<b>Courses:</b> Environmental Engineering; Highway Engineering; Strength of Materials; Reinforced Concrete Design; Theory of Structures."
+        - "Supervised lab sessions on water quality analysis and material testing."
 
-- title: Mentorship Experience
+- title: Mentorship
   type: time_table
   contents:
+    - title: Research Mentor, NSF REU Program
+      institution: University of Massachusetts Amherst, Amherst, MA
+      year: Summers 2023-2026
+      description:
+        - "<b>Julianna Demers</b> (UMass Amherst), Summer 2026: Unified geospatial data pipeline for schematic bicycle map generation."
+        - "<b>Andrew Ruger</b> (Grinnell College), Summer 2025: Survey data quality and micromobility mapping; bot detection in incentivized online surveys. <i>1 publication, published.</i>"
+        - "<b>Geehan Altayb</b> (Howard University), Summer 2024: Bicycle map features and their influence on cycling behavior. <i>1 publication, published.</i>"
+        - "<b>Vivian Rost-Nasshan</b> (RPI), Summer 2023: Vehicular delay patterns using network topology and demographic data."
     - title: Research Mentor
-      institution: University of Massachusetts Amherst
+      institution: University of Massachusetts Amherst, Amherst, MA
       year: Spring 2026
       description:
-        - "Henry Bell (UMass Amherst): Comprehensive literature review on barriers to cycling"
-    - title: Research Mentor - NSF REU Program
-      institution: University of Massachusetts Amherst
-      year: Summer 2023, 2024, 2025
-      description:
-        - Mentored undergraduate researchers in transportation data analysis and Python programming
-        - "Andrew Ruger (Grinnell College): Survey data quality and micromobility mapping; bot detection in incentivized online surveys"
-        - "Geehan Altayb (Howard University): Bicycle map features and their influence on cycling behavior"
-        - "Vivian Rost-Nasshan (RPI): Vehicular delay patterns using network topology and demographic data"
-
-- title: Publications
-  type: time_table
-  contents:
-    - title: Journal Articles (Published)
-      year: 2020-2026
-      description:
-        - 8 peer-reviewed journal articles (3 in Data Science for Transportation, 2 in Environmental Research Communications, 1 in International Journal of Transportation Science and Technology, 1 in MATEC Web of Conferences, 1 in Data Science for Transportation in press)
-    - title: Under Review
-      year: 2025-2026
-      description:
-        - 3 manuscripts under review
-    - title: In Preparation
-      year: 2026
-      description:
-        - 2 manuscripts in preparation
+        - "<b>Henry Bell</b> (UMass Amherst), Spring 2026: Comprehensive literature review on barriers to cycling. <i>1 publication, under review.</i>"
 
 - title: Conference Presentations
-  type: time_table
-  contents:
-    - title: Lectern Presentations
-      year: 2022-2025
-      description:
-        - "2025 — TRB Annual Meeting, Washington, D.C.: A Typology-Informed Origin-Destination-Transfer Model for a Bus Transit Network using Mobile Ticketing Data"
-        - "2024 — INFORMS Annual Meeting, Seattle, WA: Enhancing Road Safety: A Data-Driven Spatial Typology of Crashes in New England"
-        - "2023 — INFORMS Annual Meeting, Phoenix, AZ: Typology-Enhanced Origin-Destination-Transfer Inference from Noisy Mobile Boarding Observations"
-        - "2023 — TRB Annual Meeting, Washington, D.C.: Spatiotemporal Trip Chaining Framework for Open Mobile Fare Collection Systems"
-        - "2022 — INFORMS Annual Meeting, Indianapolis, IN: Spatio-Temporal Trip Pattern Typology Analysis for a Regional Bus Network"
-    - title: Poster Presentations
-      year: 2022-2025
-      description:
-        - "2025 — INFORMS Annual Meeting, Atlanta, GA: Optimizing and Deploying Schematic Bicycle Maps with MILP and User Input"
-        - "2025 — NEUTC Symposium, Northfield, VT: A Roadway Crash Typology of Census Tracts Enables Targeted Interventions"
-        - "2025 — TRB Annual Meeting, Washington, D.C.: A Spatial Typology Analysis of Crash Characteristics across 2,480 Census Tracts"
-        - "2022 — TRB Annual Meeting, Washington, D.C.: Trip Pattern Typologies in The Pioneer Valley Bus Transit System"
-        - "2022 — MassDOT Transportation Innovation Conference, Worcester, MA: Efficient Extraction of Spatiotemporal Bus Passenger Trip Patterns"
-
-- title: Technical Skills
   type: nested_list
   contents:
-    - title: Programming
+    - title: Lectern Presentations
       items:
-        - Python, MATLAB, R, SQL, C++, Git
-        - Version control (Git, GitHub)
-    - title: Machine Learning
+        - 'Abdalazeem, M., Oke, T., and Oke, J. (2025). A Typology-Informed Origin-Destination-Transfer Model for a Bus Transit Network using Mobile Ticketing Data. <i>TRB Annual Meeting, Washington, D.C.</i>'
+        - 'Abdalazeem, M., and Oke, J. (2024). Enhancing Road Safety: A Data-Driven Spatial Typology of Crashes in New England. <i>INFORMS Annual Meeting, Seattle, WA.</i>'
+        - 'Abdalazeem, M., and Oke, J. (2023). Typology-Enhanced Origin-Destination-Transfer Inference from Noisy Mobile Boarding Observations. <i>INFORMS, Phoenix, AZ.</i>'
+        - 'Abdalazeem, M., and Oke, J. (2023). Spatiotemporal Trip Chaining Framework for Open Mobile Fare Collection Systems. <i>TRB Annual Meeting, Washington, D.C.</i>'
+        - 'Abdalazeem, M., and Oke, J. (2022). Spatio-Temporal Trip Pattern Typology Analysis for a Regional Bus Network. <i>INFORMS, Indianapolis, IN.</i>'
+    - title: Poster Presentations
       items:
-        - Scikit-learn, XGBoost, TensorFlow, PyTorch
-        - NLP (BERT, Word2Vec)
-    - title: Geospatial
-      items:
-        - QGIS, Geopandas, ArcGIS, Google Earth Engine
-        - GTFS analysis
-    - title: Transportation
-      items:
-        - TransModeler, VISSIM, TransCAD
-        - Travel demand modeling
-    - title: Data Analysis
-      items:
-        - Pandas, NumPy, SciPy
-        - Time series analysis, statistical modeling
-
-- title: Awards and Honors
-  type: time_table
-  contents:
-    - year: 2023-2024
-      items:
-        - UMass Amherst Civil and Environmental Engineering Departmental Fellowship (2023)
-        - Graduate School Travel Awards $289 (2024), $210 (2022, 2023)
-    - year: 2018
-      items:
-        - First Class Honors (Summa Cum Laude Equivalent), BSc Civil Engineering, University of Khartoum
-        - Best Project Award, University of Khartoum Civil Engineering Department
+        - 'Abdalazeem, M., Christofa, E., and Oke, J. (2025). Optimizing and Deploying Schematic Bicycle Maps with MILP and User Input. <i>INFORMS Annual Meeting, Atlanta, GA.</i>'
+        - 'Abdalazeem, M., and Oke, J. (2025). A Roadway Crash Typology of Census Tracts Enables Targeted Interventions via Interpretable Machine Learning. <i>NEUTC Symposium, Norwich University, Northfield, VT.</i>'
+        - 'Abdalazeem, M., and Oke, J. (2025). A Spatial Typology Analysis of Crash Characteristics across 2,480 Census Tracts. <i>TRB Annual Meeting, Washington, D.C.</i>'
+        - 'Abdalazeem, M., and Oke, J. (2022). Trip Pattern Typologies in The Pioneer Valley Bus Transit System. <i>TRB Annual Meeting, Washington, D.C.</i>'
+        - 'Abdalazeem, M., and Oke, J. (2022). Efficient Extraction of Spatiotemporal Bus Passenger Trip Patterns in the Pioneer Valley Bus Transit System. <i>MassDOT Transportation Innovation Conference, Worcester, MA.</i>'
 
 - title: Professional Service
   type: nested_list
   contents:
     - title: Manuscript Reviewing
       items:
-        - Discover Public Health (Springer Nature), 2026
-        - Journal of Transportation Engineering, Part A — Systems (ASCE), 2026
-        - npj Environmental Social Sciences (Springer Nature), 2026
-        - Scientific Reports (Springer Nature), 2025, 2026
-        - Security Journal (Springer Nature), 2025, 2026
-        - Scientific Data (Nature Publishing Group), 2025
-        - Applied Network Science (Springer Nature), 2025
-        - European Transport Research Review (Springer Nature), 2024
-        - Applied Intelligence (Springer Nature), 2022, 2023
+        - <i>Discover Public Health</i> (Springer Nature), 2026
+        - '<i>Journal of Transportation Engineering, Part A: Systems</i> (ASCE), 2026'
+        - <i>npj Environmental Social Sciences</i> (Springer Nature), 2026
+        - <i>Scientific Reports</i> (Springer Nature), 2025, 2026
+        - <i>Security Journal</i> (Springer Nature), 2025, 2026
+        - <i>Scientific Data</i> (Nature Publishing Group), 2025
+        - <i>Applied Network Science</i> (Springer Nature), 2025
+        - <i>European Transport Research Review</i> (Springer Nature), 2024
+        - <i>Applied Intelligence</i> (Springer Nature), 2022, 2023
     - title: Conference Reviewing
       items:
-        - Transportation Research Board (TRB) Annual Meeting (2022, 2023, 2025)
+        - Transportation Research Board (TRB) Annual Meeting, paper reviewer (2022, 2023, 2025)
     - title: Leadership and Service
       items:
-        - Treasurer, Graduate Student Association, CEE Department, UMass Amherst (2023-2024)
+        - Coordinator, Graduate Writing Lab, College of Engineering, UMass Amherst (Spring 2025). Facilitated weekly writing sessions and provided feedback on graduate student manuscripts.
+        - Treasurer, Graduate Student Association, Department of Civil and Environmental Engineering, UMass Amherst (Sep 2021 - Sep 2022). Managed budgeting and event coordination for graduate student activities.
+
+- title: Technical Skills and Methods
+  type: nested_list
+  contents:
+    - title: Statistical Modeling
+      items:
+        - Bayesian inference, mixture models, latent class analysis, ordered outcome models, spatial econometrics
+    - title: Machine Learning
+      items:
+        - Gradient boosting, unsupervised clustering, dimensionality reduction, interpretable ML (SHAP)
+    - title: Optimization
+      items:
+        - Mixed-integer linear programming, network optimization
+    - title: Survey Methods
+      items:
+        - Stated preference design, incentivized panel deployment, data quality assurance
+    - title: Geospatial
+      items:
+        - Census-level spatial analysis, transit network analysis, GIS
+    - title: Transportation
+      items:
+        - Transit demand modeling, OD inference, micromobility, road safety analysis
+    - title: Software
+      items:
+        - Python, SQL, Git, GeoPandas, QGIS, Scikit-learn, XGBoost, Pandas, Matplotlib
+
+- title: Awards and Honors
+  type: list
+  contents:
+    - CEE Departmental Fellowship, University of Massachusetts Amherst (2023)
+    - Graduate School Travel Awards, University of Massachusetts Amherst (2022-2024)
+    - First Class Honors (Summa Cum Laude Equivalent), BSc Civil Engineering, University of Khartoum (2018)
+    - Best Project Award, Department of Civil Engineering, University of Khartoum (2018)
 
 - title: Professional Affiliations
   type: list
   contents:
+    - ELEVATE Affiliate, Energy Transition Institute, UMass Amherst
     - Institute of Transportation Engineers (ITE)
     - American Society of Civil Engineers (ASCE)
-    - Civil Engineering Students Society (CESS)
     - Institute for Operations Research and the Management Sciences (INFORMS)
-    - The Institute of Electrical and Electronics Engineers (IEEE)
+    - Institute of Electrical and Electronics Engineers (IEEE)

@@ -165,12 +165,6 @@
       }
     \end{minipage}
     \vspace{3pt}
-    % % Row 2: Links
-    % {\color{white}\small
-    %   \faGlobe\enspace\whitelink{https://mabdalazeem.com}{mabdalazeem.com}\hspace{1.4em}%
-    %   \faGithub\enspace\whitelink{https://github.com/ma-mohammed}{ma-mohammed}\hspace{1.4em}%
-    %   \faLinkedin\enspace\whitelink{https://www.linkedin.com/in/mohammed-alameen/}{mohammed-alameen}%
-    % }
     % Row 2: Links
     {\color{white}\small
       \faGlobe\enspace\whitelink{https://mabdalazeem.com}{mabdalazeem.com}\hspace{1.4em}%
@@ -188,17 +182,13 @@
 \section{EDUCATION}
 % ============================================================
 
-\entry{University of Massachusetts Amherst}{Jan 2021 -- Expected Fall 2026}
+
+\entry{University of Massachusetts Amherst}{Jan 2021 -- Expected Aug 2026}
       {PhD in Civil Engineering (Transportation Systems)}{Amherst, MA}
-% \begin{itemize}
-%   \item Dissertation: \textit{Data-Driven Approaches to Transit Demand, Urban Safety, and Micromobility Infrastructure}
-%   \item Advisor: Dr.\ Jimi Oke \quad|\quad GPA: 3.92 \quad|\quad CEE Departmental Fellowship (2023)
-% \end{itemize}
 
 \begin{itemize}
-  \item Dissertation: \textit{Machine Learning and Optimization for Schematic Bicycle Map Design and Cycling Behavior}
-  \item Advisor: Dr.\ Jimi Oke \quad|\quad GPA: 3.92 \quad|\quad CEE Departmental Fellowship (2023)
-  % \item Committee: Profs.\ Gao, Christofa, Barchers, Oke.
+  \item Dissertation: \textit{Machine Learning and Optimization for Schematic Bicycle Map Design and Cycling Behavior}%(prospectus defended May 2026)
+  \item Committee: J.\ Oke (chair), E.\ Christofa, C.\ Barchers, J.\ Gao \quad|\quad GPA: 3.92 \quad|\quad CEE Departmental Fellowship (2023)
 \end{itemize}
 
 \vspace{3pt}
@@ -219,13 +209,20 @@
       {University of Massachusetts Amherst}{Amherst, MA}
 
 \vspace{4pt}
+% \textbf{Schematic Bicycle Map Design and Micromobility Behavior}
+% \begin{itemize}
+%   \item Conducted a national landscape study of 684 US urban counties to characterize schematic bicycle map adoption using Bayesian mixture modeling, XGBoost, and SHAP analysis, identifying three distinct county typologies.
+%   \item Designed and deployed an incentivized online survey assessing cyclist and micromobility rider preferences for map design features: simplification level, geographic accuracy, infrastructure representation, and route legibility.
+%   \item Developed a Bayesian latent class ordered logistic regression framework to identify heterogeneous rider groups and model stated intentions to use micromobility under different map design conditions.
+%   \item Built a mixed-integer linear programming (MILP) optimization framework to select optimal bicycle map routes from street and trail networks, incorporating safety, connectivity, and user-preference constraints.
+%   \item Developed a multi-filter bot detection pipeline (platform signals, browser fingerprinting, timing analysis, XGBoost validation) for online survey quality control.
 \textbf{Schematic Bicycle Map Design and Micromobility Behavior}
 \begin{itemize}
-  \item Conducted a national landscape study of 684 US urban counties to characterize schematic bicycle map adoption using Bayesian mixture modeling, XGBoost, and SHAP analysis, identifying three distinct county typologies.
-  \item Designed and deployed an incentivized online survey assessing cyclist and micromobility rider preferences for map design features: simplification level, geographic accuracy, infrastructure representation, and route legibility.
-  \item Developed a Bayesian latent class ordered logistic regression framework to identify heterogeneous rider groups and model stated intentions to use micromobility under different map design conditions.
-  \item Built a mixed-integer linear programming (MILP) optimization framework to select optimal bicycle map routes from street and trail networks, incorporating safety, connectivity, and user-preference constraints.
-  \item Developed a multi-filter bot detection pipeline (platform signals, browser fingerprinting, timing analysis, XGBoost validation) for online survey quality control.
+  \item Mapped the national landscape of schematic bicycle map adoption across 684 US urban counties; Bayesian mixture modeling with XGBoost and SHAP analysis revealed three county typologies of adoption.
+  \item Designed and fielded an incentivized national survey on how cyclists and micromobility riders respond to map design: simplification level, geographic accuracy, infrastructure representation, and route legibility.
+  \item Modeled stated intentions to ride under different map designs with a Bayesian latent class ordered logit that separates riders into groups with different design sensitivities.
+  \item Formulated a mixed-integer linear program that selects bicycle map routes from street and trail networks under safety, connectivity, and user-preference constraints.
+  \item Built a bot detection pipeline for online surveys that combines platform signals, browser fingerprinting, timing checks, and an XGBoost validation model.
   \item \textit{Funding: Armstrong Fund for Science, 2024--2026 (PI: J.~Oke); NSF REU, 2023--2025.}
   \item \textit{Publications: 2 published, 3 under review, 1 in preparation.}
 \end{itemize}
@@ -233,9 +230,12 @@
 \vspace{4pt}
 \textbf{Spatial Crash Typology and Risk Prediction}
 \begin{itemize}
-  \item Applied UMAP and Gaussian mixture models to classify 2,480 New England census tracts into crash typologies using one year of state-level crash records.
-  \item Identified spatial patterns in crash frequency and severity linked to roadway geometry, land use, and socioeconomic factors across urban, suburban, and rural profiles.
-  \item Built XGBoost predictive models with SHAP-based interpretation to forecast crash risk by typology, surfacing actionable feature importance for targeted safety interventions.
+  % \item Applied UMAP and Gaussian mixture models to classify 2,480 New England census tracts into crash typologies using one year of state-level crash records.
+  % \item Identified spatial patterns in crash frequency and severity linked to roadway geometry, land use, and socioeconomic factors across urban, suburban, and rural profiles.
+  % \item Built XGBoost predictive models with SHAP-based interpretation to forecast crash risk by typology, surfacing actionable feature importance for targeted safety interventions.
+  \item Classified 2,480 New England census tracts into crash typologies with UMAP and Gaussian mixture models, using one year of state-level crash records.
+  \item Linked patterns in crash frequency and severity to roadway geometry, land use, and socioeconomic conditions across urban, suburban, and rural tracts.
+  \item Trained XGBoost models with SHAP interpretation to predict crash risk within each typology and show which factors drive risk where, informing where safety interventions should go.
   \item \textit{Funding: New England University Transportation Center (NEUTC), 2024--2025 (PI: J.~Oke).}
   \item \textit{Publications: 1 published.}
 \end{itemize}
@@ -243,9 +243,12 @@
 \vspace{4pt}
 \textbf{Transit OD Inference from Partial Mobile Ticketing Data}
 \begin{itemize}
-  \item Built a machine learning framework to infer complete origin-destination-transfer matrices from boarding-only mobile ticketing data in a regional bus network with 40+ routes.
-  \item Developed passenger typology clustering using hierarchical methods and dynamic time warping to capture behavioral heterogeneity across 40,000+ weekly riders.
-  \item Integrated gradient boosting spatial error correction, reducing MAE by 70\% and SMAPE by 85\% vs.\ baseline trip chaining models.
+  % \item Built a machine learning framework to infer complete origin-destination-transfer matrices from boarding-only mobile ticketing data in a regional bus network with 40+ routes.
+  % \item Developed passenger typology clustering using hierarchical methods and dynamic time warping to capture behavioral heterogeneity across 40,000+ weekly riders.
+  % \item Integrated gradient boosting spatial error correction, reducing MAE by 70\% and SMAPE by 85\% vs.\ baseline trip chaining models.
+  \item Built a framework that infers full origin-destination-transfer matrices from boarding-only mobile ticketing data on a regional bus network with 40+ routes.
+  \item Clustered 40,000+ weekly riders into passenger typologies using hierarchical clustering with dynamic time warping.
+  \item Added a gradient boosting spatial error correction step that cut MAE by 70\% and SMAPE by 85\% relative to baseline trip chaining.
   \item \textit{Funding: Pioneer Valley Transit Authority (PVTA), 2021--2023 (PI: J.~Oke).}
   \item \textit{Publications: 3 published, 1 working paper.}  
 \end{itemize}
@@ -308,8 +311,10 @@
 \entry{Teaching Assistant --- CE-ENGIN 260: Probability \& Statistics for Civil Engineers}{Fall 2024, Fall 2025}
       {University of Massachusetts Amherst}{Amherst, MA}
 \begin{itemize}
-  \item Taught classes, led lab sessions, and delivered a full lecture; held weekly office hours on probability theory, statistical inference, and experimental design.
-  \item Supported cohorts of \textbf{\textasciitilde160 students} each semester; graded exams, prepared solution guides, and rubric-based feedback.
+  % \item Taught classes, led lab sessions, and delivered a full lecture; held weekly office hours on probability theory, statistical inference, and experimental design.
+  % \item Supported cohorts of \textbf{\textasciitilde160 students} each semester; graded exams, prepared solution guides, and rubric-based feedback.
+  \item Led lab sections and weekly office hours covering probability, statistical inference, and experimental design; delivered a guest lecture.
+  \item Supported roughly 160 students per semester; graded exams and wrote solution guides and grading rubrics.
 \end{itemize}
 
 \vspace{4pt}
@@ -418,11 +423,14 @@
 \skill{Statistical Modeling}{Bayesian inference, mixture models, latent class analysis, ordered outcome models, spatial econometrics}
 \skill{Machine Learning}{Gradient boosting, unsupervised clustering, dimensionality reduction, interpretable ML (SHAP)}
 \skill{Optimization}{Mixed-integer linear programming, network optimization}
-\skill{Survey Methods}{Stated preference design, incentivized panel deployment, data quality assurance}
+% \skill{Survey Methods}{Stated preference design, incentivized panel deployment, data quality assurance}
+\skill{Survey Methods}{Stated preference and questionnaire design, incentivized panel deployment, response quality assurance and validation}
 \skill{Geospatial}{Census-level spatial analysis, transit network analysis, GIS}
-\skill{Transportation}{Transit demand modeling, OD inference, micromobility, road safety analysis}
+% \skill{Transportation}{Transit demand modeling, OD inference, micromobility, road safety analysis}
+% \skill{Software}{Python, SQL, Git, GeoPandas, QGIS, Scikit-learn, XGBoost, Pandas, Matplotlib}
+\skill{Transportation}{Transit demand modeling, OD inference, active mobility and micromobility, road safety and equity analysis}
 \skill{Software}{Python, SQL, Git, GeoPandas, QGIS, Scikit-learn, XGBoost, Pandas, Matplotlib}
-
+% \skill{Languages}{Arabic (native), English (fluent)}
 % ============================================================
 \section{AWARDS \& HONORS}
 % ============================================================
@@ -450,5 +458,13 @@
   \item Institute of Electrical and Electronics Engineers (IEEE)
 \end{itemize}
 % \end{multicols}
+
+% ============================================================
+\section{REFERENCES}
+% ============================================================
+
+\skill{Jimi Oke}{Assistant Professor, Civil \& Environmental Engineering, UMass Amherst (PhD advisor), jboke@umass.edu}
+\skill{Eleni Christofa}{Associate Professor, Civil \& Environmental Engineering, UMass Amherst (co-advisor), echristofa@umass.edu}
+\skill{Camille Barchers}{Assistant Professor, Landscape Architecture \& Regional Planning, UMass Amherst (committee member), cbarchers@umass.edu}
 
 \end{document}
