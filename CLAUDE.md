@@ -13,6 +13,8 @@ JEKYLL_ENV=production bundle exec jekyll build  # Production build (used in CI)
 
 In PowerShell (this repo is developed on Windows), set the env var separately: `$env:JEKYLL_ENV='production'; bundle exec jekyll build`.
 
+CI builds with Ruby 3.3.5 (see `.github/workflows/deploy.yml`).
+
 There is no test suite. Validation is `bundle exec jekyll build` — resolve any errors or warnings your change introduces, and preview affected pages locally.
 
 ## Deployment
@@ -54,7 +56,7 @@ This is an **al-folio Jekyll theme** for an academic personal website. The key c
 
 `_config.yml` controls nearly everything:
 - Site identity, social links, SEO metadata
-- Jekyll Scholar settings (author highlighting matches `last_name: [Abdalazeem]`, `first_name: [Mohammed, M.]`)
+- Jekyll Scholar settings (author highlighting matches `last_name: [Abdalazeem]`, `first_name: [Mohammed, M., M. A.]`)
 - Which third-party JS/CSS libraries to load and their CDN URLs
 - Layout options: dark mode, math rendering, lazy loading, medium zoom
 
@@ -66,3 +68,5 @@ To add a publication: add a BibTeX entry to `_bibliography/papers.bib`. Custom f
 - Collection entries follow existing numbered patterns: `_projects/6_project.md`, `_news/announcement_15.md`
 - Lowercase, hyphenated asset filenames; static files go under `assets/`
 - Commit messages are short and imperative (e.g. `Update _config.yml`)
+
+`AGENTS.md` at the repo root carries overlapping guidance for other coding agents — when changing commands, conventions, or deployment details here, keep it in sync.

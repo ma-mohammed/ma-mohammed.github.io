@@ -3,13 +3,13 @@ layout: page
 title: Connecticut GHG Inventory Dashboard
 description: "2023–2024 · Interactive greenhouse gas inventory dashboard for three Connecticut metropolitan regions, deployed on AWS"
 img: assets/img/dashboard_ct.png
-importance: 5
+importance: 6
 category: work
 ---
 
 ## Overview
 
-A public-facing dashboard displaying the 2021 greenhouse gas (GHG) inventory for three Connecticut metropolitan planning organizations: Bridgeport, Hartford, and New Haven. Built to support regional decarbonization planning and scenario discovery research.
+A public dashboard displaying the 2021 greenhouse gas (GHG) inventory for three Connecticut metropolitan planning regions: Bridgeport, Hartford, and New Haven. We built it to give local governments a clear view of where their emissions come from, and to support our scenario discovery research on regional decarbonization.
 
 **Live dashboard:** [ctghginventory.narslab.org](https://ctghginventory.narslab.org)
 

@@ -3,13 +3,13 @@ layout: page
 title: PVTA OD Dashboard
 description: "2022–2024 · Interactive origin-destination analytics dashboard for the Pioneer Valley Transit Authority, deployed on AWS"
 img: assets/img/dashboard_pvta.png
-importance: 4
+importance: 5
 category: work
 ---
 
 ## Overview
 
-An interactive public-facing dashboard for the Pioneer Valley Transit Authority (PVTA), visualizing inferred passenger origin-destination flows across the 40+ route regional bus network. Built as part of the transit OD inference research project and deployed for use by PVTA planners and the public.
+An interactive public dashboard I built for the Pioneer Valley Transit Authority (PVTA), visualizing the passenger origin-destination flows inferred in my transit OD research across their 40+ route regional bus network. It turns the models into something PVTA planners and the public can actually use.
 
 **Live dashboard:** [pvtaodx.narslab.org](https://pvtaodx.narslab.org)
 
