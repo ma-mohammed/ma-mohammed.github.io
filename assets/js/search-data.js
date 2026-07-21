@@ -104,7 +104,12 @@ ninja.data = [{
             },},{id: "news-our-collaborative-paper-scenario-discovery-framework-aids-robust-regional-emissions-mitigation-planning-is-now-published-in-environmental-research-communications",
           title: 'Our collaborative paper “Scenario discovery framework aids robust regional emissions mitigation planning” is...',
           description: "",
-          section: "News",},{id: "projects-transit-od-inference-from-mobile-ticketing-data",
+          section: "News",},{id: "news-bot-detection-paper-published-in-dst",
+          title: 'Bot detection paper published in DST',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_16.html";
+            },},{id: "projects-transit-od-inference-from-mobile-ticketing-data",
           title: 'Transit OD Inference from Mobile Ticketing Data',
           description: "2021–2023 · Inferring complete passenger OD matrices from boarding-only mobile ticketing data",
           section: "Projects",handler: () => {
