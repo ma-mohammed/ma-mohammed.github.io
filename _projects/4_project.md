@@ -35,11 +35,11 @@ Using a Bayesian latent class ordered logit, I model stated intentions to ride u
 
 ## Current Status
 
-Data collection is complete and the first results are out: the survey findings are published in _Environmental Research Communications_ and the bot detection framework in _Data Science for Transportation_, with three more papers under review and the emissions work in preparation. I defended my prospectus in May 2026 and the optimization and design-rules work continues through my dissertation.
+Data collection is complete and the first results are out: the survey findings are published in _Environmental Research Communications_ and the bot detection framework in _Data Science for Transportation_, with three more papers under review and two in preparation on the geospatial data pipeline and automated map schematization. I defended my prospectus in May 2026 and the optimization and design-rules work continues through my dissertation.
 
 ## Funding
 
-Armstrong Fund for Science, 2024-2026 (PI: J. Oke)
+Armstrong Fund for Science, 2024-2026 (PI: J. Oke, co-PI: E. Christofa); NSF REU, 2023-2026
 
 ## Collaborators
 
@@ -47,6 +47,7 @@ Armstrong Fund for Science, 2024-2026 (PI: J. Oke)
 - Prof. Eleni Christofa (UMass Amherst)
 - Andrew Ruger (Grinnell College, REU Student)
 - Geehan Altayb (Howard University, REU Student)
+- Julianna Demers (Rensselaer Polytechnic Institute, REU Student)
 - Nathan Bohlke (UMass Amherst)
 
 ## Publications
@@ -56,7 +57,8 @@ Armstrong Fund for Science, 2024-2026 (PI: J. Oke)
 - **Schematic maps promise to induce micromobility ridership: a Bayesian latent class ordered logistic approach** (Under review)
 - **Toward Unified Design Rules for Schematic Bicycle Maps** (Under review)
 - **Three-decade systematic review highlights enduring barriers to cycling and reveals rural–urban evidence gap** (Under review)
-- **Schematic Bicycle Maps for Influencing Cyclist Behavior and Reducing Greenhouse Gas Emissions** (In preparation)
+- **A Unified Geospatial Data Pipeline and Detection Algorithm for Bicycle Routes from Heterogeneous Network Data** (In preparation)
+- **Automated Schematization of Bicycle Route Networks via Mixed-Integer Optimization** (In preparation)
 
 ## Conference Presentations
 
