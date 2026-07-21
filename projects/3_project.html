@@ -17,12 +17,12 @@
   
   
     
-      Connecticut GHG Inventory Dashboard | Mohammed Abdalazeem
+      New England Crash Typology Dashboard | Mohammed Abdalazeem
     
   
 </title>
 <meta name="author" content="Mohammed Abdalazeem">
-<meta name="description" content="2023–2024 · Interactive greenhouse gas inventory dashboard for three Connecticut metropolitan regions, deployed on AWS">
+<meta name="description" content="Interactive dashboard mapping five kinds of crash-prone places across 2,664 New England census tracts">
 
   <meta name="keywords" content="transportation engineering, machine learning, transit systems, traffic safety, origin-destination modeling, data science">
 
@@ -34,9 +34,9 @@
   <!-- OpenGraph -->
   <meta property="og:site_name" content="Mohammed Abdalazeem">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Mohammed Abdalazeem | Connecticut GHG Inventory Dashboard">
-  <meta property="og:url" content="https://mabdalazeem.com/projects/6_project.html">
-  <meta property="og:description" content="2023–2024 · Interactive greenhouse gas inventory dashboard for three Connecticut metropolitan regions, deployed on AWS">
+  <meta property="og:title" content="Mohammed Abdalazeem | New England Crash Typology Dashboard">
+  <meta property="og:url" content="https://mabdalazeem.com/projects/3_project.html">
+  <meta property="og:description" content="Interactive dashboard mapping five kinds of crash-prone places across 2,664 New England census tracts">
   
     <meta property="og:image" content="https://mabdalazeem.com/assets/img/prof_pic.jpg">
   
@@ -44,8 +44,8 @@
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Connecticut GHG Inventory Dashboard">
-  <meta name="twitter:description" content="2023–2024 · Interactive greenhouse gas inventory dashboard for three Connecticut metropolitan regions, deployed on AWS">
+  <meta name="twitter:title" content="New England Crash Typology Dashboard">
+  <meta name="twitter:description" content="Interactive dashboard mapping five kinds of crash-prone places across 2,664 New England census tracts">
   
     <meta name="twitter:image" content="https://mabdalazeem.com/assets/img/prof_pic.jpg">
   
@@ -65,10 +65,10 @@
             "@type": "Person",
             "name": "Mohammed Abdalazeem"
         },
-        "url": "https://mabdalazeem.com/projects/6_project.html",
+        "url": "https://mabdalazeem.com/projects/3_project.html",
         "@type": "WebSite",
-        "description": "2023–2024 · Interactive greenhouse gas inventory dashboard for three Connecticut metropolitan regions, deployed on AWS",
-        "headline": "Connecticut GHG Inventory Dashboard",
+        "description": "Interactive dashboard mapping five kinds of crash-prone places across 2,664 New England census tracts",
+        "headline": "New England Crash Typology Dashboard",
         
         "sameAs": ["https://github.com/ma-mohammed","https://www.linkedin.com/in/mohammed-alameen","https://orcid.org/0000-0003-4660-8030","https://scholar.google.com/citations?user=gHxllswAAAAJ","https://mabdalazeem.com"],
         
@@ -103,7 +103,7 @@
   <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;M&lt;/text&gt;&lt;/svg&gt;">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e&amp;v=20260719-6">
-<link rel="canonical" href="https://mabdalazeem.com/projects/6_project.html">
+<link rel="canonical" href="https://mabdalazeem.com/projects/3_project.html">
 
 
   <!-- Dark Mode -->
@@ -285,55 +285,48 @@
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">Connecticut GHG Inventory Dashboard</h1>
-    <p class="post-description">2023–2024 · Interactive greenhouse gas inventory dashboard for three Connecticut metropolitan regions, deployed on AWS</p>
+    <h1 class="post-title">New England Crash Typology Dashboard</h1>
+    <p class="post-description">Interactive dashboard mapping five kinds of crash-prone places across 2,664 New England census tracts</p>
   </header>
 
   <article>
     <h2 id="overview">Overview</h2>
 
-<p>A public dashboard displaying the 2021 greenhouse gas (GHG) inventory for three Connecticut metropolitan planning regions: Bridgeport, Hartford, and New Haven. We built it to give local governments a clear view of where their emissions come from, and to support our scenario discovery research on regional decarbonization.</p>
+<p>An interactive companion to my <a href="https://doi.org/10.1007/s42421-025-00128-2" rel="external nofollow noopener" target="_blank">crash typology research</a>. We analyzed more than 222,000 crashes across the census tracts of Massachusetts, Connecticut, and Vermont and used unsupervised machine learning to uncover five recurring crash environments. Knowing a tract’s type points directly to the safety interventions most likely to work there — and this dashboard lets you explore that, tract by tract.</p>
 
-<p><strong>Live dashboard:</strong> <a href="https://ctghginventory.narslab.org" rel="external nofollow noopener" target="_blank">ctghginventory.narslab.org</a></p>
+<p><strong>Live dashboard:</strong> <a href="https://crashtypology.narslab.org" rel="external nofollow noopener" target="_blank">crashtypology.narslab.org</a></p>
 
 <h2 id="what-it-shows">What It Shows</h2>
 
 <ul>
-  <li>Sector-by-sector GHG emissions (mobile combustion, electricity, stationary combustion, solid waste, agriculture, forestry) for each region</li>
-  <li>Per capita and absolute emissions comparisons across the three regions</li>
-  <li>Trend data and scenario planning support for local governments</li>
-  <li>Interactive filters by sector, region, and year</li>
+  <li>An interactive map of all 2,664 census tracts, colored by crash type or by measures such as crash counts, severity, or truck involvement, with a full crash profile for every tract</li>
+  <li>The five crash types themselves — from fast rural to slow urban environments — uncovered by compressing 25 crash risk features into six latent dimensions with UMAP and clustering with Gaussian mixture models</li>
+  <li>Each type’s fingerprint across the six dimensions, alongside SHAP values from a 96%-accurate LightGBM classifier showing which dimensions the model relies on when assigning tracts</li>
+  <li>33 evidence-based safety countermeasures mapped to the crash types they address, so selecting a type surfaces its matched interventions</li>
+  <li>Temporal patterns, including crash counts by hour and weekday</li>
 </ul>
+
+<p>The larger point is transferability: any region with crash records can map its own crash-prone environments the same way and match them to cataloged countermeasures, moving safety investment from one-spot-at-a-time toward systematic, typology-guided planning.</p>
 
 <h2 id="technical-stack">Technical Stack</h2>
 
 <ul>
   <li>
-<strong>Visualization platform:</strong> Apache Superset</li>
+<strong>Frontend/visualization:</strong> React single-page app with Leaflet for the interactive map</li>
   <li>
-<strong>Backend:</strong> SQL database with structured GHG inventory tables</li>
-  <li>
-<strong>Infrastructure:</strong> Linux server hosted on AWS Lightsail</li>
-  <li>
-<strong>Data sources:</strong> EPA emissions factors, CT energy consumption records, USDA/EPA sector-specific data</li>
+<strong>Data:</strong> Tract-level GeoJSON with typology assignments, crash measures, and per-tract profiles</li>
 </ul>
 
 <h2 id="related-research">Related Research</h2>
 
-<p>This dashboard supports the scenario discovery paper:</p>
-
 <ul>
   <li>
-<strong>Scenario discovery framework aids robust regional emissions mitigation planning</strong> — <em>Environmental Research Communications</em>, 8(3), 031008 (2026)</li>
+<strong>A Roadway Crash Typology of Census Tracts Enables Targeted Interventions via Interpretable Machine Learning</strong> — <em>Data Science for Transportation</em>, 7, 14 (2025)</li>
 </ul>
 
-<h2 id="collaborators">Collaborators</h2>
+<h2 id="funding-and-collaborators">Funding and Collaborators</h2>
 
-<ul>
-  <li>Prof. Jimi Oke (PI), NARSLab, UMass Amherst</li>
-  <li>Connecticut Councils of Governments (COGs)</li>
-  <li>Collaborators: P. Zhao, J. Mega, M. Arabi, C. V. Barchers</li>
-</ul>
+<p>Funded by the US Department of Transportation via the New England University Transportation Center (NEUTC). Built at NARSLab, UMass Amherst, with Prof. Jimi Oke (PI).</p>
 
   </article>
 

@@ -290,73 +290,39 @@
   </header>
 
   <article>
-    <p>This project applies UMAP and Gaussian mixture models to classify 2,480 census
-tracts into crash typologies using state-level crash records in New England.</p>
+    <p>Roadway safety programs usually target individual hotspots: an intersection here, a corridor there. This project asks a different question — do whole neighborhoods share recognizable crash profiles? Using one year of state-level crash records, I classified 2,480 census tracts across Massachusetts, Connecticut, and Vermont into crash typologies with UMAP and Gaussian mixture models.</p>
+
+<p>The results now live in an interactive dashboard at <a href="https://crashtypology.narslab.org" rel="external nofollow noopener" target="_blank">crashtypology.narslab.org</a>, where you can explore the region tract by tract.</p>
 
 <h2 id="research-objectives">Research Objectives</h2>
 
-<p>The goal is to develop a data-driven framework for understanding spatial
-heterogeneity in crash patterns and their relationship to roadway
-characteristics and socioeconomic factors. This work enables more targeted and
-effective transportation safety interventions by identifying distinct crash
-typologies across census tracts.</p>
+<p>The goal was a data-driven way to understand how crash patterns vary across space, and how they relate to roadway characteristics and socioeconomic conditions. If tracts fall into a small number of recognizable types, agencies can match interventions to types instead of treating every location as unique.</p>
 
 <h2 id="methodology">Methodology</h2>
 
-<p><strong>Data Collection and Processing</strong></p>
+<p><strong>Data collection and processing</strong></p>
 
-<ul>
-  <li>Analyzed one year of state-level crash records across Massachusetts,
-Connecticut, and Vermont</li>
-  <li>Examined 2,480 census tracts across the region</li>
-  <li>Integrated crash data with demographic, roadway, and built environment
-variables</li>
-</ul>
+<p>I assembled one year of crash records from the three states, joined them to their census tracts, and integrated demographic, roadway, and built environment variables for each tract.</p>
 
-<p><strong>Dimensionality Reduction</strong></p>
+<p><strong>Dimensionality reduction</strong></p>
 
-<ul>
-  <li>Applied UMAP (Uniform Manifold Approximation and Projection) to extract latent
-spatial structures from high-dimensional crash data</li>
-  <li>Preserved important local and global relationships in crash patterns</li>
-  <li>Reduced feature space while maintaining interpretability</li>
-</ul>
+<p>UMAP (Uniform Manifold Approximation and Projection) compressed the high-dimensional crash data into a small set of latent dimensions while preserving the local and global structure that matters for clustering. This kept the downstream typologies interpretable rather than a black box.</p>
 
-<p><strong>Classification and Prediction</strong></p>
+<p><strong>Classification and prediction</strong></p>
 
-<ul>
-  <li>Used Gaussian Mixture Modeling (GMM) to classify census tracts into distinct
-crash typologies</li>
-  <li>Built interpretable predictive models using gradient boosting to forecast crash
-risk by typology</li>
-  <li>Generated spatial visualizations showing geographic distribution of crash
-patterns</li>
-  <li>Identified roadway and demographic characteristics associated with each
-typology</li>
-</ul>
+<p>Gaussian mixture modeling assigned each tract to a crash typology. I then trained gradient boosting models (XGBoost) with SHAP interpretation to predict crash risk within each typology and show which roadway and demographic factors drive risk where.</p>
 
 <h2 id="key-results">Key Results</h2>
 
 <ul>
-  <li>
-<strong>Identified distinct crash typologies</strong> linked to specific roadway
-characteristics and socioeconomic factors</li>
-  <li>
-<strong>Enabled targeted interventions</strong> by classifying tracts into actionable risk
-categories</li>
-  <li>
-<strong>Demonstrated scalability</strong> of framework for transportation agencies nationwide</li>
-  <li>
-<strong>Provided interpretable predictions</strong> that inform evidence-based safety
-planning</li>
+  <li>The typologies are distinct and interpretable: each one links to a specific combination of roadway characteristics and socioeconomic factors</li>
+  <li>Classifying tracts into types turns a sprawling crash dataset into actionable risk categories that point toward specific interventions</li>
+  <li>The framework only needs crash records and public census data, so other regions can apply it without new data collection</li>
 </ul>
 
 <h2 id="impact">Impact</h2>
 
-<p>This research moves transportation safety analysis beyond one-size-fits-all
-approaches toward context-specific, data-driven interventions. The framework
-helps agencies prioritize safety investments in high-risk areas based on crash
-typology-specific characteristics.</p>
+<p>This work moves safety analysis away from one-size-fits-all approaches and toward context-specific interventions: knowing a tract’s type tells you something concrete about what is likely to work there. It’s a way for agencies to prioritize safety investments systematically rather than one hotspot at a time.</p>
 
 <h2 id="funding">Funding</h2>
 

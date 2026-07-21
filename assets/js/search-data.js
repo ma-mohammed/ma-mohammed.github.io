@@ -119,6 +119,11 @@ ninja.data = [{
           description: "2024–2025 · Interpretable ML to classify crash typologies across census tracts and forecast risk",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
+            },},{id: "projects-new-england-crash-typology-dashboard",
+          title: 'New England Crash Typology Dashboard',
+          description: "Interactive dashboard mapping five kinds of crash-prone places across 2,664 New England census tracts",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project.html";
             },},{id: "projects-schematic-bicycle-maps-for-sustainable-mobility",
           title: 'Schematic Bicycle Maps for Sustainable Mobility',
           description: "2024–present · How schematic bicycle maps influence cyclist behavior, mode choice, and sustainable mobility",

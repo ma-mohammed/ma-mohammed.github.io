@@ -290,103 +290,45 @@
   </header>
 
   <article>
-    <p>This research develops machine learning frameworks to infer complete
-origin-destination-transfer matrices from boarding-only mobile ticketing data in
-regional bus networks with 40+ routes.</p>
+    <p>Most regional transit agencies in the US know where their passengers board, but not where they get off. The Pioneer Valley Transit Authority (PVTA), a 40+ route bus network in western Massachusetts, runs on a mobile ticketing platform that records exactly that kind of boarding-only data. Over three years I built a set of models that recover complete passenger journeys — origins, destinations, and transfers — from it.</p>
 
 <h2 id="research-overview">Research Overview</h2>
 
-<p>The project addresses the critical challenge of understanding complete passenger
-travel patterns when transit agencies only collect boarding data. Many regional
-transit systems in the US use mobile ticketing platforms that record when and
-where passengers board, but not where they alight. This research creates
-cost-effective methods to infer full journey patterns without expensive smart
-card infrastructure.</p>
+<p>Smart card systems that record both tap-in and tap-out make OD estimation straightforward, but most regional US agencies don’t have that infrastructure and can’t justify the cost of installing it. The question driving this project was whether careful modeling could substitute for hardware: can we infer where passengers alight, and how they chain trips together, from boarding records alone? I started with a comprehensive review of OD inference methods, then built up the pieces below.</p>
 
 <h2 id="methodology">Methodology</h2>
 
-<p><strong>Passenger Typology Clustering</strong></p>
+<p><strong>Passenger typology clustering</strong></p>
 
-<ul>
-  <li>Developed clustering framework using hierarchical methods and dynamic time
-warping (DTW)</li>
-  <li>Identified distinct behavioral patterns across 40,000+ weekly riders</li>
-  <li>Captured spatiotemporal heterogeneity in passenger travel patterns</li>
-</ul>
+<p>I clustered activation time series from more than 40,000 weekly riders using hierarchical clustering with dynamic time warping (DTW). This surfaced distinct spatiotemporal patterns in how different rider groups use the network — commuters, midday riders, weekend travelers — which turned out to be useful signal for the inference steps that followed.</p>
 
-<p><strong>Trip Chaining with Spatial Error Correction</strong></p>
+<p><strong>Trip chaining with spatial error correction</strong></p>
 
-<ul>
-  <li>Built trip chaining model incorporating passenger typology and seasonal
-variations</li>
-  <li>Integrated gradient boosting machine (GBM) for spatial error correction</li>
-  <li>Reduced Mean Absolute Error (MAE) by 70% and Symmetric Mean Absolute
-Percentage Error (SMAPE) by 85%</li>
-</ul>
+<p>I built a trip chaining model that folds in the passenger typologies and seasonal variation, then added a gradient boosting (GBM) step that corrects spatial errors in the inferred alighting locations. Against survey ground truth, this cut mean absolute error by 70% and symmetric mean absolute percentage error by 85% compared to baseline trip chaining.</p>
 
-<p><strong>Origin-Destination-Transfer (ODX) Model</strong></p>
+<p><strong>Origin-destination-transfer (ODX) model</strong></p>
 
-<ul>
-  <li>Advanced model inferring complete trip patterns including transfers</li>
-  <li>Leverages iterative proportional fitting (IPF) and machine learning</li>
-  <li>Scales partial AFC-based OD estimates to full transit network population</li>
-</ul>
+<p>The final model puts the pieces together to infer complete journeys, including transfers, and uses iterative proportional fitting (IPF) to scale the estimates from ticketing users up to the full network population.</p>
 
 <h2 id="impact-and-applications">Impact and Applications</h2>
 
-<ul>
-  <li>
-<strong>Scalable methodology</strong> for transit agencies without smart card infrastructure</li>
-  <li>
-<strong>Directly applicable</strong> to US agencies using similar mobile ticketing platforms</li>
-  <li>
-<strong>Validated</strong> with comprehensive survey data from Pioneer Valley Transit
-Authority</li>
-  <li>
-<strong>Enables</strong> data-driven network planning and service optimization</li>
-</ul>
+<p>The methods were validated against PVTA’s onboard survey data, and they don’t require anything beyond the mobile ticketing platforms many US agencies already run — no smart card infrastructure. The inferred flows also power the <a href="https://pvtaodx.narslab.org" rel="external nofollow noopener" target="_blank">PVTA OD dashboard</a>, which makes the results usable for PVTA planners and the public.</p>
 
 <h2 id="funding">Funding</h2>
 
-<p>Pioneer Valley Transit Authority (PVTA), 2021-2023 (PI: J. Oke)</p>
+<p>Pioneer Valley Transit Authority (PVTA), 2021–2023 (PI: J. Oke)</p>
 
-<h2 id="key-publications">Key Publications</h2>
-
-<p><strong>Origin-destination inference in public transportation systems: A comprehensive
-review</strong> (2023)</p>
+<h2 id="publications">Publications</h2>
 
 <ul>
-  <li>Published in <em>International Journal of Transportation Science and Technology</em>
-</li>
-  <li>Comprehensive review of state-of-the-art OD estimation methods</li>
-  <li>Analysis of transition from survey-based to big data-driven techniques</li>
-</ul>
-
-<p><strong>Extracting Spatiotemporal Bus Passenger Trip Typologies from Noisy Mobile
-Ticketing Boarding Data</strong> (2023)</p>
-
-<ul>
-  <li>Published in <em>Data Science for Transportation</em>
-</li>
-  <li>Novel clustering framework using hierarchical clustering and DTW</li>
-  <li>Identification of distinct passenger behavior patterns</li>
-</ul>
-
-<p><strong>Enhanced Seasonal Typology-Informed Transit Trip Chaining via Mobile Boarding
-and Survey Data</strong> (2024)</p>
-
-<ul>
-  <li>Published in <em>Data Science for Transportation</em>
-</li>
-  <li>Trip chaining model with gradient boosting for spatial error correction</li>
-  <li>Achieved 70% reduction in MAE and 85% reduction in SMAPE</li>
-</ul>
-
-<p><strong>A Novel Origin-Destination-Transfer Model</strong> (Under Review)</p>
-
-<ul>
-  <li>Integration of trip chaining, typology, and spatial error correction</li>
-  <li>Complete inference of passenger journeys including transfers</li>
+  <li>
+<strong>Origin-destination inference in public transportation systems: A comprehensive review</strong> — <em>International Journal of Transportation Science and Technology</em>, 12(1), 315–328 (2023)</li>
+  <li>
+<strong>Extracting Spatiotemporal Bus Passenger Trip Typologies from Noisy Mobile Ticketing Boarding Data</strong> — <em>Data Science for Transportation</em>, 5, 20 (2023)</li>
+  <li>
+<strong>Enhanced Seasonal Typology-Informed Transit Trip Chaining via Mobile Boarding and Survey Data</strong> — <em>Data Science for Transportation</em>, 6, 19 (2024)</li>
+  <li>
+<strong>A novel origin-destination-transfer model using mobile ticketing activations with seasonal passenger typology and spatial error correction</strong> (in preparation)</li>
 </ul>
 
   </article>
