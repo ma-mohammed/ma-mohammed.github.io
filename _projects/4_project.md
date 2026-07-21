@@ -76,9 +76,9 @@ Armstrong Fund for Science, 2024-2026 (PI: J. Oke)
 - **Maps are good but are simpler maps better? Insights on urban bicycling in the US** — _Environmental Research Communications_, 8(2), 025004 (2026)
 - **Schematic maps promise to induce micromobility ridership: a Bayesian latent class ordered logistic approach** (Under review)
 - **Toward Unified Design Rules for Schematic Bicycle Maps** (Under review)
-- **Explainable Data-Driven Multi-Filter Framework for Bot Detection in Incentivized Online Surveys** — _Data Science for Transportation_ (2026, in press)
+- **Explainable Data-Driven Multi-Filter Framework for Bot Detection in Incentivized Online Surveys** — _Data Science for Transportation_, 8, 21 (2026)
 - **Schematic Bicycle Maps for Influencing Cyclist Behavior and Reducing Greenhouse Gas Emissions** (In preparation)
-- **Barriers to Cycling: A comprehensive literature review** (In preparation)
+- **Three-decade systematic review highlights enduring barriers to cycling and reveals rural–urban evidence gap** (Under review)
 
 ## Conference Presentations
 

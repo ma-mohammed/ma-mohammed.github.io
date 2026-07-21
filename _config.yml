@@ -53,9 +53,9 @@ max_width: 930px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 
-serve_og_meta: false
-serve_schema_org: false
-og_image:
+serve_og_meta: true
+serve_schema_org: true
+og_image: https://mabdalazeem.com/assets/img/prof_pic.jpg
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -120,6 +120,12 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - CLAUDE.md
+  - AGENTS.md
+  - tmp/
+  - CV/Mohammed_Abdalazeem_CV.tex
+  - "CV/Industry CV - Mohammed.tex"
+  - "CV/Industry CV - Mohammed.pdf"
   - vendor
 keep_files:
   - CNAME
@@ -150,7 +156,7 @@ sass:
 
 scholar:
   last_name: [Abdalazeem]
-  first_name: [Mohammed, M.]
+  first_name: [Mohammed, M., M. A.]
 
   style: apa
   locale: en

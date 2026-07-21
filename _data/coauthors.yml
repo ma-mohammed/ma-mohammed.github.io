@@ -1,5 +1,7 @@
 "oke":
   - firstname: ["Jimi", "J."]
+    url: https://people.umass.edu/jimi/
+  - firstname: ["Tomiwa", "T."]
     url:
 
 "christofa":
@@ -20,10 +22,6 @@
 
 "osman":
   - firstname: ["H. G.", "Hassan"]
-    url:
-
-"oke_t":
-  - firstname: ["Tomiwa", "T."]
     url:
 
 "zhao":

@@ -5,7 +5,6 @@ description: "2021–2023 · Inferring complete passenger OD matrices from board
 img: assets/img/publication_preview/origin_destination_transfer_figure.png
 importance: 3
 category: work
-related_publications: true
 ---
 
 This research develops machine learning frameworks to infer complete

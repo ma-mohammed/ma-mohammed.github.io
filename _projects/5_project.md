@@ -2,7 +2,7 @@
 layout: page
 title: PVTA OD Dashboard
 description: "2022–2024 · Interactive origin-destination analytics dashboard for the Pioneer Valley Transit Authority, deployed on AWS"
-img: "assets/paper figures/dasboard_pvta.png"
+img: assets/img/dashboard_pvta.png
 importance: 4
 category: work
 ---

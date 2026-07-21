@@ -29,7 +29,9 @@
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); [print\\(r['title']\\) for r in d['query']['search']]\")",
       "Bash(curl -s \"https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=origin+destination+matrix+transit&srnamespace=6&format=json&srlimit=5\")",
       "Bash(curl -s \"https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=schematic+bicycle+cycling+map+simplified&srnamespace=6&format=json&srlimit=5\")",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(python -c ' *)",
+      "Bash(python *)"
     ]
   }
 }
