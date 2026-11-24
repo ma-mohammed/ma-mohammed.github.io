@@ -13,7 +13,7 @@ JEKYLL_ENV=production bundle exec jekyll build  # Production build (used in CI)
 
 In PowerShell (this repo is developed on Windows), set the env var separately: `$env:JEKYLL_ENV='production'; bundle exec jekyll build`.
 
-CI builds with Ruby 3.3.5 (see `.github/workflows/deploy.yml`).
+CI builds with the latest Ruby 3.3 release (see `.github/workflows/deploy.yml`).
 
 There is no test suite. Validation is `bundle exec jekyll build` — resolve any errors or warnings your change introduces, and preview affected pages locally.
 
