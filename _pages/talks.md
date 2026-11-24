@@ -11,6 +11,7 @@ nav_order: 6
 
 | Year | Conference | Title | Location |
 |------|-----------|-------|----------|
+| 2026 | INFORMS Annual Meeting | Can Metro-Style Schematic Maps Induce Micromobility Ridership? A Bayesian Latent Class Ordered Logistic Analysis | San Francisco, CA |
 | 2025 | TRB Annual Meeting | A Typology-Informed Origin-Destination-Transfer Model for a Bus Transit Network using Mobile Ticketing Data | Washington, D.C. |
 | 2024 | INFORMS Annual Meeting | Enhancing Road Safety: A Data-Driven Spatial Typology of Crashes in New England | Seattle, WA |
 | 2023 | INFORMS Annual Meeting | Typology-Enhanced Origin-Destination-Transfer Inference from Noisy Mobile Boarding Observations | Phoenix, AZ |

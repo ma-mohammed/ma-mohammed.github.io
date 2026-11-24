@@ -21,7 +21,7 @@ I clustered activation time series from more than 40,000 weekly riders using hie
 
 **Trip chaining with spatial error correction**
 
-I built a trip chaining model that folds in the passenger typologies and seasonal variation, then added a gradient boosting (GBM) step that corrects spatial errors in the inferred alighting locations. Against survey ground truth, this cut mean absolute error by 70% and symmetric mean absolute percentage error by 85% compared to baseline trip chaining.
+I built a trip chaining model that folds in the passenger typologies and seasonal variation, then added a gradient boosting (GBM) step that corrects spatial errors in the inferred alighting locations.
 
 **Origin-destination-transfer (ODX) model**
 

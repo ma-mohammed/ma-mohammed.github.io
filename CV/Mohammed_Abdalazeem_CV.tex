@@ -78,6 +78,15 @@
   }%
 }
 
+% ---- Status "button" badge (e.g., In print / Under review) ----
+\DeclareRobustCommand{\statusbadge}[1]{%
+  \tikz[baseline=(t.base)]{
+    \node[rectangle, rounded corners=2pt, fill=accentlight,
+          inner xsep=5pt, inner ysep=2pt,
+          text=white, font=\sffamily\bfseries\fontsize{6.5}{6.5}\selectfont] (t) {#1};
+  }%
+}
+
 % ---- Section style ----
 % Left accent bar + small-caps title
 \titleformat{\section}
@@ -184,7 +193,9 @@
 
 
 \entry{University of Massachusetts Amherst}{Jan 2021 -- Expected Fall 2026}
-      {PhD in Civil Engineering (Transportation Systems)  --- GPA: 3.92}{Amherst, MA}
+      {PhD in Civil Engineering (Transportation Systems)
+      %--- GPA: 3.92
+      }{Amherst, MA}
 
 \begin{itemize}
   \item Dissertation: \textit{Machine Learning and Optimization for Schematic Bicycle Map Design and Cycling Behavior}%(prospectus defended May 2026)
@@ -194,10 +205,14 @@
 
 \vspace{3pt}
 \entry{University of Massachusetts Amherst}{Sep 2023 -- Dec 2025}
-      {MS in Computer Science --- GPA: 3.71}{Amherst, MA}
+      {MS in Computer Science
+      % --- GPA: 3.71
+      }{Amherst, MA}
 \vspace{3pt}
 \entry{University of Massachusetts Amherst}{Jan 2021 -- May 2024}
-      {MS in Civil Engineering --- GPA: 3.92}{Amherst, MA}
+      {MS in Civil Engineering 
+      % --- GPA: 3.92
+      }{Amherst, MA}
 \vspace{6pt}
 \entry{University of Khartoum}{Sep 2013 -- Nov 2018}
       {BSc in Civil Engineering, First Class Honors}{Khartoum, Sudan}
@@ -217,32 +232,32 @@
 
 
 
-% ============================================================
-\section{PROFESSIONAL EXPERIENCE}
-% ============================================================
+% % ============================================================
+% \section{PROFESSIONAL EXPERIENCE}
+% % ============================================================
 
-\entry{Graduate Research Assistant}{Jan 2021 -- Present}
-      {University of Massachusetts Amherst}{Amherst, MA}
-\begin{itemize}
-  \item Research on micromobility map design, road safety, and transit
-        demand modeling.
-\end{itemize}
+% \entry{Graduate Research Assistant}{Jan 2021 -- Present}
+%       {University of Massachusetts Amherst}{Amherst, MA}
+% \begin{itemize}
+%   \item Research on micromobility map design, road safety, and transit
+%         demand modeling.
+% \end{itemize}
 
-\vspace{3pt}
-\entry{Teaching Assistant}{Fall 2023 -- Fall 2025}
-      {University of Massachusetts Amherst}{Amherst, MA}
-\begin{itemize}
-  \item TA for probability \& statistics and transportation systems
-        courses.
-\end{itemize}
+% \vspace{3pt}
+% \entry{Teaching Assistant}{Fall 2023 -- Fall 2025}
+%       {University of Massachusetts Amherst}{Amherst, MA}
+% \begin{itemize}
+%   \item TA for probability \& statistics and transportation systems
+%         courses.
+% \end{itemize}
 
-\vspace{3pt}
-\entry{Instructor, Department of Civil Engineering}{Nov 2018 -- Dec 2020}
-      {University of Khartoum}{Khartoum, Sudan}
-\begin{itemize}
-  \item Taught and led tutorials for five undergraduate civil engineering
-        courses.
-\end{itemize}
+% \vspace{3pt}
+% \entry{Instructor, Department of Civil Engineering}{Nov 2018 -- Dec 2020}
+%       {University of Khartoum}{Khartoum, Sudan}
+% \begin{itemize}
+%   \item Taught and led tutorials for five undergraduate civil engineering
+%         courses.
+% \end{itemize}
 
 
 
@@ -252,6 +267,8 @@
 
 \textbf{Journal Articles (Published)}
 \begin{publist}
+  \item Abdalazeem, M., Ruger, A., Christofa, E., \& Oke, J. (2026). Can metro-style schematic maps induce micromobility ridership? A Bayesian latent class ordered logistic analysis. \textit{Data Science for Transportation}, 8, 30. \doi{10.1007/s42421-026-00172-6}
+
   \item Ruger, A., Abdalazeem, M., Christofa, E., \& Oke, J. (2026). Explainable Data-Driven Multi-Filter Framework for Bot Detection in Incentivized Online Surveys. \textit{Data Science for Transportation}, 8, 21. \doi{10.1007/s42421-026-00158-4}
 
   \item Abdalazeem, M., Altayb, G., Christofa, E., \& Oke, J. (2026). Maps are good but are simpler maps better? Insights on urban bicycling in the US. \textit{Environmental Research Communications}, 8(2), 025004. \doi{10.1088/2515-7620/ae3945}
@@ -277,9 +294,7 @@
 \vspace{6pt}
 \textbf{Under Review}
 \begin{publist}
-  \item Abdalazeem, M., Christofa, E., Barchers, C., \& Oke, J. Toward Unified Design Rules for Schematic Bicycle Maps.
-  \item Abdalazeem, M., Ruger, A., Christofa, E., \& Oke, J. Schematic maps promise to induce micromobility ridership: a Bayesian latent class ordered logistic approach.
-  \item Bohlke, N., Bell, H., Abdalazeem, M., Oke, J., \& Christofa, E. Three-decade systematic review highlights enduring barriers to cycling and reveals rural--urban evidence gap.
+  \item Abdalazeem, M., Christofa, E., Barchers, C., \& Oke, J. Toward Unified Design Rules for Schematic Bicycle Maps. \textit{Environment and Planning B: Urban Analytics and City Science}.
 \end{publist}
 
 % \vspace{6pt}
@@ -296,6 +311,7 @@
         from Heterogeneous Network Data.
   \item Abdalazeem, M., Christofa, E., \& Oke, J. Automated Schematization of Bicycle Route Networks via Mixed-Integer Optimization.
   \item Abdalazeem, M., Oke, T., \& Oke, J. A novel origin-destination-transfer model using mobile ticketing activations with seasonal passenger typology and spatial error correction.
+  \item Bohlke, N., Bell, H., Abdalazeem, M., Oke, J., \& Christofa, E. Three-decade systematic review highlights enduring barriers to cycling and reveals rural--urban evidence gap.
   \item Zhao, P., Weinman, A., Rost-Nasshan, V., Abdalazeem, M., Han, Z., Arabi, M., \& Oke, J. Road Network Typology of US Metropolitan Areas Explains Congestion, Mobile Emissions, and Safety Outcomes.
 \end{publist}
 
@@ -308,6 +324,7 @@
 
 \textbf{Lectern Presentations}
 \begin{publist}
+  \item Abdalazeem, M., Ruger, A., Christofa, E., \& Oke, J. (2026). Can Metro-Style Schematic Maps Induce Micromobility Ridership? A Bayesian Latent Class Ordered Logistic Analysis. \textit{INFORMS Annual Meeting, San Francisco, CA.}
   \item Abdalazeem, M., Oke, T., \& Oke, J. (2025). A Typology-Informed Origin-Destination-Transfer Model for a Bus Transit Network using Mobile Ticketing Data. \textit{TRB Annual Meeting, Washington, D.C.}
   \item Abdalazeem, M., \& Oke, J. (2024). Enhancing Road Safety: A Data-Driven Spatial Typology of Crashes in New England. \textit{INFORMS Annual Meeting, Seattle, WA.}
   \item Abdalazeem, M., \& Oke, J. (2023). Typology-Enhanced Origin-Destination-Transfer Inference from Noisy Mobile Boarding Observations. \textit{INFORMS, Phoenix, AZ.}
@@ -325,7 +342,7 @@
   \item Abdalazeem, M., \& Oke, J. (2022). Efficient Extraction of Spatiotemporal Bus Passenger Trip Patterns in the Pioneer Valley Bus Transit System. \textit{MassDOT Transportation Innovation Conference, Worcester, MA.}
 \end{publist}
 
-\newpage
+% \newpage
 % ============================================================
 \section{RESEARCH EXPERIENCE}
 % ============================================================
@@ -336,13 +353,13 @@
 \vspace{4pt}
 \textbf{Schematic Bicycle Map Design and Micromobility Behavior}
 \begin{itemize}
-  \item Mapped the national landscape of schematic bicycle map adoption across 684 US urban counties; Bayesian mixture modeling with XGBoost and SHAP analysis revealed three county types of adoption.
+  \item Built a national inventory of bicycle maps for 684 US urban counties, grouped counties by the maps they offer with a mixture model, and related map availability to cycling with XGBoost and SHAP.
   \item Designed and deployed an incentivized national survey on how cyclists and micromobility riders respond to map design: simplification level, geographic accuracy, infrastructure representation, and route legibility.
   \item Modeled stated intentions to ride under different map designs with a Bayesian latent class ordered logit that separates riders into groups with different design sensitivities.
   \item Formulated a mixed-integer linear program that selects bicycle map routes from street and trail networks under safety, connectivity, and user-preference constraints.
   \item Built a bot detection pipeline for online surveys that combines platform signals, browser fingerprinting, timing checks, and an XGBoost validation model.
   \item \textit{Funding: Armstrong Fund for Science, 2024--2026 (PI: J.~Oke, co-PI: E.~Christofa); NSF REU, 2023--2026.}
-  \item \textit{2 journal articles published, 3 under review, 2 in preparation.}
+  \item \textit{3 journal articles published, 1 under review, 3 in preparation.}
 \end{itemize}
 
 \vspace{4pt}
@@ -360,7 +377,6 @@
 \begin{itemize}
   \item Built a framework that infers full origin-destination-transfer matrices from boarding-only mobile ticketing data on a regional bus network with 40+ routes.
   \item Clustered 40,000+ weekly riders into passenger types using hierarchical clustering with dynamic time warping.
-  \item Added a gradient boosting spatial error correction step that cut MAE by 70\% and SMAPE by 85\% relative to the baseline trip chaining.
   \item \textit{Funding: Pioneer Valley Transit Authority (PVTA), 2021--2023 (PI: J.~Oke).}
   \item \textit{3 journal articles published, 1 in preparation.}  
 \end{itemize}
@@ -369,7 +385,7 @@
 \section{TEACHING EXPERIENCE}
 % ============================================================
 
-\entry{Teaching Assistant --- CE-ENGIN 260: Probability \& Statistics for Civil Engineers}{Fall 2024, Fall 2025}
+\entry{Teaching Assistant --- CE-ENGIN 260: Probability \& Statistics for Civil Engineers}{Fall 2024, Fall 2025, Fall 2026}
       {University of Massachusetts Amherst}{Amherst, MA}
 \begin{itemize}
   \item Led lab sections and weekly office hours covering probability, statistical inference, and experimental design.
@@ -407,7 +423,7 @@
 \begin{itemize}
   \item \textbf{Julianna Demers} (Rensselaer Polytechnic Institute), Summer 2026: Unified geospatial data pipeline for schematic bicycle map generation \textit{(1 paper in preparation)}.
 
-  \item \textbf{Andrew Ruger} (Grinnell College), Summer 2025: Survey data quality and micromobility mapping; bot detection in incentivized online surveys \textit{(1 published paper, \doi{10.1007/s42421-026-00158-4}; 1 paper under review)}.
+  \item \textbf{Andrew Ruger} (Grinnell College), Summer 2025: Survey data quality and micromobility mapping; bot detection in incentivized online surveys \textit{(2 published papers, \doi{10.1007/s42421-026-00158-4} \doi{10.1007/s42421-026-00172-6})}.
 
   \item \textbf{Geehan Altayb} (Howard University), Summer 2024: Bicycle map features and their influence on cycling behavior \textit{(1 published paper, \doi{10.1088/2515-7620/ae3945})}.
 
@@ -418,7 +434,7 @@
 \entry{Research Mentor}{Spring 2026}
       {University of Massachusetts Amherst}{Amherst, MA}
 \begin{itemize}
-  \item \textbf{Henry Bell} (UMass Amherst), Spring 2026: Comprehensive literature review on barriers to cycling \textit{(1 paper under review).}
+  \item \textbf{Henry Bell} (UMass Amherst), Spring 2026: Comprehensive literature review on barriers to cycling \textit{(1 paper in preparation).}
 \end{itemize}
 
 

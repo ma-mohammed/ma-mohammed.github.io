@@ -26,17 +26,13 @@
       year: Jan 2021 - Expected Fall 2026
       description:
         - "<b>Dissertation:</b> <i>Machine Learning and Optimization for Schematic Bicycle Map Design and Cycling Behavior</i>"
-        - "Advisor: Dr. Jimi Oke | GPA: 3.92 | CEE Departmental Fellowship (2023)"
+        - "Advisor: Dr. Jimi Oke"
     - title: MS in Computer Science
       institution: University of Massachusetts Amherst, Amherst, MA
       year: Sep 2023 - Dec 2025
-      description:
-        - "GPA: 3.71"
     - title: MS in Civil Engineering
       institution: University of Massachusetts Amherst, Amherst, MA
       year: Jan 2021 - May 2024
-      description:
-        - "GPA: 3.92"
     - title: BSc in Civil Engineering, First Class Honors
       institution: University of Khartoum, Khartoum, Sudan
       year: Sep 2013 - Nov 2018
@@ -49,30 +45,12 @@
     - First Class Honors (Summa Cum Laude Equivalent), BSc Civil Engineering, University of Khartoum (2018)
     - Best Project Award, Department of Civil Engineering, University of Khartoum (2018)
 
-- title: Professional Experience
-  type: time_table
-  contents:
-    - title: Graduate Research Assistant
-      institution: University of Massachusetts Amherst, Amherst, MA
-      year: Jan 2021 - Present
-      description:
-        - Research on micromobility map design, road safety, and transit demand modeling.
-    - title: Teaching Assistant
-      institution: University of Massachusetts Amherst, Amherst, MA
-      year: Fall 2023 - Fall 2025
-      description:
-        - TA for probability and statistics and transportation systems courses.
-    - title: Instructor, Department of Civil Engineering
-      institution: University of Khartoum, Khartoum, Sudan
-      year: Nov 2018 - Dec 2020
-      description:
-        - Taught and led tutorials for five undergraduate civil engineering courses.
-
 - title: Publications
   type: nested_list
   contents:
     - title: Journal Articles (Published)
       items:
+        - 'Abdalazeem, M., Ruger, A., Christofa, E., and Oke, J. (2026). Can metro-style schematic maps induce micromobility ridership? A Bayesian latent class ordered logistic analysis. <i>Data Science for Transportation</i>, 8, 30. <a href="https://doi.org/10.1007/s42421-026-00172-6">DOI</a>'
         - 'Ruger, A., Abdalazeem, M., Christofa, E., and Oke, J. (2026). Explainable Data-Driven Multi-Filter Framework for Bot Detection in Incentivized Online Surveys. <i>Data Science for Transportation</i>, 8, 21. <a href="https://doi.org/10.1007/s42421-026-00158-4">DOI</a>'
         - 'Abdalazeem, M., Altayb, G., Christofa, E., and Oke, J. (2026). Maps are good but are simpler maps better? Insights on urban bicycling in the US. <i>Environmental Research Communications</i>, 8(2), 025004. <a href="https://doi.org/10.1088/2515-7620/ae3945">DOI</a>'
         - 'Zhao, P., Mega, J., Abdalazeem, M., Arabi, M., Barchers, C. V., and Oke, J. (2026). Scenario discovery framework aids robust regional emissions mitigation planning. <i>Environmental Research Communications</i>, 8(3), 031008. <a href="https://doi.org/10.1088/2515-7620/ae4b94">DOI</a>'
@@ -85,14 +63,13 @@
         - 'Abdalazeem, M., Mohammed, O., Ibrahim, M., and Osman, H. G. (2020). Khartoum sky trains network: A study on implementing caterpillar trains concept in Khartoum. <i>MATEC Web of Conferences</i>, 308, 02003. <a href="https://doi.org/10.1051/matecconf/202030802003">DOI</a>'
     - title: Under Review
       items:
-        - Abdalazeem, M., Christofa, E., Barchers, C., and Oke, J. Toward Unified Design Rules for Schematic Bicycle Maps.
-        - 'Abdalazeem, M., Ruger, A., Christofa, E., and Oke, J. Schematic maps promise to induce micromobility ridership: a Bayesian latent class ordered logistic approach.'
-        - Bohlke, N., Bell, H., Abdalazeem, M., Oke, J., and Christofa, E. Three-decade systematic review highlights enduring barriers to cycling and reveals rural-urban evidence gap.
+        - 'Abdalazeem, M., Christofa, E., Barchers, C., and Oke, J. Toward Unified Design Rules for Schematic Bicycle Maps. <i>Environment and Planning B: Urban Analytics and City Science</i>.'
     - title: In Preparation
       items:
         - Abdalazeem, M., Demers, J., Christofa, E., and Oke, J. A Unified Geospatial Data Pipeline and Detection Algorithm for Bicycle Routes from Heterogeneous Network Data.
         - Abdalazeem, M., Christofa, E., and Oke, J. Automated Schematization of Bicycle Route Networks via Mixed-Integer Optimization.
         - Abdalazeem, M., Oke, T., and Oke, J. A novel origin-destination-transfer model using mobile ticketing activations with seasonal passenger typology and spatial error correction.
+        - Bohlke, N., Bell, H., Abdalazeem, M., Oke, J., and Christofa, E. Three-decade systematic review highlights enduring barriers to cycling and reveals rural-urban evidence gap.
         - Zhao, P., Weinman, A., Rost-Nasshan, V., Abdalazeem, M., Han, Z., Arabi, M., and Oke, J. Road Network Typology of US Metropolitan Areas Explains Congestion, Mobile Emissions, and Safety Outcomes.
 
 - title: Conference Presentations
@@ -100,6 +77,7 @@
   contents:
     - title: Lectern Presentations
       items:
+        - 'Abdalazeem, M., Ruger, A., Christofa, E., and Oke, J. (2026). Can Metro-Style Schematic Maps Induce Micromobility Ridership? A Bayesian Latent Class Ordered Logistic Analysis. <i>INFORMS Annual Meeting, San Francisco, CA.</i>'
         - 'Abdalazeem, M., Oke, T., and Oke, J. (2025). A Typology-Informed Origin-Destination-Transfer Model for a Bus Transit Network using Mobile Ticketing Data. <i>TRB Annual Meeting, Washington, D.C.</i>'
         - 'Abdalazeem, M., and Oke, J. (2024). Enhancing Road Safety: A Data-Driven Spatial Typology of Crashes in New England. <i>INFORMS Annual Meeting, Seattle, WA.</i>'
         - 'Abdalazeem, M., and Oke, J. (2023). Typology-Enhanced Origin-Destination-Transfer Inference from Noisy Mobile Boarding Observations. <i>INFORMS, Phoenix, AZ.</i>'
@@ -122,13 +100,13 @@
       description:
         - title: "<b>Schematic Bicycle Map Design and Micromobility Behavior</b>"
           contents:
-            - "Mapped the national landscape of schematic bicycle map adoption across 684 US urban counties; Bayesian mixture modeling with XGBoost and SHAP analysis revealed three county types of adoption."
+            - "Built a national inventory of bicycle maps for 684 US urban counties, grouped counties by the maps they offer with a mixture model, and related map availability to cycling with XGBoost and SHAP."
             - "Designed and deployed an incentivized national survey on how cyclists and micromobility riders respond to map design: simplification level, geographic accuracy, infrastructure representation, and route legibility."
             - "Modeled stated intentions to ride under different map designs with a Bayesian latent class ordered logit that separates riders into groups with different design sensitivities."
             - "Formulated a mixed-integer linear program that selects bicycle map routes from street and trail networks under safety, connectivity, and user-preference constraints."
             - "Built a bot detection pipeline for online surveys that combines platform signals, browser fingerprinting, timing checks, and an XGBoost validation model."
             - "<i>Funding: Armstrong Fund for Science, 2024-2026 (PI: J. Oke, co-PI: E. Christofa); NSF REU, 2023-2026.</i>"
-            - "<i>2 journal articles published, 3 under review, 2 in preparation.</i>"
+            - "<i>3 journal articles published, 1 under review, 3 in preparation.</i>"
         - title: "<b>Spatial Crash Typology and Risk Prediction</b>"
           contents:
             - "Classified 2,480 New England census tracts into crash types with UMAP and Gaussian mixture models, using one year of state-level crash records."
@@ -140,7 +118,6 @@
           contents:
             - "Built a framework that infers full origin-destination-transfer matrices from boarding-only mobile ticketing data on a regional bus network with 40+ routes."
             - "Clustered 40,000+ weekly riders into passenger types using hierarchical clustering with dynamic time warping."
-            - "Added a gradient boosting spatial error correction step that cut MAE by 70% and SMAPE by 85% relative to the baseline trip chaining."
             - "<i>Funding: Pioneer Valley Transit Authority (PVTA), 2021-2023 (PI: J. Oke).</i>"
             - "<i>3 journal articles published, 1 in preparation.</i>"
 
@@ -149,7 +126,7 @@
   contents:
     - title: "Teaching Assistant - CE-ENGIN 260: Probability and Statistics for Civil Engineers"
       institution: University of Massachusetts Amherst, Amherst, MA
-      year: Fall 2024, Fall 2025
+      year: Fall 2024, Fall 2025, Fall 2026
       description:
         - "Led lab sections and weekly office hours covering probability, statistical inference, and experimental design."
         - "Supported roughly 160 students per semester; graded exams and wrote solution guides and grading rubrics."
@@ -173,14 +150,14 @@
       year: Summers 2023 - 2026
       description:
         - "<b>Julianna Demers</b> (Rensselaer Polytechnic Institute), Summer 2026: Unified geospatial data pipeline for schematic bicycle map generation. <i>1 paper in preparation.</i>"
-        - "<b>Andrew Ruger</b> (Grinnell College), Summer 2025: Survey data quality and micromobility mapping; bot detection in incentivized online surveys. <i>1 paper published, 1 paper under review.</i>"
+        - "<b>Andrew Ruger</b> (Grinnell College), Summer 2025: Survey data quality and micromobility mapping; bot detection in incentivized online surveys. <i>2 papers published.</i>"
         - "<b>Geehan Altayb</b> (Howard University), Summer 2024: Bicycle map features and their influence on cycling behavior. <i>1 paper published.</i>"
         - "<b>Vivian Rost-Nasshan</b> (Rensselaer Polytechnic Institute), Summer 2023: Vehicular delay patterns using network topology and demographic data. <i>1 paper in preparation.</i>"
     - title: Research Mentor
       institution: University of Massachusetts Amherst, Amherst, MA
       year: Spring 2026
       description:
-        - "<b>Henry Bell</b> (UMass Amherst), Spring 2026: Comprehensive literature review on barriers to cycling. <i>1 paper under review.</i>"
+        - "<b>Henry Bell</b> (UMass Amherst), Spring 2026: Comprehensive literature review on barriers to cycling. <i>1 paper in preparation.</i>"
 
 - title: Professional Service
   type: nested_list

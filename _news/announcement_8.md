@@ -6,4 +6,4 @@ inline: false
 related_posts: false
 ---
 
-Our paper ["Enhanced Seasonal Typology-Informed Transit Trip Chaining via Mobile Boarding and Survey Data"](https://doi.org/10.1007/s42421-024-00108-y) is published in _Data Science for Transportation_ (Vol. 6, Article 19). This one builds on the typology work by incorporating seasonal passenger patterns into trip chaining — the gradient boosting spatial error correction cuts MAE by 70% compared to standard approaches.
+Our paper ["Enhanced Seasonal Typology-Informed Transit Trip Chaining via Mobile Boarding and Survey Data"](https://doi.org/10.1007/s42421-024-00108-y) is published in _Data Science for Transportation_ (Vol. 6, Article 19). This one builds on the typology work by incorporating seasonal passenger patterns into trip chaining.
