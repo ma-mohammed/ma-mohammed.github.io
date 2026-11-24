@@ -109,7 +109,15 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_16.html";
-            },},{id: "projects-transit-od-inference-from-mobile-ticketing-data",
+            },},{id: "news-micromobility-ridership-paper-published-in-dst",
+          title: 'Micromobility ridership paper published in DST',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_17.html";
+            },},{id: "news-gave-a-talk-on-can-metro-style-schematic-maps-induce-micromobility-ridership-a-bayesian-latent-class-ordered-logistic-analysis-at-the-informs-annual-meeting-in-san-francisco",
+          title: 'Gave a talk on “Can Metro-Style Schematic Maps Induce Micromobility Ridership? A Bayesian...',
+          description: "",
+          section: "News",},{id: "projects-transit-od-inference-from-mobile-ticketing-data",
           title: 'Transit OD Inference from Mobile Ticketing Data',
           description: "2021–2023 · Inferring complete passenger OD matrices from boarding-only mobile ticketing data",
           section: "Projects",handler: () => {
